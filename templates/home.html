@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastric Cancer Risk Assessment | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0ea5e9;
+            --primary-dark: #0369a1;
+            --secondary: #22c55e;
+            --accent: #e11d48;
+            --light: #ffffff;
+            --dark: #020617;
+            --gray: #6b7280;
+            --gray-light: #e5e7eb;
+            --bg-light: #f9fafb;
+            --bg-dark: #020617;
+            --text-light: #1f2937;
+            --text-dark: #f9fafb;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        [data-theme="light"] {
+            --bg: var(--bg-light);
+            --text: var(--text-light);
+            --card-bg: #ffffff;
+            --nav-bg: rgba(255, 255, 255, 0.95);
+            --border: var(--gray-light);
+        }
+
+        [data-theme="dark"] {
+            --bg: var(--bg-dark);
+            --text: var(--text-dark);
+            --card-bg: rgba(15, 23, 42, 0.9);
+            --nav-bg: rgba(15, 23, 42, 0.95);
+            --border: rgba(148, 163, 184, 0.3);
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            transition: var(--transition);
+            overflow-x: hidden;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+        }
+
+        [data-theme="light"] body {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--nav-bg);
+            backdrop-filter: blur(20px);
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: var(--transition);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .logo i {
+            font-size: 2rem;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .theme-toggle {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: var(--transition);
+            color: var(--text);
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-top: 80px;
+            padding: 4rem 2rem;
+            text-align: center;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: fadeInUp 1s ease-out 0.2s both;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--gray);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(14, 165, 233, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--card-bg);
+            color: var(--text);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Features Section */
+        .features {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            transition: var(--transition);
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .feature-card:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .feature-card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .feature-card:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card i {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        .feature-card p {
+            color: var(--gray);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--card-bg);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 1px solid var(--border);
+        }
+
+        /* Chat Toggle Button */
+        .chat-toggle {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(14, 165, 233, 0.4);
+            cursor: pointer;
+            z-index: 9999;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .chat-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .chat-toggle i {
+            color: white;
+            font-size: 24px;
+        }
+
+        /* Chat Window */
+        .chat-container {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            width: 350px;
+            height: 500px;
+            background: var(--card-bg);
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            z-index: 9999;
+            opacity: 0;
+            transform: translateY(20px) scale(0.95);
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid var(--border);
+        }
+
+        .chat-container.active {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            pointer-events: all;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-header h3 {
+            font-size: 1rem;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .chat-body {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        .chat-message {
+            max-width: 80%;
+            padding: 10px 15px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .chat-message.bot {
+            align-self: flex-start;
+            background: var(--bg-light);
+            color: #333;
+            border-bottom-left-radius: 2px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        [data-theme="dark"] .chat-message.bot {
+            background: #1e293b;
+            color: #e2e8f0;
+            border: 1px solid #334155;
+        }
+
+        .chat-message.user {
+            align-self: flex-end;
+            background: var(--primary);
+            color: white;
+            border-bottom-right-radius: 2px;
+            box-shadow: 0 4px 10px rgba(14, 165, 233, 0.2);
+        }
+
+        .chat-input-area {
+            padding: 15px;
+            background: var(--card-bg);
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 10px 15px;
+            border-radius: 25px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .chat-input:focus {
+            border-color: var(--primary);
+        }
+
+        .chat-send {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            background: var(--primary);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s;
+        }
+
+        .chat-send:hover {
+            transform: scale(1.1);
+        }
+
+        .chat-close {
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: color 0.2s;
+        }
+
+        .chat-close:hover {
+            color: white;
+        }
+
+        .typing-dots {
+            display: inline-flex;
+            gap: 4px;
+        }
+
+        .typing-dots span {
+            width: 6px;
+            height: 6px;
+            background: currentColor;
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+
+        .typing-dots span:nth-child(1) {
+            animation-delay: -0.32s;
+        }
+
+        .typing-dots span:nth-child(2) {
+            animation-delay: -0.16s;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            80%,
+            100% {
+                transform: scale(0);
+            }
+
+            40% {
+                transform: scale(1);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body data-theme="dark">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/home" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>GastricCare</span>
+            </a>
+            <div class="nav-links">
+                <a href="/home">Home</a>
+                <a href="/about">About Us</a>
+                <a href="/risk">Risk Assessment</a>
+                <a href="/logout">Logout</a>
+
+
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                    <span id="themeText">Dark</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div
+            style="display: flex; align-items: center; justify-content: space-between; gap: 2rem; max-width: 1200px; margin: 0 auto; text-align: left;">
+            <div style="flex: 1;">
+                {% if name %}
+                <p
+                    style="font-size: 1.5rem; color: var(--primary); font-weight: 600; margin-bottom: 0.5rem; animation: fadeInUp 1s ease-out;">
+                    Heyy {{ name }} !</p>
+                {% endif %}
+                <h1>Find the Good Life With <span style="color: var(--secondary);">Good Health</span></h1>
+                <p style="margin-left: 0;">Assess your risk of gastric cancer with our advanced AI-powered tool. Get
+                    instant, personalized risk
+                    assessment based on your health profile.</p>
+                <div class="cta-buttons" style="justify-content: flex-start;">
+                    <a href="/risk" class="btn btn-primary">
+                        Check Your Risk <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="/about" class="btn btn-secondary">
+                        Learn More <i class="fas fa-info-circle"></i>
+                    </a>
+                </div>
+            </div>
+            <div
+                style="flex: 1; animation: fadeInUp 1s ease-out 0.2s; position: relative; height: 400px; overflow: hidden; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+                <div class="home-carousel-slide active"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 1s ease-in-out;">
+                    <img src="{{ url_for('static', filename='s1.jpeg') }}" alt="Gastric Health 1"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="home-carousel-slide"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 1s ease-in-out;">
+                    <img src="{{ url_for('static', filename='s3.jpeg') }}" alt="Gastric Health 2"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const slides = document.querySelectorAll('.home-carousel-slide');
+                    let currentSlide = 0;
+
+                    // Show first slide immediately
+                    if (slides.length > 0) slides[0].style.opacity = '1';
+
+                    setInterval(() => {
+                        slides[currentSlide].style.opacity = '0';
+                        currentSlide = (currentSlide + 1) % slides.length;
+                        slides[currentSlide].style.opacity = '1';
+                    }, 4000);
+                });
+            </script>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: var(--text);">Why Choose Us</h2>
+        <p style="text-align: center; color: var(--gray); margin-bottom: 2rem;">Advanced technology meets compassionate
+            care</p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-brain"></i>
+                <h3>AI-Powered Analysis</h3>
+                <p>Advanced machine learning algorithms analyze your health data to provide accurate risk assessments.
+                </p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Privacy Protected</h3>
+                <p>Your health information is encrypted and secure. We never share your data with third parties.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>Instant Results</h3>
+                <p>Get your risk assessment in seconds. No waiting, no appointments needed - just accurate results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p style="color: var(--gray);">&copy; 2024 GastricCare. All rights reserved. | Clinical Decision Support Tool
+        </p>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-toggle" onclick="toggleChat()">
+        <i class="fas fa-robot"></i>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h3><i class="fas fa-file-medical"></i> Assistant</h3>
+            <button class="chat-close" onclick="toggleChat()"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="chat-message bot">
+                Hello! I can answer questions from the Gastric Cancer Guide. What would you like to know?
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Ask a question..."
+                onkeypress="handleKeyPress(event)">
+            <button class="chat-send" onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const themeText = document.getElementById('themeText');
+        const body = document.body;
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        body.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = body.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                body.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                updateThemeIcon(newTheme);
+            });
+        }
+
+        function updateThemeIcon(theme) {
+            if (themeIcon && themeText) {
+                if (theme === 'dark') {
+                    themeIcon.className = 'fas fa-moon';
+                    themeText.textContent = 'Dark';
+                } else {
+                    themeIcon.className = 'fas fa-sun';
+                    themeText.textContent = 'Light';
+                }
+            }
+        }
+
+        /* Chat Widget Logic */
+        function toggleChat() {
+            document.querySelector('.chat-container').classList.toggle('active');
+            if (document.querySelector('.chat-container').classList.contains('active')) {
+                setTimeout(() => document.getElementById('chatInput').focus(), 300);
+            }
+        }
+
+        function handleKeyPress(e) {
+            if (e.key === 'Enter') sendMessage();
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            const chatBody = document.getElementById('chatBody');
+
+            if (!message) return;
+
+            addMessage(message, 'user');
+            input.value = '';
+
+            const typingDiv = document.createElement('div');
+            typingDiv.className = 'chat-message bot';
+            typingDiv.id = 'typing';
+            typingDiv.innerHTML = '<div class="typing-dots"><span></span><span></span><span></span></div>';
+            chatBody.appendChild(typingDiv);
+            chatBody.scrollTop = chatBody.scrollHeight;
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: message })
+                });
+
+                const data = await response.json();
+                document.getElementById('typing').remove();
+                addMessage(data.response, 'bot');
+
+            } catch (error) {
+                if (document.getElementById('typing')) document.getElementById('typing').remove();
+                addMessage("Sorry, connection error.", 'bot');
+            }
+        }
+
+        function addMessage(text, sender) {
+            const chatBody = document.getElementById('chatBody');
+            const div = document.createElement('div');
+            div.className = `chat-message ${sender}`;
+            div.textContent = text;
+            chatBody.appendChild(div);
+            chatBody.scrollTop = chatBody.scrollHeight;
+        }
+    </script>
+</body>
+
+</html>

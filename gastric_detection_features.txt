@@ -1,0 +1,19 @@
+age
+family_history
+smoking_habits
+alcohol_consumption
+helicobacter_pylori_infection
+gender_Male
+ethnicity_East Asian
+ethnicity_European
+ethnicity_Latin American
+ethnicity_Middle Eastern
+ethnicity_South Asian
+geographical_location_East Asia
+geographical_location_Europe
+geographical_location_North America
+geographical_location_South America
+geographical_location_South Asia
+dietary_habits_Low_Salt
+existing_conditions_Diabetes
+existing_conditions_Unknown

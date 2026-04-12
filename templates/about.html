@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Gastric Cancer Risk Assessment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0ea5e9;
+            --primary-dark: #0369a1;
+            --secondary: #22c55e;
+            --accent: #e11d48;
+            --light: #ffffff;
+            --dark: #020617;
+            --gray: #6b7280;
+            --gray-light: #e5e7eb;
+            --bg-light: #f9fafb;
+            --bg-dark: #020617;
+            --text-light: #1f2937;
+            --text-dark: #f9fafb;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        [data-theme="light"] {
+            --bg: var(--bg-light);
+            --text: var(--text-light);
+            --card-bg: #ffffff;
+            --nav-bg: rgba(255, 255, 255, 0.95);
+            --border: var(--gray-light);
+        }
+
+        [data-theme="dark"] {
+            --bg: var(--bg-dark);
+            --text: var(--text-dark);
+            --card-bg: rgba(15, 23, 42, 0.9);
+            --nav-bg: rgba(15, 23, 42, 0.95);
+            --border: rgba(148, 163, 184, 0.3);
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            transition: var(--transition);
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+        }
+
+        [data-theme="light"] body {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--nav-bg);
+            backdrop-filter: blur(20px);
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: var(--transition);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .logo i {
+            font-size: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .theme-toggle {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: var(--transition);
+            color: var(--text);
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.05);
+        }
+
+        .content {
+            margin-top: 80px;
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 2rem 0 1rem;
+            color: var(--text);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+
+        .footer {
+            background: var(--card-bg);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+
+<body data-theme="dark">
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/home" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>GastricCare</span>
+            </a>
+            <div class="nav-links">
+                <a href="/home">Home</a>
+                <a href="/about">About Us</a>
+                <a href="/risk">Risk Assessment</a>
+                <a href="/logout">Logout</a>
+
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                    <span id="themeText">Dark</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>About Us</h1>
+        <p>Welcome to GastricCare, an advanced AI-powered platform designed to help individuals assess their risk of
+            gastric cancer through a comprehensive, user-friendly interface.</p>
+
+        <h2>Our Mission</h2>
+        <p>Our mission is to empower individuals with accessible, accurate health risk assessments using cutting-edge
+            machine learning technology. We believe that early awareness and risk assessment can lead to better health
+            outcomes.</p>
+
+        <h2>How It Works</h2>
+        <p>Our platform uses a Random Forest machine learning model trained on comprehensive health data to analyze
+            various risk factors including age, family history, lifestyle choices, and existing medical conditions. The
+            model provides personalized risk assessments categorized as Low, Moderate, or High risk.</p>
+
+        <h2>Important Disclaimer</h2>
+        <p><strong>This tool is for informational purposes only and should not replace professional medical advice,
+                diagnosis, or treatment.</strong> Always consult with qualified healthcare professionals for medical
+            decisions. The predictions are based on statistical modeling and should support, not replace, clinical
+            judgment.</p>
+
+        <h2>Privacy & Security</h2>
+        <p>We take your privacy seriously. All data is processed securely, and we do not store personal health
+            information beyond what is necessary for the risk assessment calculation.</p>
+
+        <h2>Meet the Developers</h2>
+        <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1.5rem;">
+            <div
+                style="background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border); flex: 1; min-width: 250px;">
+                <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Varun Kumar</h3>
+                <p style="margin-bottom: 0;">Student of SMS Varanasi</p>
+            </div>
+            <div
+                style="background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border); flex: 1; min-width: 250px;">
+                <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Nandini Kumari</h3>
+                <p style="margin-bottom: 0;">Student of SMS Varanasi</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p style="color: var(--gray);">&copy; 2024 GastricCare. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const themeText = document.getElementById('themeText');
+        const body = document.body;
+
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        body.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            if (theme === 'dark') {
+                themeIcon.className = 'fas fa-moon';
+                themeText.textContent = 'Dark';
+            } else {
+                themeIcon.className = 'fas fa-sun';
+                themeText.textContent = 'Light';
+            }
+        }
+    </script>
+</body>
+
+</html>

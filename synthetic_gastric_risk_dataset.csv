@@ -1,0 +1,3001 @@
+age,gender,ethnicity,geographical_location,family_history,smoking_habits,alcohol_consumption,helicobacter_pylori_infection,dietary_habits,existing_conditions,label
+24,Female,African / Caribbean,Europe,1,1,0,1,High_Salt,Chronic Gastritis,1
+54,Male,South Asian,South America,0,1,0,0,Low_Salt,None,0
+29,Female,Latin American,Europe,1,1,1,0,Low_Salt,None,0
+84,Female,European,South America,0,0,0,0,Low_Salt,None,0
+85,Male,East Asian,North America,0,0,1,1,Low_Salt,None,1
+77,Male,Latin American,East Asia,1,1,1,1,Low_Salt,Chronic Gastritis,1
+49,Female,African / Caribbean,Europe,0,1,1,0,Low_Salt,None,0
+88,Male,South Asian,Europe,1,0,0,0,Low_Salt,Chronic Gastritis,0
+89,Female,European,Europe,1,0,0,0,High_Salt,None,0
+85,Male,European,North America,0,0,0,0,Low_Salt,None,0
+44,Female,European,North America,0,1,1,1,Low_Salt,None,0
+27,Male,Latin American,South Asia,0,0,0,1,High_Salt,Chronic Gastritis,0
+28,Female,East Asian,Africa,0,0,0,0,Low_Salt,None,0
+75,Male,South Asian,South America,0,0,0,0,High_Salt,None,1
+37,Male,Latin American,Europe,1,0,0,0,Low_Salt,None,1
+44,Female,East Asian,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+41,Male,African / Caribbean,South America,0,0,0,0,High_Salt,Chronic Gastritis,0
+63,Male,African / Caribbean,Africa,0,1,0,0,Low_Salt,Diabetes,0
+78,Female,South Asian,South America,0,0,1,0,Low_Salt,None,1
+18,Female,Middle Eastern,South Asia,0,1,0,0,Low_Salt,Diabetes,0
+89,Female,South Asian,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+84,Female,Latin American,Africa,0,1,1,1,Low_Salt,None,1
+88,Male,East Asian,Europe,0,1,0,1,Low_Salt,Chronic Gastritis,1
+70,Male,Latin American,Europe,1,0,1,1,Low_Salt,Chronic Gastritis,1
+38,Female,South Asian,North America,0,0,1,1,High_Salt,None,0
+87,Female,South Asian,Europe,0,0,1,1,Low_Salt,None,1
+31,Female,South Asian,South Asia,0,1,0,0,Low_Salt,None,1
+32,Male,Latin American,East Asia,0,1,0,0,Low_Salt,Diabetes,1
+53,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+25,Male,European,South America,0,1,1,1,High_Salt,Chronic Gastritis,1
+71,Male,Latin American,Africa,0,1,0,0,High_Salt,None,0
+29,Male,African / Caribbean,South Asia,0,0,0,0,High_Salt,None,0
+79,Male,Latin American,South Asia,0,1,1,1,Low_Salt,Chronic Gastritis,1
+20,Male,African / Caribbean,North America,1,0,1,0,High_Salt,None,0
+87,Female,South Asian,North America,0,1,1,1,Low_Salt,Chronic Gastritis,1
+30,Male,East Asian,Africa,0,0,0,1,High_Salt,None,0
+78,Male,Latin American,East Asia,0,1,0,1,High_Salt,None,1
+63,Male,Latin American,Europe,0,0,0,1,Low_Salt,None,0
+86,Female,European,North America,0,0,1,1,High_Salt,None,1
+26,Male,European,Africa,0,0,0,1,Low_Salt,None,0
+55,Female,Latin American,North America,0,1,1,0,High_Salt,None,1
+67,Female,Middle Eastern,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+29,Male,Latin American,Africa,1,0,1,0,High_Salt,Diabetes,0
+77,Female,European,East Asia,0,0,0,1,High_Salt,Diabetes,0
+21,Male,East Asian,South Asia,0,1,1,0,High_Salt,None,0
+47,Male,European,East Asia,0,1,0,1,High_Salt,Chronic Gastritis,0
+56,Male,European,Africa,0,0,1,0,Low_Salt,None,1
+88,Male,Middle Eastern,South Asia,0,0,1,0,Low_Salt,None,0
+61,Male,Middle Eastern,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+62,Male,South Asian,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+79,Female,Latin American,Africa,1,0,1,0,Low_Salt,None,1
+23,Male,African / Caribbean,Europe,0,0,1,0,High_Salt,Diabetes,1
+35,Female,Latin American,East Asia,0,1,1,1,Low_Salt,Chronic Gastritis,1
+84,Female,European,East Asia,0,0,0,0,High_Salt,Diabetes,0
+75,Female,African / Caribbean,East Asia,0,0,0,1,Low_Salt,None,1
+35,Female,Middle Eastern,East Asia,0,0,0,0,Low_Salt,None,0
+79,Female,African / Caribbean,Africa,0,1,0,0,Low_Salt,None,0
+56,Female,Latin American,South America,0,1,0,1,Low_Salt,None,1
+19,Male,Middle Eastern,South America,0,0,0,0,Low_Salt,Diabetes,0
+28,Female,African / Caribbean,East Asia,0,1,1,1,High_Salt,None,0
+55,Female,South Asian,South America,1,1,0,1,Low_Salt,Chronic Gastritis,0
+25,Female,East Asian,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+79,Male,South Asian,South America,0,1,0,0,High_Salt,Diabetes,1
+21,Male,Middle Eastern,East Asia,0,1,1,1,High_Salt,Chronic Gastritis,1
+83,Male,East Asian,Africa,1,0,0,0,Low_Salt,None,0
+36,Male,European,South America,0,1,0,0,Low_Salt,None,0
+66,Male,Latin American,Europe,0,1,1,0,Low_Salt,None,0
+79,Female,Latin American,Africa,0,1,0,0,Low_Salt,None,1
+39,Male,Middle Eastern,Africa,0,0,1,1,Low_Salt,None,0
+58,Male,Middle Eastern,South America,0,1,0,0,Low_Salt,None,1
+42,Female,East Asian,South Asia,0,1,1,0,Low_Salt,Diabetes,0
+66,Female,South Asian,North America,0,0,0,0,High_Salt,None,1
+85,Female,Latin American,East Asia,0,0,0,0,Low_Salt,None,0
+63,Male,Latin American,East Asia,0,0,0,0,Low_Salt,None,0
+29,Male,East Asian,Africa,0,0,0,1,High_Salt,None,1
+83,Male,Middle Eastern,North America,0,0,1,0,Low_Salt,Chronic Gastritis,1
+40,Male,East Asian,South America,0,0,0,0,High_Salt,None,0
+67,Female,European,East Asia,1,0,0,1,High_Salt,None,1
+87,Female,Middle Eastern,South America,0,1,0,1,High_Salt,None,1
+77,Male,Middle Eastern,East Asia,0,0,0,1,High_Salt,Chronic Gastritis,0
+28,Female,South Asian,East Asia,0,1,0,0,High_Salt,None,0
+59,Female,European,East Asia,1,1,0,0,Low_Salt,None,0
+42,Female,Middle Eastern,South America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+72,Female,African / Caribbean,North America,0,1,1,0,Low_Salt,None,0
+48,Male,Middle Eastern,East Asia,1,0,1,0,High_Salt,None,0
+88,Female,South Asian,South Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+86,Female,European,East Asia,1,1,1,0,Low_Salt,Chronic Gastritis,0
+89,Male,Latin American,North America,1,0,0,0,Low_Salt,None,0
+54,Male,East Asian,South Asia,0,0,0,0,High_Salt,None,0
+32,Male,European,North America,1,0,0,0,Low_Salt,None,1
+18,Male,East Asian,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+25,Female,African / Caribbean,South America,1,0,0,0,Low_Salt,None,0
+46,Female,African / Caribbean,East Asia,0,0,1,0,High_Salt,None,0
+25,Female,East Asian,North America,0,1,0,1,Low_Salt,None,0
+64,Male,East Asian,Europe,0,1,1,1,Low_Salt,None,1
+39,Male,East Asian,South America,1,1,0,0,Low_Salt,None,0
+43,Male,South Asian,South America,0,1,0,0,Low_Salt,None,0
+29,Female,East Asian,South Asia,0,0,0,0,Low_Salt,Diabetes,0
+44,Male,Middle Eastern,East Asia,1,0,0,0,High_Salt,Chronic Gastritis,0
+77,Male,South Asian,South America,0,0,0,1,Low_Salt,None,1
+49,Male,Latin American,Africa,0,1,0,1,Low_Salt,Chronic Gastritis,0
+62,Female,African / Caribbean,Europe,0,1,1,0,Low_Salt,Diabetes,0
+30,Male,European,South America,0,1,0,0,High_Salt,None,0
+31,Female,European,Europe,0,0,0,0,High_Salt,Chronic Gastritis,1
+81,Male,Latin American,South Asia,1,1,0,0,Low_Salt,None,1
+38,Female,Middle Eastern,South America,0,0,1,1,High_Salt,None,1
+69,Female,African / Caribbean,Europe,0,0,0,1,High_Salt,None,0
+41,Male,Middle Eastern,Africa,0,0,0,0,High_Salt,Diabetes,0
+19,Female,Middle Eastern,North America,1,0,0,0,High_Salt,None,0
+44,Male,South Asian,South Asia,1,1,0,0,Low_Salt,Chronic Gastritis,1
+68,Female,African / Caribbean,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+63,Male,Middle Eastern,East Asia,1,0,1,0,Low_Salt,Chronic Gastritis,1
+54,Female,South Asian,Africa,0,1,1,1,Low_Salt,None,0
+41,Male,South Asian,Europe,0,0,1,0,High_Salt,Chronic Gastritis,1
+46,Male,South Asian,North America,1,0,1,0,High_Salt,None,0
+38,Male,African / Caribbean,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+22,Female,South Asian,North America,0,1,0,0,High_Salt,None,0
+56,Female,Latin American,Europe,0,0,0,1,Low_Salt,None,0
+21,Female,East Asian,Europe,1,0,1,0,Low_Salt,Diabetes,0
+50,Male,African / Caribbean,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,1
+56,Male,Middle Eastern,Africa,0,0,0,1,High_Salt,Chronic Gastritis,1
+27,Female,East Asian,South Asia,0,1,0,0,Low_Salt,Diabetes,0
+78,Female,East Asian,Europe,0,1,0,0,Low_Salt,None,0
+82,Male,European,South Asia,0,0,0,1,Low_Salt,None,0
+42,Male,Middle Eastern,Africa,0,1,1,0,Low_Salt,None,0
+32,Female,Middle Eastern,North America,1,0,1,0,Low_Salt,None,0
+83,Female,Middle Eastern,South Asia,1,0,0,1,Low_Salt,None,1
+65,Male,South Asian,South Asia,0,1,0,0,Low_Salt,None,0
+75,Female,Latin American,Europe,0,0,0,0,High_Salt,Chronic Gastritis,1
+23,Male,African / Caribbean,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+87,Female,South Asian,Africa,0,0,1,0,High_Salt,Chronic Gastritis,1
+85,Female,Middle Eastern,Africa,0,1,1,0,Low_Salt,None,1
+81,Female,Middle Eastern,Europe,0,0,0,1,Low_Salt,None,0
+75,Female,Middle Eastern,South Asia,0,1,0,0,High_Salt,None,0
+70,Female,Middle Eastern,Europe,0,0,0,1,High_Salt,None,0
+22,Male,Middle Eastern,Africa,0,1,0,0,Low_Salt,Chronic Gastritis,0
+87,Female,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,0
+35,Male,African / Caribbean,Africa,1,0,0,0,Low_Salt,None,0
+65,Male,South Asian,North America,0,1,0,1,High_Salt,None,0
+85,Male,Latin American,Africa,1,0,0,0,Low_Salt,Diabetes,1
+54,Male,South Asian,South America,0,1,1,1,High_Salt,Chronic Gastritis,1
+84,Female,South Asian,Africa,0,1,1,1,Low_Salt,None,1
+32,Male,East Asian,East Asia,0,1,0,1,High_Salt,None,1
+38,Female,Latin American,South Asia,0,1,1,0,Low_Salt,None,0
+28,Female,European,South America,0,0,0,1,High_Salt,Diabetes,1
+26,Male,European,South Asia,0,1,0,1,Low_Salt,None,0
+30,Female,East Asian,Europe,0,1,0,1,Low_Salt,None,0
+20,Female,Middle Eastern,Europe,1,0,0,0,Low_Salt,Chronic Gastritis,0
+62,Male,African / Caribbean,South America,0,1,0,0,High_Salt,Chronic Gastritis,1
+50,Female,South Asian,South America,0,0,1,0,High_Salt,None,0
+44,Female,East Asian,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+70,Male,African / Caribbean,East Asia,1,0,0,0,Low_Salt,Diabetes,0
+78,Male,Latin American,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,1
+48,Male,South Asian,North America,0,1,0,1,Low_Salt,None,0
+42,Male,Latin American,South Asia,1,0,0,0,Low_Salt,None,0
+56,Female,East Asian,South America,0,0,1,1,High_Salt,Diabetes,1
+43,Male,Latin American,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+69,Male,South Asian,North America,1,1,1,1,Low_Salt,None,1
+63,Female,European,Europe,0,0,0,0,Low_Salt,Diabetes,0
+18,Female,Latin American,South Asia,0,1,0,1,Low_Salt,Chronic Gastritis,1
+87,Male,European,South America,0,0,0,0,High_Salt,Chronic Gastritis,0
+78,Male,Latin American,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,1
+42,Female,East Asian,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+29,Male,African / Caribbean,Europe,1,0,1,1,Low_Salt,None,0
+47,Male,South Asian,South Asia,1,1,1,0,Low_Salt,None,0
+54,Male,Middle Eastern,South Asia,1,0,0,0,High_Salt,Chronic Gastritis,0
+62,Female,South Asian,South America,0,0,1,0,High_Salt,Chronic Gastritis,0
+29,Female,East Asian,North America,0,1,0,1,High_Salt,Chronic Gastritis,1
+89,Male,South Asian,Africa,0,0,0,1,High_Salt,None,1
+36,Female,Latin American,South Asia,1,1,1,1,High_Salt,None,1
+23,Female,South Asian,East Asia,0,1,0,1,Low_Salt,Diabetes,1
+35,Female,South Asian,Europe,0,1,1,0,Low_Salt,Chronic Gastritis,0
+52,Male,European,Europe,1,0,0,1,Low_Salt,Chronic Gastritis,0
+34,Female,Latin American,South America,0,0,1,0,Low_Salt,None,0
+25,Female,European,North America,0,0,0,0,Low_Salt,Diabetes,0
+87,Female,East Asian,East Asia,1,1,1,0,Low_Salt,None,1
+45,Male,East Asian,South America,0,0,1,0,High_Salt,Chronic Gastritis,0
+49,Female,Middle Eastern,North America,0,0,0,0,High_Salt,None,0
+75,Female,Latin American,South Asia,0,1,0,1,Low_Salt,None,0
+26,Male,Middle Eastern,Africa,0,0,1,0,High_Salt,None,0
+58,Female,African / Caribbean,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+87,Male,African / Caribbean,Europe,0,1,0,0,High_Salt,Chronic Gastritis,1
+66,Male,African / Caribbean,South America,0,0,1,0,Low_Salt,None,1
+64,Male,European,North America,0,0,0,0,High_Salt,None,0
+46,Female,South Asian,Europe,1,0,1,0,High_Salt,Chronic Gastritis,1
+70,Male,European,South Asia,0,0,1,1,Low_Salt,Chronic Gastritis,0
+41,Male,European,Africa,1,0,0,1,High_Salt,Diabetes,1
+20,Male,African / Caribbean,Africa,0,0,1,0,High_Salt,None,0
+48,Male,African / Caribbean,South America,0,0,1,0,Low_Salt,None,0
+82,Male,Latin American,East Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+45,Male,European,North America,1,0,0,1,Low_Salt,None,0
+28,Female,South Asian,Africa,1,0,0,0,Low_Salt,None,0
+52,Female,European,East Asia,0,0,1,1,High_Salt,Chronic Gastritis,1
+62,Female,Latin American,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+61,Female,African / Caribbean,East Asia,1,1,0,1,High_Salt,Diabetes,1
+74,Male,East Asian,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+31,Female,African / Caribbean,Europe,0,0,1,1,Low_Salt,None,0
+60,Female,African / Caribbean,North America,0,1,0,1,Low_Salt,Chronic Gastritis,1
+24,Female,African / Caribbean,South America,0,0,1,0,Low_Salt,None,0
+54,Male,East Asian,South America,0,1,0,1,High_Salt,None,0
+38,Male,South Asian,East Asia,0,0,0,0,Low_Salt,None,0
+48,Male,Latin American,Africa,0,1,0,0,Low_Salt,None,0
+18,Male,Middle Eastern,Africa,0,0,0,0,Low_Salt,None,0
+41,Male,Middle Eastern,Africa,1,0,1,0,High_Salt,Diabetes,1
+87,Female,African / Caribbean,East Asia,0,1,0,0,High_Salt,None,0
+38,Male,East Asian,East Asia,0,1,0,0,Low_Salt,None,0
+89,Female,Middle Eastern,South Asia,0,1,0,0,High_Salt,None,0
+34,Male,Latin American,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+46,Male,South Asian,North America,0,0,1,0,Low_Salt,Diabetes,1
+58,Male,African / Caribbean,East Asia,0,1,0,1,High_Salt,Chronic Gastritis,1
+67,Female,European,Europe,0,0,0,0,High_Salt,None,0
+36,Male,Middle Eastern,East Asia,0,0,0,0,Low_Salt,None,0
+42,Male,South Asian,East Asia,0,0,1,1,High_Salt,None,1
+20,Female,East Asian,North America,1,1,0,1,High_Salt,None,1
+84,Female,European,North America,0,1,0,1,High_Salt,Chronic Gastritis,1
+72,Male,Middle Eastern,Europe,0,0,0,0,Low_Salt,Diabetes,0
+84,Male,Latin American,South Asia,0,0,0,0,Low_Salt,None,0
+52,Female,Middle Eastern,South Asia,1,1,1,1,Low_Salt,None,0
+39,Female,South Asian,South Asia,1,0,0,1,Low_Salt,Chronic Gastritis,1
+54,Female,South Asian,South Asia,0,0,1,1,Low_Salt,None,0
+53,Male,European,East Asia,0,1,0,1,Low_Salt,Diabetes,1
+60,Female,African / Caribbean,South America,0,0,0,0,Low_Salt,Diabetes,0
+62,Male,African / Caribbean,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+79,Male,Middle Eastern,Europe,0,0,0,0,Low_Salt,None,0
+40,Female,South Asian,Europe,0,0,1,0,Low_Salt,Diabetes,0
+83,Female,European,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,1
+20,Female,East Asian,North America,1,0,1,1,High_Salt,Diabetes,1
+69,Male,East Asian,South America,0,0,0,0,High_Salt,None,0
+69,Female,East Asian,South Asia,0,1,1,0,Low_Salt,None,0
+62,Male,Middle Eastern,East Asia,0,1,1,0,Low_Salt,None,0
+58,Male,South Asian,Africa,1,1,0,0,Low_Salt,None,1
+25,Female,Latin American,Europe,1,0,0,0,Low_Salt,None,0
+26,Male,East Asian,Africa,0,0,0,1,Low_Salt,None,0
+77,Male,African / Caribbean,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,0
+68,Female,East Asian,East Asia,0,0,1,0,Low_Salt,None,0
+20,Female,Middle Eastern,South America,0,1,0,0,High_Salt,Chronic Gastritis,1
+77,Male,East Asian,Europe,0,0,0,0,Low_Salt,None,0
+33,Female,African / Caribbean,East Asia,0,1,0,0,Low_Salt,None,0
+37,Male,European,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+46,Male,African / Caribbean,East Asia,0,0,1,1,High_Salt,Chronic Gastritis,0
+71,Male,Middle Eastern,South Asia,1,1,1,0,Low_Salt,None,1
+88,Female,East Asian,East Asia,1,0,0,1,Low_Salt,Diabetes,1
+22,Female,Middle Eastern,Africa,1,1,1,0,Low_Salt,Chronic Gastritis,0
+31,Female,European,Europe,1,1,0,0,Low_Salt,None,1
+52,Male,Middle Eastern,Africa,0,1,1,0,High_Salt,Chronic Gastritis,1
+73,Male,East Asian,South Asia,0,1,1,0,Low_Salt,None,0
+45,Female,Middle Eastern,Africa,0,0,1,1,Low_Salt,None,0
+45,Male,East Asian,Europe,1,0,0,0,Low_Salt,Chronic Gastritis,0
+75,Female,African / Caribbean,East Asia,0,1,0,0,High_Salt,Diabetes,1
+64,Male,Latin American,North America,0,0,1,1,High_Salt,None,0
+65,Female,East Asian,Africa,0,0,0,0,Low_Salt,None,0
+19,Male,Middle Eastern,Africa,0,0,0,0,High_Salt,Diabetes,0
+21,Female,Middle Eastern,North America,0,0,1,0,Low_Salt,Diabetes,0
+28,Male,South Asian,East Asia,0,0,0,0,Low_Salt,None,0
+49,Male,African / Caribbean,South Asia,0,0,0,0,High_Salt,None,1
+35,Male,South Asian,Europe,0,0,1,1,Low_Salt,Chronic Gastritis,1
+70,Male,European,Africa,1,0,0,1,High_Salt,None,0
+75,Female,Middle Eastern,East Asia,1,0,1,0,Low_Salt,None,1
+32,Male,South Asian,Europe,0,1,1,0,Low_Salt,None,1
+44,Male,Middle Eastern,South America,1,0,1,0,High_Salt,None,0
+75,Male,Latin American,Africa,0,1,1,0,High_Salt,None,1
+45,Female,African / Caribbean,North America,1,1,1,0,High_Salt,Chronic Gastritis,1
+42,Male,East Asian,South Asia,0,0,0,1,High_Salt,None,0
+62,Male,South Asian,North America,0,1,1,0,High_Salt,None,0
+84,Female,East Asian,Africa,1,1,0,1,High_Salt,None,1
+47,Female,African / Caribbean,East Asia,0,1,0,0,Low_Salt,None,0
+61,Male,Latin American,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,0
+74,Female,Latin American,North America,0,1,1,0,Low_Salt,None,1
+71,Female,South Asian,South Asia,0,1,0,1,High_Salt,Diabetes,0
+57,Male,Middle Eastern,Europe,1,1,0,0,High_Salt,Chronic Gastritis,0
+40,Male,European,South Asia,0,1,0,0,Low_Salt,Diabetes,0
+55,Female,European,East Asia,0,0,1,0,Low_Salt,None,0
+40,Male,East Asian,Europe,1,0,0,0,Low_Salt,None,0
+22,Female,South Asian,North America,0,0,1,0,High_Salt,None,0
+73,Male,Latin American,Europe,0,0,1,1,Low_Salt,Diabetes,0
+54,Female,African / Caribbean,North America,0,1,1,0,Low_Salt,None,1
+24,Female,East Asian,South America,1,0,1,1,Low_Salt,Chronic Gastritis,0
+57,Female,East Asian,South Asia,0,0,0,0,Low_Salt,None,0
+69,Female,African / Caribbean,South America,0,1,0,1,High_Salt,Chronic Gastritis,1
+79,Male,African / Caribbean,North America,1,1,0,0,Low_Salt,None,1
+59,Female,Latin American,South Asia,0,0,1,0,Low_Salt,None,0
+73,Female,South Asian,Europe,1,0,1,0,High_Salt,Diabetes,1
+35,Male,Latin American,North America,0,0,0,0,High_Salt,Chronic Gastritis,0
+53,Male,African / Caribbean,Europe,0,1,0,0,Low_Salt,None,0
+60,Male,East Asian,North America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+86,Male,South Asian,North America,0,0,0,0,Low_Salt,None,0
+64,Female,South Asian,South America,0,0,0,0,Low_Salt,None,0
+28,Male,South Asian,Africa,0,0,0,0,Low_Salt,None,1
+53,Female,European,East Asia,0,0,1,0,High_Salt,Diabetes,0
+47,Male,Middle Eastern,Africa,0,0,1,0,High_Salt,None,0
+60,Male,European,South America,0,1,0,0,High_Salt,None,1
+36,Female,Middle Eastern,East Asia,0,1,0,0,High_Salt,None,0
+47,Female,European,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+69,Male,Middle Eastern,South Asia,0,1,0,1,Low_Salt,None,1
+56,Female,East Asian,South America,1,0,1,0,High_Salt,None,1
+55,Male,South Asian,South Asia,1,1,1,0,Low_Salt,None,1
+78,Male,East Asian,Africa,0,0,1,0,High_Salt,None,0
+66,Female,South Asian,North America,1,0,0,0,High_Salt,None,1
+87,Female,Middle Eastern,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+27,Male,Middle Eastern,South America,0,1,0,0,High_Salt,None,0
+56,Male,South Asian,East Asia,1,0,1,1,High_Salt,None,0
+35,Male,African / Caribbean,South Asia,0,0,1,0,Low_Salt,None,0
+79,Female,East Asian,Africa,0,1,0,0,Low_Salt,Diabetes,0
+83,Male,South Asian,South Asia,0,0,1,1,Low_Salt,Chronic Gastritis,0
+40,Female,Latin American,South America,0,1,0,0,High_Salt,Chronic Gastritis,1
+78,Male,African / Caribbean,South Asia,0,0,0,1,Low_Salt,None,0
+28,Female,East Asian,Europe,0,1,1,1,High_Salt,Diabetes,0
+24,Female,Latin American,South Asia,0,0,1,1,High_Salt,None,0
+71,Female,Latin American,South America,1,1,1,1,Low_Salt,None,1
+62,Male,East Asian,South Asia,1,0,1,1,High_Salt,Chronic Gastritis,1
+49,Male,East Asian,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+76,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+62,Female,Latin American,South America,0,1,0,0,High_Salt,Chronic Gastritis,1
+23,Female,East Asian,Europe,0,0,1,0,High_Salt,Chronic Gastritis,0
+28,Female,South Asian,South Asia,0,0,0,0,Low_Salt,None,1
+74,Female,European,South Asia,1,1,0,1,High_Salt,Chronic Gastritis,1
+56,Male,Latin American,Africa,1,1,1,1,High_Salt,None,1
+68,Male,East Asian,Africa,1,0,0,0,Low_Salt,None,0
+28,Male,African / Caribbean,South Asia,0,0,0,0,High_Salt,None,1
+58,Male,African / Caribbean,South America,1,1,1,0,High_Salt,None,1
+33,Male,Middle Eastern,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,1
+76,Male,East Asian,South Asia,0,1,1,0,Low_Salt,Chronic Gastritis,1
+39,Female,European,Europe,0,0,0,0,Low_Salt,None,0
+35,Male,Latin American,South Asia,1,0,1,0,Low_Salt,Chronic Gastritis,0
+62,Female,South Asian,Europe,1,0,0,0,Low_Salt,Chronic Gastritis,0
+37,Female,South Asian,East Asia,0,1,0,0,Low_Salt,None,0
+42,Female,South Asian,East Asia,1,0,1,1,High_Salt,Chronic Gastritis,1
+28,Male,Middle Eastern,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+20,Male,East Asian,Europe,0,1,0,0,Low_Salt,Diabetes,0
+80,Male,East Asian,East Asia,1,0,0,1,High_Salt,None,1
+51,Female,South Asian,East Asia,1,1,0,0,Low_Salt,None,0
+24,Male,Latin American,South Asia,0,0,1,1,High_Salt,Chronic Gastritis,0
+81,Female,African / Caribbean,South Asia,1,0,0,0,Low_Salt,None,0
+76,Male,Middle Eastern,Africa,0,1,0,0,Low_Salt,Chronic Gastritis,0
+81,Female,South Asian,Europe,0,0,0,0,Low_Salt,None,0
+58,Female,South Asian,North America,0,0,0,0,Low_Salt,None,0
+46,Male,European,Europe,1,0,1,0,Low_Salt,None,0
+55,Male,South Asian,South America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+55,Male,East Asian,South Asia,0,1,1,0,High_Salt,Diabetes,1
+23,Female,European,Africa,0,1,0,1,High_Salt,Chronic Gastritis,1
+81,Female,Latin American,East Asia,0,0,0,0,Low_Salt,None,0
+69,Male,East Asian,South America,1,0,1,0,Low_Salt,None,0
+67,Female,European,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+49,Male,African / Caribbean,Africa,0,0,0,0,High_Salt,None,0
+36,Male,Middle Eastern,North America,0,0,0,0,High_Salt,Chronic Gastritis,0
+20,Male,East Asian,North America,0,1,0,0,High_Salt,Chronic Gastritis,0
+52,Male,Latin American,South America,0,0,0,0,Low_Salt,None,0
+30,Female,South Asian,Africa,0,1,1,0,High_Salt,Chronic Gastritis,0
+74,Male,African / Caribbean,Europe,0,0,1,0,Low_Salt,Chronic Gastritis,0
+42,Male,European,South America,0,0,0,0,High_Salt,Chronic Gastritis,0
+62,Female,European,South Asia,1,1,1,1,High_Salt,Chronic Gastritis,1
+23,Female,Latin American,North America,0,1,0,0,Low_Salt,None,0
+45,Female,Middle Eastern,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+76,Male,South Asian,South Asia,1,0,1,0,Low_Salt,None,0
+29,Male,South Asian,South America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+54,Female,European,Africa,0,0,1,0,High_Salt,Chronic Gastritis,0
+58,Female,South Asian,South Asia,1,0,0,0,Low_Salt,None,1
+70,Female,East Asian,East Asia,1,1,0,1,High_Salt,Chronic Gastritis,1
+71,Female,European,South Asia,1,0,1,0,Low_Salt,Diabetes,1
+67,Male,South Asian,East Asia,0,0,1,0,Low_Salt,None,0
+43,Female,European,South Asia,0,1,1,0,Low_Salt,None,0
+54,Female,South Asian,South Asia,0,1,1,0,High_Salt,Chronic Gastritis,1
+32,Male,Latin American,South America,0,0,0,0,High_Salt,None,0
+64,Male,Latin American,East Asia,1,0,0,1,Low_Salt,None,0
+72,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,1
+33,Male,Middle Eastern,South America,1,1,0,0,Low_Salt,None,0
+81,Male,Middle Eastern,Africa,0,0,1,1,Low_Salt,Chronic Gastritis,1
+22,Female,East Asian,South Asia,0,0,0,0,Low_Salt,Diabetes,0
+67,Male,South Asian,Africa,0,0,1,0,Low_Salt,None,0
+71,Female,East Asian,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+69,Female,South Asian,North America,1,1,1,1,High_Salt,Chronic Gastritis,1
+29,Female,African / Caribbean,Africa,1,0,1,1,High_Salt,None,1
+57,Female,South Asian,South America,0,0,0,1,Low_Salt,Chronic Gastritis,1
+64,Male,European,South Asia,1,0,0,1,Low_Salt,Diabetes,1
+79,Male,Latin American,Africa,0,1,0,0,Low_Salt,None,1
+28,Female,European,South Asia,0,0,0,1,Low_Salt,None,0
+65,Female,European,South America,0,1,1,0,High_Salt,None,0
+65,Male,European,South America,1,0,0,1,High_Salt,None,0
+18,Male,Latin American,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+27,Male,South Asian,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+85,Female,Middle Eastern,East Asia,0,0,0,0,Low_Salt,None,0
+63,Female,European,Africa,0,0,1,0,Low_Salt,None,0
+62,Male,European,Africa,0,0,0,0,High_Salt,None,0
+43,Female,Middle Eastern,Africa,0,0,1,0,High_Salt,Chronic Gastritis,0
+56,Male,African / Caribbean,South Asia,0,0,1,0,High_Salt,None,1
+19,Male,Latin American,East Asia,0,0,1,0,Low_Salt,None,0
+28,Male,Middle Eastern,South Asia,0,0,1,0,Low_Salt,Diabetes,0
+43,Female,African / Caribbean,South America,0,0,1,0,High_Salt,Chronic Gastritis,1
+54,Male,Middle Eastern,Africa,0,0,1,0,Low_Salt,None,0
+48,Male,Latin American,North America,0,0,0,0,High_Salt,Diabetes,0
+29,Female,East Asian,Europe,1,0,0,0,Low_Salt,None,0
+53,Male,Middle Eastern,South America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+64,Female,Latin American,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,1
+43,Male,Middle Eastern,South Asia,0,0,0,1,Low_Salt,None,0
+26,Male,European,South America,1,1,0,0,High_Salt,Diabetes,1
+42,Male,African / Caribbean,East Asia,0,0,0,0,Low_Salt,None,0
+63,Female,African / Caribbean,East Asia,0,0,0,0,Low_Salt,None,0
+44,Male,African / Caribbean,Europe,0,0,0,0,Low_Salt,None,0
+81,Female,African / Caribbean,Europe,0,0,0,0,Low_Salt,None,0
+64,Female,South Asian,Europe,1,0,0,0,Low_Salt,None,0
+38,Male,Middle Eastern,South Asia,1,0,0,0,Low_Salt,None,0
+82,Male,Middle Eastern,South Asia,0,1,1,1,High_Salt,Chronic Gastritis,0
+46,Female,South Asian,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+82,Male,African / Caribbean,North America,0,1,0,0,Low_Salt,None,0
+49,Female,South Asian,North America,0,0,1,1,Low_Salt,Diabetes,0
+52,Female,Latin American,North America,0,0,0,1,Low_Salt,Chronic Gastritis,1
+73,Male,European,Africa,0,0,0,0,High_Salt,Chronic Gastritis,0
+30,Male,European,South Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+52,Male,Latin American,North America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+49,Male,African / Caribbean,Africa,0,0,1,0,High_Salt,Chronic Gastritis,0
+40,Male,African / Caribbean,North America,1,0,1,0,Low_Salt,Diabetes,0
+68,Female,African / Caribbean,North America,1,0,1,0,Low_Salt,None,0
+63,Female,Latin American,Africa,0,0,0,0,Low_Salt,Diabetes,0
+63,Male,East Asian,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,1
+88,Male,European,Africa,0,0,0,0,High_Salt,None,0
+65,Female,African / Caribbean,South Asia,1,0,1,0,Low_Salt,None,0
+81,Female,South Asian,North America,1,0,1,0,High_Salt,Diabetes,0
+31,Female,Latin American,East Asia,0,0,1,1,Low_Salt,None,0
+34,Male,European,North America,0,1,0,0,Low_Salt,Diabetes,0
+67,Male,East Asian,North America,0,0,1,1,Low_Salt,None,1
+72,Female,South Asian,Europe,0,0,0,0,High_Salt,None,0
+51,Male,South Asian,East Asia,0,0,0,1,High_Salt,None,1
+71,Female,Latin American,East Asia,0,1,0,0,Low_Salt,Diabetes,0
+63,Female,Middle Eastern,North America,0,0,1,0,High_Salt,None,0
+37,Male,South Asian,East Asia,0,0,1,0,Low_Salt,None,0
+59,Female,Latin American,South America,0,1,1,0,Low_Salt,Chronic Gastritis,1
+54,Female,European,Europe,1,1,0,0,Low_Salt,Diabetes,0
+87,Male,Middle Eastern,Europe,0,0,1,0,High_Salt,None,0
+32,Male,South Asian,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+77,Male,South Asian,North America,1,0,0,0,Low_Salt,None,0
+19,Female,Middle Eastern,North America,0,1,0,0,High_Salt,Chronic Gastritis,1
+60,Female,Middle Eastern,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,0
+85,Male,African / Caribbean,South America,0,0,1,0,Low_Salt,None,0
+82,Male,East Asian,East Asia,0,0,1,1,High_Salt,Diabetes,0
+58,Male,Middle Eastern,East Asia,0,0,1,0,High_Salt,None,0
+69,Male,Latin American,Africa,0,1,1,0,Low_Salt,Chronic Gastritis,1
+20,Male,Middle Eastern,East Asia,0,0,0,0,High_Salt,None,1
+87,Female,Latin American,South Asia,0,0,1,1,Low_Salt,None,0
+56,Male,East Asian,North America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+66,Female,Latin American,North America,0,0,0,0,High_Salt,None,0
+53,Male,African / Caribbean,East Asia,0,0,0,1,Low_Salt,None,0
+38,Male,African / Caribbean,South Asia,0,0,0,0,Low_Salt,None,1
+87,Male,Latin American,South America,1,0,0,0,High_Salt,None,1
+50,Male,South Asian,South Asia,1,1,0,0,Low_Salt,None,1
+27,Female,African / Caribbean,South America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+70,Male,African / Caribbean,Europe,0,1,0,0,Low_Salt,Chronic Gastritis,0
+24,Female,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+50,Male,Middle Eastern,Africa,1,0,1,0,High_Salt,None,0
+89,Female,Middle Eastern,South America,1,0,0,0,Low_Salt,None,0
+50,Male,Latin American,Europe,0,0,0,0,Low_Salt,None,0
+72,Female,Latin American,Africa,1,0,0,0,Low_Salt,None,1
+70,Male,African / Caribbean,Europe,1,1,1,0,High_Salt,Chronic Gastritis,1
+66,Female,African / Caribbean,South Asia,0,0,0,0,High_Salt,Diabetes,1
+84,Male,South Asian,East Asia,1,0,0,0,High_Salt,None,1
+33,Male,European,North America,0,1,0,1,High_Salt,Chronic Gastritis,1
+64,Female,Middle Eastern,South Asia,0,1,0,0,High_Salt,None,0
+54,Male,East Asian,South America,0,0,1,0,High_Salt,None,1
+66,Female,African / Caribbean,North America,1,1,1,1,Low_Salt,Diabetes,0
+79,Male,Middle Eastern,Europe,0,0,0,1,Low_Salt,None,0
+50,Female,European,South America,1,1,1,0,High_Salt,None,0
+29,Female,European,South Asia,0,0,0,0,Low_Salt,None,0
+38,Male,African / Caribbean,South America,0,1,0,0,High_Salt,None,0
+44,Male,East Asian,Europe,0,0,1,0,Low_Salt,Chronic Gastritis,1
+57,Male,East Asian,East Asia,0,0,0,1,High_Salt,None,0
+32,Female,African / Caribbean,North America,0,0,0,1,High_Salt,None,1
+38,Female,Latin American,South America,0,0,0,0,High_Salt,None,0
+89,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,Diabetes,1
+42,Female,European,North America,1,0,0,0,High_Salt,Chronic Gastritis,1
+48,Female,Latin American,South America,0,1,0,0,Low_Salt,Chronic Gastritis,1
+72,Male,Middle Eastern,Europe,0,0,0,0,Low_Salt,None,0
+36,Female,European,South America,0,0,0,0,Low_Salt,None,0
+71,Male,Middle Eastern,Africa,0,0,1,0,High_Salt,None,0
+26,Male,African / Caribbean,South Asia,1,1,1,0,Low_Salt,Chronic Gastritis,1
+50,Female,European,South Asia,0,0,0,0,High_Salt,None,0
+20,Male,South Asian,Europe,1,0,0,1,Low_Salt,Diabetes,0
+52,Female,Latin American,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+64,Male,East Asian,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+84,Female,South Asian,Africa,1,1,0,1,Low_Salt,Chronic Gastritis,1
+72,Male,Middle Eastern,South America,0,0,0,0,High_Salt,Chronic Gastritis,1
+49,Male,South Asian,Europe,1,1,0,0,Low_Salt,Chronic Gastritis,0
+80,Female,European,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+52,Female,European,North America,0,0,0,0,High_Salt,Diabetes,1
+20,Female,African / Caribbean,North America,0,1,0,0,Low_Salt,None,0
+64,Male,Latin American,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+23,Female,South Asian,East Asia,0,1,0,0,Low_Salt,None,0
+38,Male,Middle Eastern,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+55,Female,South Asian,Africa,0,0,0,0,Low_Salt,None,0
+72,Female,European,Europe,1,1,0,0,Low_Salt,Diabetes,1
+52,Male,African / Caribbean,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,1
+82,Male,Middle Eastern,South America,0,0,1,0,High_Salt,None,0
+20,Male,Middle Eastern,South America,0,1,1,0,High_Salt,None,1
+59,Female,African / Caribbean,Europe,0,0,0,1,Low_Salt,Chronic Gastritis,0
+37,Male,European,Africa,0,0,1,0,Low_Salt,Diabetes,0
+63,Female,Middle Eastern,Africa,1,0,1,0,High_Salt,None,1
+81,Female,African / Caribbean,South Asia,0,1,0,0,High_Salt,None,0
+59,Male,South Asian,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,1
+67,Female,Middle Eastern,Africa,0,0,0,1,High_Salt,Diabetes,1
+75,Male,South Asian,South Asia,0,0,0,1,Low_Salt,None,0
+53,Male,African / Caribbean,Africa,0,0,0,0,High_Salt,None,0
+63,Male,Middle Eastern,East Asia,0,1,1,1,Low_Salt,None,1
+87,Female,Latin American,South Asia,0,0,0,0,Low_Salt,Diabetes,0
+51,Female,South Asian,Africa,0,0,0,0,Low_Salt,None,1
+74,Female,South Asian,Africa,0,1,0,1,High_Salt,None,1
+57,Male,European,South Asia,1,0,1,0,High_Salt,None,1
+73,Male,African / Caribbean,North America,0,0,0,0,Low_Salt,None,0
+49,Male,South Asian,South America,0,0,0,0,Low_Salt,None,0
+85,Female,African / Caribbean,South America,0,0,0,0,High_Salt,None,0
+43,Male,Middle Eastern,South America,0,1,0,1,Low_Salt,None,1
+50,Male,East Asian,South America,0,1,1,1,High_Salt,Chronic Gastritis,1
+81,Female,Latin American,North America,0,0,0,0,High_Salt,None,0
+42,Female,East Asian,East Asia,1,0,1,0,Low_Salt,Chronic Gastritis,1
+36,Female,Latin American,Africa,0,0,0,1,High_Salt,None,1
+41,Male,European,South America,0,0,0,0,High_Salt,Chronic Gastritis,1
+71,Female,South Asian,South Asia,1,1,0,1,Low_Salt,Chronic Gastritis,1
+64,Male,East Asian,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+80,Male,African / Caribbean,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+85,Male,Latin American,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+35,Female,European,East Asia,1,0,0,1,Low_Salt,Chronic Gastritis,1
+29,Female,East Asian,South America,1,0,0,1,Low_Salt,None,1
+39,Male,European,South Asia,0,0,1,0,Low_Salt,None,0
+72,Female,South Asian,Europe,0,0,0,0,Low_Salt,None,1
+49,Male,European,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+41,Male,Latin American,North America,0,0,0,0,Low_Salt,None,0
+82,Male,Middle Eastern,Europe,0,0,0,0,High_Salt,None,1
+20,Female,European,North America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+80,Female,Middle Eastern,Europe,0,0,1,1,Low_Salt,Diabetes,0
+79,Female,European,Europe,1,0,1,0,High_Salt,Diabetes,0
+30,Male,Middle Eastern,South Asia,0,1,0,0,High_Salt,None,0
+46,Female,Middle Eastern,North America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+56,Male,East Asian,East Asia,0,1,0,0,Low_Salt,None,0
+67,Male,East Asian,Europe,0,1,0,0,Low_Salt,Chronic Gastritis,1
+42,Male,African / Caribbean,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,1
+47,Male,South Asian,North America,0,1,1,0,Low_Salt,None,0
+79,Male,European,East Asia,0,1,1,0,High_Salt,Chronic Gastritis,1
+74,Female,South Asian,South America,0,0,0,1,High_Salt,None,0
+52,Female,European,South America,0,1,1,0,Low_Salt,Diabetes,0
+22,Female,African / Caribbean,North America,0,1,0,1,Low_Salt,Chronic Gastritis,1
+37,Male,East Asian,North America,0,0,0,1,Low_Salt,None,0
+26,Male,African / Caribbean,Europe,0,0,1,0,High_Salt,None,0
+26,Female,European,North America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+68,Female,South Asian,Europe,0,1,0,0,Low_Salt,None,1
+84,Female,East Asian,Africa,1,1,1,0,Low_Salt,None,1
+44,Female,South Asian,East Asia,1,0,1,0,Low_Salt,Chronic Gastritis,0
+38,Female,European,South Asia,1,0,0,0,Low_Salt,Chronic Gastritis,1
+86,Female,African / Caribbean,Africa,0,0,0,0,High_Salt,None,0
+39,Male,South Asian,North America,1,0,0,0,High_Salt,None,0
+83,Female,East Asian,East Asia,0,0,0,1,Low_Salt,None,1
+20,Female,South Asian,South America,1,0,0,1,Low_Salt,Chronic Gastritis,1
+51,Female,European,South Asia,1,0,0,0,Low_Salt,None,0
+42,Female,African / Caribbean,Europe,0,0,1,0,Low_Salt,None,0
+43,Male,South Asian,South America,0,0,0,0,Low_Salt,None,0
+21,Male,Middle Eastern,South America,0,0,1,1,Low_Salt,Chronic Gastritis,1
+47,Female,European,North America,0,0,0,0,High_Salt,None,0
+20,Female,African / Caribbean,South Asia,1,0,1,0,Low_Salt,None,0
+34,Female,South Asian,South America,0,0,1,0,High_Salt,None,0
+84,Female,Latin American,South Asia,0,0,0,1,Low_Salt,None,0
+79,Male,East Asian,East Asia,1,1,1,1,High_Salt,None,1
+71,Female,European,South America,0,0,0,0,Low_Salt,Chronic Gastritis,1
+83,Female,South Asian,Africa,1,0,0,0,Low_Salt,None,0
+56,Female,European,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,0
+49,Female,Middle Eastern,South Asia,0,1,1,0,Low_Salt,None,0
+84,Male,Middle Eastern,Africa,0,1,0,0,Low_Salt,None,1
+79,Male,European,North America,0,1,0,0,Low_Salt,Chronic Gastritis,1
+37,Female,Latin American,South Asia,0,0,0,0,High_Salt,None,0
+44,Male,Middle Eastern,South Asia,1,1,0,1,Low_Salt,None,1
+21,Male,Middle Eastern,North America,0,1,1,1,High_Salt,Diabetes,1
+34,Female,African / Caribbean,South America,0,0,1,0,High_Salt,None,0
+79,Male,Latin American,East Asia,0,0,1,1,Low_Salt,None,0
+29,Female,East Asian,South Asia,0,1,1,0,High_Salt,None,0
+65,Female,East Asian,Europe,1,1,0,0,High_Salt,Chronic Gastritis,1
+64,Male,European,South Asia,1,1,0,0,High_Salt,None,0
+89,Female,Latin American,South America,0,0,1,0,Low_Salt,Diabetes,0
+72,Male,European,South America,0,1,1,0,High_Salt,Chronic Gastritis,0
+44,Female,African / Caribbean,East Asia,0,1,1,1,Low_Salt,None,0
+32,Male,South Asian,Africa,0,0,0,0,Low_Salt,Diabetes,0
+85,Male,Middle Eastern,Africa,0,1,1,1,Low_Salt,None,1
+67,Female,Latin American,Africa,0,0,1,1,Low_Salt,Diabetes,0
+76,Female,Middle Eastern,North America,1,0,1,0,Low_Salt,None,0
+65,Female,African / Caribbean,South America,0,0,0,0,High_Salt,Chronic Gastritis,0
+81,Female,Latin American,North America,0,1,0,0,High_Salt,Chronic Gastritis,1
+35,Male,European,South Asia,0,0,1,1,High_Salt,None,1
+52,Female,Latin American,South Asia,0,1,1,0,Low_Salt,Chronic Gastritis,1
+83,Female,Middle Eastern,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,0
+68,Female,Middle Eastern,South Asia,0,1,1,1,Low_Salt,None,0
+78,Female,African / Caribbean,Africa,0,0,1,0,High_Salt,Chronic Gastritis,1
+44,Female,European,North America,0,0,1,0,Low_Salt,None,0
+57,Female,European,South Asia,0,0,0,0,High_Salt,Diabetes,1
+45,Male,European,East Asia,1,0,1,0,Low_Salt,Chronic Gastritis,0
+39,Male,East Asian,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+58,Female,East Asian,Africa,0,0,1,0,Low_Salt,None,0
+64,Female,Middle Eastern,North America,1,0,0,0,High_Salt,None,0
+54,Female,Latin American,North America,1,0,1,0,Low_Salt,None,0
+19,Male,African / Caribbean,Europe,0,1,1,0,Low_Salt,Chronic Gastritis,0
+30,Male,African / Caribbean,North America,0,1,0,0,Low_Salt,None,0
+75,Female,East Asian,East Asia,0,0,0,0,Low_Salt,None,0
+23,Female,East Asian,South Asia,0,1,0,0,Low_Salt,Diabetes,0
+66,Female,European,Europe,0,1,0,0,High_Salt,None,1
+59,Male,European,Europe,1,0,0,0,High_Salt,Diabetes,1
+73,Female,Middle Eastern,North America,1,1,0,0,Low_Salt,None,0
+62,Female,Middle Eastern,South America,1,1,1,1,Low_Salt,Chronic Gastritis,1
+89,Male,European,North America,0,1,1,1,Low_Salt,Diabetes,0
+74,Male,Latin American,East Asia,1,0,0,0,Low_Salt,None,0
+51,Female,South Asian,South Asia,0,0,0,0,High_Salt,Diabetes,0
+77,Male,African / Caribbean,East Asia,0,0,0,0,High_Salt,None,1
+85,Male,African / Caribbean,Africa,1,1,1,0,Low_Salt,None,0
+40,Male,Latin American,South Asia,0,0,1,0,Low_Salt,None,0
+68,Female,African / Caribbean,Europe,0,1,0,0,Low_Salt,None,0
+55,Male,East Asian,South Asia,0,1,0,0,High_Salt,Chronic Gastritis,1
+48,Male,East Asian,Africa,0,0,0,0,High_Salt,Chronic Gastritis,0
+35,Female,East Asian,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+52,Male,Latin American,East Asia,1,0,0,0,High_Salt,None,0
+54,Male,Middle Eastern,East Asia,0,0,0,0,High_Salt,None,0
+37,Female,African / Caribbean,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+46,Female,Latin American,South Asia,1,1,1,1,Low_Salt,None,1
+57,Male,African / Caribbean,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+64,Female,Latin American,Europe,0,1,1,0,Low_Salt,None,0
+55,Female,African / Caribbean,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+19,Female,East Asian,South Asia,0,0,1,0,Low_Salt,None,0
+52,Female,African / Caribbean,East Asia,0,1,0,0,Low_Salt,None,0
+45,Male,East Asian,South Asia,0,1,0,1,Low_Salt,Chronic Gastritis,1
+65,Female,European,North America,0,0,0,0,Low_Salt,None,0
+79,Male,East Asian,South Asia,0,0,1,0,High_Salt,None,1
+62,Male,Latin American,North America,1,0,1,0,Low_Salt,Chronic Gastritis,1
+36,Female,African / Caribbean,South America,0,0,1,0,Low_Salt,None,0
+89,Female,Latin American,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+31,Male,East Asian,North America,0,0,0,0,Low_Salt,None,0
+65,Male,African / Caribbean,Africa,0,0,1,0,Low_Salt,None,0
+74,Female,South Asian,South America,0,1,1,1,High_Salt,Diabetes,1
+40,Female,Middle Eastern,Africa,0,1,0,0,Low_Salt,None,1
+23,Female,European,South America,0,1,0,1,High_Salt,None,0
+22,Female,European,North America,0,0,0,0,High_Salt,None,0
+79,Female,Latin American,Africa,0,0,0,1,Low_Salt,None,0
+37,Male,African / Caribbean,Europe,0,1,1,1,High_Salt,None,0
+87,Female,European,North America,0,1,1,1,High_Salt,None,1
+43,Male,European,South America,0,0,0,0,Low_Salt,None,0
+63,Male,South Asian,South Asia,0,1,1,0,High_Salt,Chronic Gastritis,1
+44,Male,Latin American,South America,0,0,1,1,High_Salt,Chronic Gastritis,0
+55,Male,East Asian,East Asia,1,0,0,0,Low_Salt,None,0
+51,Female,European,East Asia,0,1,0,0,Low_Salt,None,0
+63,Female,East Asian,South Asia,0,0,0,1,Low_Salt,Diabetes,1
+24,Male,South Asian,South Asia,1,1,0,0,High_Salt,Chronic Gastritis,1
+38,Male,South Asian,Europe,0,0,0,0,Low_Salt,Diabetes,1
+26,Female,Middle Eastern,South Asia,1,0,0,1,High_Salt,Chronic Gastritis,1
+35,Female,African / Caribbean,Europe,0,1,0,0,Low_Salt,None,0
+71,Male,East Asian,North America,0,1,0,1,High_Salt,None,0
+43,Male,Middle Eastern,North America,1,1,0,0,High_Salt,Chronic Gastritis,1
+83,Female,South Asian,Europe,0,0,1,0,High_Salt,Chronic Gastritis,0
+83,Male,East Asian,Africa,0,1,0,0,High_Salt,None,1
+65,Male,South Asian,Europe,0,0,1,0,Low_Salt,Diabetes,1
+82,Female,South Asian,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+63,Female,Middle Eastern,Africa,0,0,1,0,Low_Salt,None,0
+31,Male,South Asian,East Asia,0,0,0,1,High_Salt,None,1
+51,Male,Middle Eastern,Africa,0,1,1,0,High_Salt,None,0
+87,Male,East Asian,Africa,0,0,1,0,High_Salt,None,1
+49,Female,Latin American,East Asia,1,0,0,0,Low_Salt,Diabetes,0
+69,Female,Latin American,Africa,0,1,1,0,High_Salt,Chronic Gastritis,1
+32,Male,Middle Eastern,North America,1,1,1,0,High_Salt,None,1
+58,Male,East Asian,South America,1,0,0,0,Low_Salt,Chronic Gastritis,1
+47,Male,East Asian,Europe,0,0,0,0,High_Salt,None,0
+57,Male,South Asian,East Asia,0,0,0,0,High_Salt,None,0
+85,Male,East Asian,South Asia,1,0,0,0,Low_Salt,Diabetes,0
+44,Male,European,North America,0,0,1,0,High_Salt,None,0
+41,Female,East Asian,Europe,0,1,0,0,High_Salt,None,1
+85,Female,South Asian,South Asia,0,1,1,0,Low_Salt,None,0
+57,Female,South Asian,Europe,0,1,0,1,Low_Salt,Chronic Gastritis,1
+23,Male,Middle Eastern,South America,0,0,0,0,High_Salt,None,0
+64,Male,East Asian,Europe,0,1,0,1,Low_Salt,None,0
+43,Female,European,Europe,0,0,1,1,Low_Salt,None,1
+53,Female,African / Caribbean,Africa,0,0,1,0,Low_Salt,None,0
+60,Female,European,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+55,Female,European,Europe,0,0,0,0,Low_Salt,None,0
+28,Female,East Asian,Africa,1,0,1,1,Low_Salt,Diabetes,0
+33,Female,European,South Asia,0,0,0,0,Low_Salt,None,0
+73,Male,East Asian,North America,0,0,1,1,Low_Salt,None,0
+38,Male,Middle Eastern,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+52,Female,South Asian,Europe,0,0,0,1,Low_Salt,None,0
+32,Male,African / Caribbean,North America,0,0,1,0,High_Salt,None,0
+69,Female,South Asian,South America,0,0,1,0,High_Salt,Chronic Gastritis,1
+26,Female,Middle Eastern,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+67,Male,Middle Eastern,North America,0,0,0,0,Low_Salt,None,0
+26,Male,East Asian,South America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+70,Female,East Asian,North America,0,0,0,1,Low_Salt,None,0
+43,Female,Middle Eastern,South America,0,1,1,0,High_Salt,None,1
+59,Male,European,South America,1,0,1,0,Low_Salt,None,1
+61,Male,South Asian,East Asia,0,1,0,0,Low_Salt,None,1
+52,Female,Latin American,Africa,0,0,0,0,Low_Salt,None,0
+70,Female,Middle Eastern,East Asia,0,1,0,1,High_Salt,Diabetes,1
+75,Female,European,Africa,0,0,0,0,Low_Salt,None,1
+80,Female,African / Caribbean,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+76,Female,African / Caribbean,Europe,0,0,1,1,High_Salt,Diabetes,1
+24,Male,Latin American,Africa,1,1,0,0,Low_Salt,None,0
+25,Male,East Asian,South America,0,1,0,0,High_Salt,Chronic Gastritis,0
+64,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+88,Female,Middle Eastern,South America,0,1,0,0,High_Salt,None,0
+28,Male,South Asian,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+76,Female,Latin American,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+18,Female,African / Caribbean,South America,1,0,1,0,High_Salt,Chronic Gastritis,1
+59,Male,Middle Eastern,East Asia,0,1,0,1,High_Salt,Chronic Gastritis,0
+55,Female,European,North America,1,0,0,1,Low_Salt,Chronic Gastritis,1
+59,Female,African / Caribbean,East Asia,1,0,1,0,High_Salt,None,1
+20,Female,African / Caribbean,South America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+88,Female,Latin American,East Asia,0,0,0,0,High_Salt,None,0
+33,Female,East Asian,Africa,0,0,0,1,High_Salt,None,0
+52,Male,Middle Eastern,South America,0,0,0,0,Low_Salt,Diabetes,0
+40,Male,European,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+19,Female,East Asian,Africa,0,0,0,1,Low_Salt,None,0
+38,Female,Latin American,North America,1,1,0,0,High_Salt,Chronic Gastritis,1
+88,Male,European,Europe,0,1,1,0,Low_Salt,None,1
+74,Male,Middle Eastern,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+49,Male,Middle Eastern,South America,0,1,0,1,High_Salt,None,1
+39,Female,Latin American,Europe,0,1,1,0,High_Salt,None,0
+49,Male,Middle Eastern,Europe,0,0,0,0,High_Salt,None,0
+75,Male,African / Caribbean,Europe,0,1,0,1,High_Salt,None,1
+40,Female,South Asian,Africa,0,1,0,1,High_Salt,Diabetes,1
+27,Male,Middle Eastern,Africa,0,0,1,1,Low_Salt,Chronic Gastritis,0
+51,Male,South Asian,Africa,0,1,1,0,Low_Salt,None,0
+60,Male,European,South Asia,0,1,0,0,Low_Salt,None,0
+58,Female,European,Africa,0,0,0,1,High_Salt,None,0
+74,Female,East Asian,Europe,0,0,1,0,Low_Salt,None,1
+43,Female,African / Caribbean,Africa,1,1,1,1,Low_Salt,Chronic Gastritis,1
+31,Male,South Asian,South Asia,0,0,0,0,Low_Salt,None,0
+74,Female,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,0
+44,Female,Middle Eastern,Africa,0,1,1,0,High_Salt,Diabetes,0
+88,Female,African / Caribbean,Africa,0,1,1,0,Low_Salt,None,0
+43,Male,Latin American,South America,1,0,0,0,Low_Salt,None,0
+67,Male,South Asian,South America,1,0,0,1,High_Salt,None,1
+52,Female,East Asian,North America,0,0,0,1,High_Salt,Chronic Gastritis,1
+80,Male,South Asian,Europe,0,1,0,0,High_Salt,Chronic Gastritis,0
+46,Female,South Asian,Europe,0,1,0,0,Low_Salt,None,0
+30,Male,South Asian,Europe,0,0,1,0,Low_Salt,Diabetes,0
+66,Male,South Asian,East Asia,0,0,1,1,Low_Salt,Diabetes,1
+63,Male,African / Caribbean,South Asia,1,0,1,0,High_Salt,Chronic Gastritis,1
+66,Female,East Asian,Africa,0,1,0,0,Low_Salt,None,1
+40,Male,East Asian,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,1
+41,Female,African / Caribbean,Europe,1,1,1,0,Low_Salt,None,0
+83,Female,European,South Asia,1,0,1,0,Low_Salt,None,1
+47,Male,African / Caribbean,Europe,0,1,0,0,High_Salt,None,1
+53,Male,Middle Eastern,South Asia,0,0,1,1,High_Salt,None,0
+32,Female,Middle Eastern,Africa,0,0,0,0,Low_Salt,Diabetes,0
+55,Male,Latin American,North America,0,0,0,0,High_Salt,None,0
+33,Male,East Asian,East Asia,0,0,0,1,Low_Salt,Diabetes,0
+89,Female,Middle Eastern,North America,0,1,0,0,Low_Salt,None,0
+48,Female,European,South America,1,1,0,0,High_Salt,Chronic Gastritis,1
+63,Male,South Asian,Europe,0,1,0,1,High_Salt,None,0
+30,Female,Latin American,East Asia,1,1,0,0,Low_Salt,Chronic Gastritis,1
+89,Female,European,Europe,0,0,0,0,Low_Salt,None,0
+36,Female,East Asian,Africa,1,0,1,0,Low_Salt,None,0
+50,Female,South Asian,North America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+59,Female,African / Caribbean,South Asia,0,0,1,1,High_Salt,Chronic Gastritis,1
+68,Female,South Asian,East Asia,0,1,0,1,High_Salt,None,1
+56,Male,East Asian,Europe,0,0,0,1,High_Salt,None,1
+73,Male,South Asian,Europe,0,0,1,0,High_Salt,None,0
+64,Male,South Asian,Africa,1,0,0,0,Low_Salt,None,0
+58,Female,Latin American,South Asia,0,1,1,0,Low_Salt,Diabetes,0
+23,Male,East Asian,East Asia,0,0,1,0,High_Salt,Diabetes,0
+27,Female,African / Caribbean,East Asia,0,0,1,1,Low_Salt,None,0
+67,Female,African / Caribbean,East Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+62,Female,Middle Eastern,North America,1,0,1,0,High_Salt,None,0
+25,Female,East Asian,Africa,0,1,1,1,Low_Salt,None,0
+22,Female,East Asian,North America,0,0,1,0,High_Salt,Chronic Gastritis,1
+41,Female,European,East Asia,0,0,0,1,High_Salt,None,0
+59,Female,Middle Eastern,South America,0,0,0,0,High_Salt,Chronic Gastritis,1
+70,Female,East Asian,South Asia,0,1,0,0,Low_Salt,None,0
+78,Male,European,Africa,0,0,1,1,High_Salt,None,1
+30,Female,Middle Eastern,Africa,1,0,0,1,Low_Salt,Chronic Gastritis,0
+36,Male,Latin American,South America,0,0,0,0,High_Salt,Diabetes,0
+65,Female,African / Caribbean,Europe,1,0,1,0,High_Salt,None,1
+23,Male,African / Caribbean,Europe,0,0,0,0,High_Salt,None,0
+21,Female,Middle Eastern,Africa,0,0,0,0,Low_Salt,None,0
+44,Female,Latin American,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+58,Female,South Asian,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+79,Male,East Asian,Europe,0,1,0,1,Low_Salt,None,1
+74,Male,African / Caribbean,North America,1,1,0,0,High_Salt,None,0
+75,Male,South Asian,South America,1,0,1,0,Low_Salt,None,1
+70,Female,Latin American,South Asia,0,0,0,1,Low_Salt,Diabetes,1
+35,Male,Latin American,East Asia,1,1,0,0,High_Salt,None,0
+32,Male,European,Africa,0,0,1,0,High_Salt,None,0
+19,Female,Middle Eastern,South Asia,0,0,1,0,High_Salt,None,0
+64,Female,Middle Eastern,Europe,0,0,1,1,Low_Salt,Diabetes,1
+80,Female,Latin American,North America,0,0,0,0,High_Salt,Diabetes,0
+62,Female,Middle Eastern,South Asia,0,1,0,1,Low_Salt,Chronic Gastritis,0
+50,Female,European,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+46,Male,Latin American,East Asia,0,0,0,0,Low_Salt,None,0
+67,Female,South Asian,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+80,Male,Latin American,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,1
+89,Male,Middle Eastern,South Asia,0,0,0,0,High_Salt,Diabetes,0
+50,Male,East Asian,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+51,Female,European,East Asia,0,0,1,0,Low_Salt,Diabetes,0
+68,Female,Latin American,South America,0,1,0,0,High_Salt,None,0
+29,Male,Latin American,Europe,1,1,1,1,Low_Salt,Diabetes,0
+66,Male,Middle Eastern,North America,0,1,0,0,Low_Salt,None,1
+23,Female,Latin American,East Asia,0,0,0,0,Low_Salt,None,0
+70,Male,East Asian,North America,0,0,0,1,Low_Salt,None,0
+67,Female,South Asian,South America,0,1,1,0,Low_Salt,None,0
+38,Male,South Asian,North America,0,0,1,0,High_Salt,None,0
+33,Male,European,Africa,0,1,1,1,High_Salt,Diabetes,1
+28,Female,European,South America,1,1,0,1,High_Salt,Chronic Gastritis,1
+42,Female,African / Caribbean,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,1
+46,Male,Latin American,North America,0,0,1,1,Low_Salt,Diabetes,0
+25,Male,South Asian,East Asia,0,1,1,0,High_Salt,None,0
+25,Male,European,South Asia,0,0,1,1,Low_Salt,Chronic Gastritis,0
+75,Male,European,East Asia,1,0,0,0,High_Salt,None,0
+81,Male,European,South America,0,1,1,0,High_Salt,None,0
+72,Female,Latin American,South America,0,0,0,1,High_Salt,Chronic Gastritis,1
+63,Female,European,South America,0,0,0,0,High_Salt,None,0
+44,Male,Latin American,South America,0,0,0,1,High_Salt,None,1
+64,Female,Latin American,East Asia,1,1,0,0,Low_Salt,None,1
+80,Female,European,East Asia,1,0,0,0,High_Salt,None,0
+20,Female,South Asian,North America,0,0,1,0,High_Salt,None,0
+29,Female,Middle Eastern,East Asia,1,0,0,0,High_Salt,None,0
+81,Male,Middle Eastern,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+31,Female,Latin American,South Asia,0,0,0,1,Low_Salt,None,0
+67,Male,Latin American,Africa,0,0,0,1,Low_Salt,None,0
+55,Female,South Asian,Africa,1,1,0,0,Low_Salt,None,1
+40,Male,Middle Eastern,Europe,0,1,1,0,Low_Salt,Diabetes,0
+31,Female,South Asian,East Asia,1,0,0,0,Low_Salt,None,0
+34,Male,African / Caribbean,Europe,1,0,0,0,High_Salt,Chronic Gastritis,1
+63,Female,Middle Eastern,South America,0,0,0,0,Low_Salt,None,0
+68,Female,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,0
+77,Female,South Asian,South Asia,0,1,0,0,High_Salt,None,1
+25,Female,South Asian,South Asia,0,1,0,1,High_Salt,None,0
+39,Female,Middle Eastern,South America,0,1,0,0,Low_Salt,None,0
+38,Male,East Asian,South America,0,0,0,0,Low_Salt,None,0
+61,Female,East Asian,North America,0,1,0,1,Low_Salt,None,0
+48,Female,Middle Eastern,Africa,1,1,0,1,Low_Salt,None,0
+69,Female,Middle Eastern,South Asia,0,0,1,1,Low_Salt,None,0
+25,Female,African / Caribbean,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+71,Male,European,North America,0,1,0,0,Low_Salt,Chronic Gastritis,1
+59,Male,Latin American,North America,0,1,1,0,High_Salt,Diabetes,1
+30,Male,Middle Eastern,South Asia,0,1,1,0,Low_Salt,None,1
+74,Female,European,South America,0,1,0,1,Low_Salt,None,1
+68,Female,South Asian,South Asia,0,1,0,0,High_Salt,None,0
+84,Male,African / Caribbean,North America,0,0,0,0,Low_Salt,Diabetes,0
+71,Male,African / Caribbean,Africa,1,1,0,1,Low_Salt,None,1
+48,Male,European,Africa,1,0,1,0,Low_Salt,None,0
+81,Male,South Asian,Africa,0,1,1,0,Low_Salt,None,1
+78,Male,African / Caribbean,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,1
+23,Female,European,East Asia,0,0,1,1,High_Salt,None,0
+55,Female,Latin American,South America,1,0,1,1,High_Salt,Chronic Gastritis,1
+63,Male,South Asian,East Asia,1,1,1,0,Low_Salt,None,0
+65,Female,East Asian,Europe,0,1,0,1,Low_Salt,None,0
+50,Female,Middle Eastern,North America,1,0,1,1,Low_Salt,Chronic Gastritis,1
+51,Male,Middle Eastern,South America,0,0,1,0,High_Salt,Diabetes,1
+37,Female,African / Caribbean,South Asia,0,1,1,0,Low_Salt,Diabetes,0
+43,Female,South Asian,Africa,0,0,0,0,Low_Salt,None,0
+75,Male,East Asian,South Asia,0,1,0,0,High_Salt,None,0
+74,Female,European,North America,1,1,0,1,High_Salt,None,1
+18,Female,Middle Eastern,Africa,0,0,1,0,Low_Salt,None,0
+81,Female,European,North America,0,0,0,1,High_Salt,None,0
+39,Female,African / Caribbean,Europe,0,1,0,0,Low_Salt,Chronic Gastritis,0
+53,Male,European,East Asia,1,1,1,1,Low_Salt,Chronic Gastritis,1
+88,Female,East Asian,North America,0,0,1,0,Low_Salt,None,0
+87,Female,Middle Eastern,Europe,0,1,0,1,High_Salt,Chronic Gastritis,1
+59,Female,South Asian,North America,0,1,1,0,High_Salt,None,0
+30,Male,African / Caribbean,Europe,0,1,0,0,High_Salt,Chronic Gastritis,0
+54,Male,European,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+39,Male,African / Caribbean,South America,0,0,0,0,High_Salt,None,0
+43,Male,South Asian,East Asia,1,1,1,0,Low_Salt,None,1
+43,Female,European,Africa,0,0,1,0,Low_Salt,None,0
+79,Male,African / Caribbean,East Asia,0,0,1,0,High_Salt,Diabetes,1
+64,Female,Latin American,Europe,0,0,1,0,High_Salt,None,1
+84,Female,European,East Asia,0,0,0,0,Low_Salt,None,1
+31,Male,South Asian,South Asia,0,1,0,0,High_Salt,None,0
+47,Male,South Asian,Europe,0,0,0,0,Low_Salt,None,0
+42,Female,Middle Eastern,East Asia,0,0,1,0,High_Salt,None,0
+50,Male,European,East Asia,0,1,1,1,High_Salt,None,0
+40,Female,European,South Asia,0,1,0,0,High_Salt,None,1
+66,Male,East Asian,North America,0,0,0,0,Low_Salt,None,0
+68,Male,European,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+24,Female,European,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+39,Female,Latin American,Africa,1,1,0,0,Low_Salt,None,0
+71,Male,Middle Eastern,North America,0,0,0,1,High_Salt,None,1
+70,Female,Middle Eastern,Africa,0,1,1,1,Low_Salt,Chronic Gastritis,1
+32,Female,South Asian,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+28,Female,Middle Eastern,Europe,0,1,1,0,Low_Salt,None,0
+53,Female,East Asian,North America,0,0,1,1,Low_Salt,Chronic Gastritis,0
+27,Male,European,North America,0,0,1,0,High_Salt,Diabetes,1
+57,Female,African / Caribbean,Africa,0,0,1,0,Low_Salt,None,0
+88,Male,European,North America,0,0,1,1,High_Salt,Chronic Gastritis,1
+18,Female,African / Caribbean,South America,0,1,1,1,High_Salt,None,0
+72,Female,Middle Eastern,South America,1,1,1,0,High_Salt,None,1
+59,Female,Middle Eastern,Europe,0,0,1,0,High_Salt,None,1
+82,Female,South Asian,North America,0,1,0,1,High_Salt,None,1
+70,Female,European,Africa,0,1,1,0,Low_Salt,None,0
+46,Female,East Asian,East Asia,0,0,0,0,High_Salt,None,0
+45,Male,Latin American,South Asia,1,1,0,0,High_Salt,Diabetes,1
+28,Male,Latin American,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+32,Male,African / Caribbean,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+42,Female,Latin American,South Asia,0,1,0,0,Low_Salt,None,0
+74,Male,Middle Eastern,South Asia,0,0,1,1,Low_Salt,Chronic Gastritis,1
+67,Male,African / Caribbean,Europe,0,1,0,0,High_Salt,None,0
+63,Female,European,South America,0,0,0,1,Low_Salt,None,0
+80,Female,European,North America,0,1,0,0,Low_Salt,None,0
+66,Male,Latin American,Europe,0,1,0,0,Low_Salt,None,0
+64,Male,East Asian,South Asia,0,0,1,0,High_Salt,None,1
+27,Male,Latin American,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+53,Female,Middle Eastern,North America,0,1,0,0,High_Salt,None,1
+20,Male,Latin American,South America,1,0,1,0,High_Salt,None,1
+65,Male,Latin American,North America,0,0,1,0,Low_Salt,Chronic Gastritis,1
+33,Female,East Asian,South America,0,0,1,1,Low_Salt,Diabetes,0
+77,Female,South Asian,Africa,1,1,0,0,Low_Salt,Diabetes,0
+40,Male,East Asian,South Asia,1,0,0,0,Low_Salt,None,0
+19,Male,East Asian,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+37,Female,European,South America,0,1,0,1,High_Salt,Diabetes,0
+40,Male,European,Africa,0,0,1,0,Low_Salt,None,0
+31,Female,African / Caribbean,East Asia,1,1,0,0,Low_Salt,None,0
+81,Male,East Asian,East Asia,0,1,0,0,High_Salt,None,1
+24,Male,Latin American,Africa,0,0,0,1,Low_Salt,None,0
+59,Female,Middle Eastern,North America,0,0,1,0,High_Salt,None,0
+22,Male,European,South America,0,0,1,1,High_Salt,Diabetes,0
+28,Female,European,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+20,Male,European,North America,0,0,0,0,Low_Salt,Diabetes,0
+57,Male,Middle Eastern,North America,0,0,0,0,Low_Salt,None,0
+70,Male,East Asian,South America,0,0,0,0,Low_Salt,Diabetes,0
+46,Male,South Asian,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+46,Female,Middle Eastern,South America,0,0,1,0,Low_Salt,None,0
+34,Female,East Asian,South America,0,0,1,0,Low_Salt,None,0
+68,Male,South Asian,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+19,Male,Latin American,South America,0,0,0,1,High_Salt,None,0
+26,Male,Latin American,North America,1,1,1,0,High_Salt,None,1
+45,Male,Middle Eastern,North America,1,1,1,0,Low_Salt,Chronic Gastritis,0
+73,Male,South Asian,South Asia,0,1,1,1,Low_Salt,None,1
+31,Female,European,Europe,0,0,1,0,Low_Salt,Chronic Gastritis,0
+32,Male,European,Africa,1,0,0,1,Low_Salt,Chronic Gastritis,1
+30,Female,South Asian,Europe,1,1,1,0,High_Salt,Diabetes,1
+19,Male,Latin American,South America,0,0,1,1,High_Salt,None,0
+31,Male,African / Caribbean,South America,0,0,0,0,High_Salt,Chronic Gastritis,0
+56,Male,Latin American,East Asia,1,1,0,1,Low_Salt,None,1
+74,Male,African / Caribbean,South America,1,0,1,0,Low_Salt,None,1
+33,Female,European,South America,0,1,0,1,Low_Salt,None,0
+71,Female,European,Africa,0,0,1,0,Low_Salt,None,0
+29,Female,European,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+19,Female,East Asian,Europe,1,1,0,1,Low_Salt,None,0
+30,Male,Latin American,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+20,Male,European,North America,1,1,1,1,Low_Salt,Chronic Gastritis,1
+79,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,None,0
+71,Female,Middle Eastern,South America,1,0,0,0,High_Salt,Chronic Gastritis,1
+32,Female,European,Africa,1,1,1,0,High_Salt,None,1
+39,Female,Latin American,Europe,0,1,1,0,Low_Salt,None,0
+49,Female,African / Caribbean,Africa,1,0,0,0,Low_Salt,Chronic Gastritis,1
+35,Male,South Asian,North America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+56,Female,South Asian,Africa,0,0,1,1,Low_Salt,Chronic Gastritis,0
+66,Female,South Asian,South Asia,0,1,0,1,High_Salt,None,1
+20,Male,Latin American,Africa,1,1,0,0,Low_Salt,Diabetes,1
+77,Female,Middle Eastern,Africa,0,1,0,0,Low_Salt,None,0
+82,Female,African / Caribbean,South Asia,0,1,0,1,High_Salt,Chronic Gastritis,1
+23,Female,East Asian,South America,1,0,1,1,Low_Salt,None,1
+61,Male,Latin American,South America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+67,Male,European,North America,0,0,0,0,High_Salt,None,0
+47,Male,South Asian,South Asia,0,1,1,0,Low_Salt,None,0
+20,Male,African / Caribbean,North America,0,0,1,1,Low_Salt,Diabetes,0
+39,Male,South Asian,North America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+82,Female,European,Africa,0,1,0,0,Low_Salt,None,1
+38,Female,South Asian,Africa,0,1,0,0,High_Salt,Chronic Gastritis,1
+66,Female,South Asian,East Asia,0,0,1,0,High_Salt,None,0
+29,Female,European,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,1
+32,Female,Middle Eastern,North America,0,1,0,1,High_Salt,None,1
+67,Female,African / Caribbean,Africa,0,0,1,0,Low_Salt,Diabetes,0
+60,Female,South Asian,Europe,1,1,1,0,Low_Salt,None,0
+84,Female,East Asian,South Asia,0,1,1,1,High_Salt,None,0
+50,Female,Middle Eastern,North America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+75,Male,Latin American,North America,0,1,0,1,Low_Salt,None,1
+22,Male,East Asian,South America,1,0,1,1,High_Salt,None,0
+56,Male,African / Caribbean,Europe,1,0,1,0,High_Salt,Diabetes,0
+57,Male,South Asian,South America,1,0,0,0,Low_Salt,Chronic Gastritis,1
+57,Female,South Asian,East Asia,1,0,0,0,High_Salt,Diabetes,1
+22,Male,East Asian,South Asia,0,0,0,0,Low_Salt,None,0
+43,Male,African / Caribbean,East Asia,1,0,0,0,High_Salt,Diabetes,0
+59,Female,African / Caribbean,Europe,1,1,0,0,Low_Salt,None,1
+22,Female,Middle Eastern,South America,0,0,1,1,Low_Salt,None,0
+68,Male,South Asian,Europe,1,0,0,0,Low_Salt,None,0
+38,Female,European,Europe,0,0,1,1,High_Salt,Diabetes,1
+35,Female,Middle Eastern,South America,0,0,1,0,High_Salt,None,0
+54,Female,European,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+80,Male,African / Caribbean,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+47,Male,Latin American,Africa,0,0,0,0,Low_Salt,None,0
+62,Male,Middle Eastern,East Asia,0,0,0,0,Low_Salt,None,0
+41,Male,African / Caribbean,Africa,0,1,0,1,High_Salt,None,1
+74,Male,European,Europe,0,0,1,0,Low_Salt,None,0
+71,Female,Middle Eastern,South America,0,0,0,0,High_Salt,None,0
+37,Female,South Asian,South Asia,0,1,1,0,Low_Salt,None,0
+51,Female,Latin American,South Asia,0,0,0,0,High_Salt,None,1
+72,Male,European,North America,0,0,0,0,High_Salt,Chronic Gastritis,0
+25,Male,African / Caribbean,Africa,0,1,0,0,Low_Salt,Chronic Gastritis,0
+43,Female,South Asian,South Asia,0,0,1,1,Low_Salt,None,1
+86,Female,European,Europe,0,1,1,1,Low_Salt,Diabetes,1
+18,Male,Latin American,South America,0,1,1,1,High_Salt,Diabetes,1
+60,Female,Middle Eastern,Africa,0,1,0,1,Low_Salt,Diabetes,1
+85,Female,South Asian,South Asia,0,0,0,0,Low_Salt,Diabetes,0
+57,Female,Latin American,East Asia,0,1,1,0,High_Salt,None,1
+47,Male,East Asian,South Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+60,Female,South Asian,Africa,0,0,1,0,High_Salt,None,0
+42,Female,Latin American,Europe,0,0,1,0,Low_Salt,None,0
+58,Male,East Asian,South America,0,0,0,0,Low_Salt,None,1
+81,Female,African / Caribbean,Europe,0,0,1,1,Low_Salt,None,1
+43,Female,European,Africa,0,1,1,1,Low_Salt,None,1
+63,Male,European,East Asia,0,0,0,0,Low_Salt,None,0
+58,Male,European,East Asia,0,0,0,1,Low_Salt,None,0
+19,Male,East Asian,East Asia,1,0,1,1,Low_Salt,Chronic Gastritis,1
+77,Male,East Asian,South America,0,0,1,0,High_Salt,Chronic Gastritis,0
+81,Female,Middle Eastern,East Asia,1,1,1,0,Low_Salt,None,1
+42,Female,European,Africa,0,0,1,0,High_Salt,Chronic Gastritis,1
+40,Female,Latin American,Europe,1,0,0,0,High_Salt,Diabetes,0
+86,Female,European,East Asia,0,1,0,1,Low_Salt,None,0
+49,Male,European,North America,0,1,0,0,High_Salt,Chronic Gastritis,1
+65,Male,East Asian,South America,0,1,1,1,Low_Salt,None,1
+30,Male,African / Caribbean,Africa,1,1,0,1,Low_Salt,None,1
+48,Female,Middle Eastern,North America,0,0,0,1,High_Salt,None,0
+76,Male,European,South America,0,0,1,0,Low_Salt,None,1
+41,Male,East Asian,East Asia,0,0,0,1,Low_Salt,None,0
+53,Male,African / Caribbean,South America,0,0,1,0,Low_Salt,None,0
+67,Male,Middle Eastern,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+39,Male,East Asian,Europe,0,0,0,1,Low_Salt,Chronic Gastritis,0
+43,Male,African / Caribbean,Africa,0,1,1,1,High_Salt,None,1
+77,Female,Middle Eastern,South Asia,0,1,0,1,Low_Salt,Chronic Gastritis,0
+79,Male,South Asian,East Asia,0,0,0,0,Low_Salt,None,0
+62,Male,South Asian,Europe,0,1,0,0,High_Salt,Chronic Gastritis,1
+34,Male,African / Caribbean,Europe,0,0,0,0,Low_Salt,None,0
+80,Male,East Asian,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+62,Female,Latin American,North America,0,1,1,0,Low_Salt,None,0
+48,Male,Latin American,South Asia,1,0,1,0,Low_Salt,None,1
+35,Male,Latin American,Europe,0,1,0,0,Low_Salt,Diabetes,0
+71,Female,Middle Eastern,South Asia,0,0,1,0,Low_Salt,Diabetes,0
+26,Male,East Asian,South Asia,0,0,0,0,High_Salt,None,0
+78,Female,South Asian,Europe,0,0,1,0,Low_Salt,Diabetes,0
+74,Male,Latin American,South America,0,0,1,1,Low_Salt,None,0
+57,Female,Middle Eastern,Europe,0,1,1,0,Low_Salt,Diabetes,0
+84,Female,European,South America,0,0,0,1,Low_Salt,None,0
+56,Female,South Asian,North America,1,0,0,1,Low_Salt,Chronic Gastritis,1
+76,Female,European,South Asia,0,0,0,0,High_Salt,None,0
+61,Male,European,South Asia,1,0,1,0,High_Salt,Chronic Gastritis,1
+89,Female,East Asian,Europe,1,0,0,0,High_Salt,None,0
+80,Female,South Asian,Europe,0,0,1,0,High_Salt,Chronic Gastritis,1
+74,Female,African / Caribbean,East Asia,0,1,0,0,High_Salt,None,1
+21,Male,South Asian,North America,1,0,0,0,Low_Salt,Chronic Gastritis,1
+83,Female,European,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+48,Female,Latin American,Africa,0,0,0,1,High_Salt,Diabetes,0
+87,Female,East Asian,South Asia,0,1,1,0,Low_Salt,None,1
+67,Female,South Asian,South Asia,1,0,0,0,High_Salt,None,0
+59,Male,Middle Eastern,Africa,0,0,1,0,High_Salt,None,1
+31,Male,Latin American,South Asia,1,0,1,1,Low_Salt,None,0
+39,Female,Middle Eastern,Africa,0,1,0,0,Low_Salt,None,0
+38,Male,East Asian,Europe,1,0,0,0,High_Salt,Diabetes,1
+57,Female,Latin American,South Asia,1,0,0,0,Low_Salt,None,0
+66,Female,South Asian,Europe,0,0,0,0,High_Salt,Diabetes,0
+78,Female,Latin American,South Asia,0,0,0,1,High_Salt,None,0
+65,Male,Latin American,South America,1,0,1,0,High_Salt,None,1
+74,Female,Middle Eastern,North America,1,0,0,0,High_Salt,None,1
+24,Male,European,South America,0,0,1,0,High_Salt,Diabetes,0
+40,Female,South Asian,Europe,1,1,0,0,High_Salt,None,0
+35,Male,Middle Eastern,Europe,0,1,0,1,High_Salt,None,0
+66,Male,Latin American,South America,0,0,0,0,High_Salt,None,1
+29,Female,African / Caribbean,South America,0,0,1,1,Low_Salt,None,0
+66,Female,South Asian,Europe,0,1,0,1,Low_Salt,None,1
+65,Female,African / Caribbean,North America,1,0,0,0,High_Salt,None,0
+30,Male,South Asian,North America,0,1,0,0,Low_Salt,Chronic Gastritis,1
+45,Female,East Asian,Europe,0,0,0,1,High_Salt,Chronic Gastritis,1
+53,Male,Middle Eastern,South America,1,1,0,0,High_Salt,None,1
+34,Male,South Asian,North America,1,1,0,0,High_Salt,Chronic Gastritis,1
+67,Male,Latin American,East Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+66,Female,East Asian,South America,0,0,1,1,High_Salt,Diabetes,1
+83,Male,African / Caribbean,North America,0,0,1,0,High_Salt,None,1
+80,Female,East Asian,North America,0,0,0,1,High_Salt,Chronic Gastritis,0
+56,Male,Middle Eastern,East Asia,0,0,0,1,Low_Salt,Chronic Gastritis,0
+26,Male,East Asian,North America,0,0,0,1,High_Salt,Chronic Gastritis,0
+32,Female,Latin American,South America,0,1,1,0,Low_Salt,None,0
+53,Male,East Asian,Africa,1,1,1,0,Low_Salt,Chronic Gastritis,1
+59,Female,Latin American,Africa,0,1,1,0,Low_Salt,None,1
+26,Female,African / Caribbean,North America,0,0,0,0,Low_Salt,None,0
+19,Female,East Asian,Africa,1,1,0,0,High_Salt,Diabetes,0
+46,Male,Middle Eastern,Europe,0,0,1,1,Low_Salt,Chronic Gastritis,0
+25,Male,South Asian,South America,0,0,0,0,High_Salt,None,0
+57,Female,Latin American,Europe,1,1,0,0,Low_Salt,Chronic Gastritis,1
+58,Male,African / Caribbean,Europe,1,1,0,0,Low_Salt,Chronic Gastritis,1
+73,Female,East Asian,Europe,0,0,0,0,Low_Salt,None,0
+69,Female,East Asian,East Asia,0,0,1,1,Low_Salt,Diabetes,0
+74,Male,South Asian,South Asia,1,1,0,0,Low_Salt,None,0
+19,Male,European,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,1
+64,Female,East Asian,North America,0,0,1,0,Low_Salt,None,0
+62,Female,South Asian,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,1
+86,Male,East Asian,North America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+66,Female,European,East Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+35,Female,East Asian,North America,0,0,0,1,Low_Salt,None,0
+33,Male,East Asian,East Asia,0,1,0,0,High_Salt,None,0
+21,Male,Latin American,Europe,0,1,0,1,High_Salt,Diabetes,1
+23,Female,Latin American,South America,0,0,0,0,High_Salt,None,0
+43,Male,South Asian,North America,0,0,0,0,Low_Salt,None,1
+71,Female,African / Caribbean,East Asia,1,1,1,0,High_Salt,Chronic Gastritis,0
+76,Male,African / Caribbean,Africa,1,0,0,0,High_Salt,None,1
+45,Female,African / Caribbean,South America,1,0,0,1,High_Salt,None,1
+88,Female,African / Caribbean,Africa,0,1,1,1,Low_Salt,None,0
+64,Female,African / Caribbean,North America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+24,Female,African / Caribbean,Africa,0,1,0,0,High_Salt,Chronic Gastritis,1
+55,Female,African / Caribbean,South America,0,0,0,1,High_Salt,None,1
+68,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+41,Male,European,South America,0,1,1,1,Low_Salt,None,0
+58,Male,East Asian,North America,0,1,1,0,High_Salt,Diabetes,1
+48,Female,African / Caribbean,Africa,0,1,0,1,High_Salt,None,1
+67,Female,Middle Eastern,Europe,0,1,0,1,High_Salt,Chronic Gastritis,1
+55,Male,Middle Eastern,North America,0,1,0,0,High_Salt,None,0
+46,Female,European,Europe,0,1,1,0,High_Salt,None,0
+73,Female,African / Caribbean,Europe,0,0,0,0,High_Salt,None,0
+29,Male,East Asian,South Asia,1,0,0,0,Low_Salt,None,0
+41,Female,Middle Eastern,Europe,0,0,1,0,High_Salt,None,0
+80,Male,Middle Eastern,Africa,0,1,1,0,Low_Salt,Chronic Gastritis,0
+30,Female,African / Caribbean,Africa,1,0,0,0,High_Salt,None,0
+39,Male,Latin American,North America,0,0,1,0,High_Salt,Chronic Gastritis,0
+29,Female,South Asian,Europe,0,0,0,0,Low_Salt,None,0
+48,Male,Middle Eastern,Europe,0,1,1,0,High_Salt,None,0
+28,Male,East Asian,South Asia,0,1,0,0,Low_Salt,Diabetes,0
+67,Female,African / Caribbean,South America,0,0,0,0,High_Salt,None,0
+55,Male,Latin American,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,1
+78,Female,South Asian,South America,0,0,0,1,Low_Salt,Diabetes,0
+77,Male,East Asian,South America,0,1,0,1,High_Salt,Diabetes,1
+75,Male,Latin American,North America,1,0,0,0,High_Salt,Diabetes,1
+34,Female,European,Africa,0,0,0,0,High_Salt,Chronic Gastritis,0
+21,Male,South Asian,South Asia,0,0,1,0,High_Salt,None,0
+18,Female,Middle Eastern,Africa,1,0,1,1,Low_Salt,None,1
+44,Female,Middle Eastern,Europe,0,1,0,0,Low_Salt,None,1
+25,Male,Middle Eastern,North America,0,1,0,1,Low_Salt,Chronic Gastritis,1
+83,Male,East Asian,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+85,Male,Middle Eastern,Europe,0,0,0,1,Low_Salt,None,1
+73,Male,Middle Eastern,Europe,0,0,0,1,Low_Salt,None,1
+79,Female,African / Caribbean,North America,0,0,0,0,High_Salt,None,0
+74,Male,African / Caribbean,East Asia,0,0,0,0,Low_Salt,None,1
+43,Female,Latin American,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+89,Female,Latin American,South America,0,0,0,1,High_Salt,Chronic Gastritis,1
+53,Male,Middle Eastern,South America,0,0,0,0,Low_Salt,None,0
+27,Male,East Asian,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+25,Female,European,East Asia,1,1,1,1,Low_Salt,None,1
+26,Male,African / Caribbean,Europe,0,0,1,0,Low_Salt,None,0
+22,Female,East Asian,East Asia,0,1,0,0,Low_Salt,None,0
+78,Female,European,South America,0,0,1,0,High_Salt,None,0
+53,Male,South Asian,North America,0,1,0,0,Low_Salt,Diabetes,1
+26,Female,East Asian,South Asia,0,0,1,0,Low_Salt,None,0
+41,Male,Latin American,North America,0,0,0,0,High_Salt,None,0
+83,Female,South Asian,North America,0,1,1,0,Low_Salt,None,1
+47,Female,African / Caribbean,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+64,Female,African / Caribbean,Africa,1,1,1,0,High_Salt,None,0
+38,Female,Middle Eastern,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+52,Male,European,South Asia,1,1,0,0,Low_Salt,None,1
+48,Female,Middle Eastern,South Asia,0,0,1,1,Low_Salt,None,0
+59,Male,East Asian,South America,0,0,0,0,Low_Salt,Diabetes,0
+73,Male,South Asian,North America,1,0,0,0,Low_Salt,None,1
+87,Female,Latin American,North America,1,0,1,0,High_Salt,None,0
+89,Female,European,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+51,Female,South Asian,Africa,0,0,0,0,High_Salt,Diabetes,0
+53,Male,Middle Eastern,South America,0,0,1,0,Low_Salt,None,0
+60,Male,European,South Asia,0,0,0,1,Low_Salt,Diabetes,1
+34,Female,Middle Eastern,North America,0,0,0,0,High_Salt,None,0
+43,Male,African / Caribbean,North America,1,1,0,0,High_Salt,None,0
+64,Male,European,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,1
+39,Female,South Asian,North America,0,1,0,0,Low_Salt,None,0
+69,Female,East Asian,Europe,0,1,1,0,High_Salt,Chronic Gastritis,1
+83,Male,East Asian,Africa,0,0,1,0,Low_Salt,Diabetes,0
+59,Male,Middle Eastern,East Asia,0,0,0,1,High_Salt,None,1
+42,Male,Latin American,North America,0,1,0,0,High_Salt,None,0
+22,Male,Latin American,East Asia,0,0,0,0,High_Salt,Diabetes,0
+41,Male,Middle Eastern,South Asia,0,1,0,0,High_Salt,Chronic Gastritis,1
+85,Female,East Asian,South Asia,0,1,0,0,Low_Salt,None,0
+45,Female,South Asian,South America,1,1,0,0,High_Salt,Chronic Gastritis,1
+46,Male,European,Europe,1,0,0,0,Low_Salt,None,0
+54,Female,African / Caribbean,East Asia,1,1,0,0,Low_Salt,Chronic Gastritis,0
+63,Female,South Asian,Europe,0,0,1,0,High_Salt,None,0
+29,Female,South Asian,Africa,0,0,0,1,High_Salt,Chronic Gastritis,0
+44,Male,South Asian,Africa,0,0,1,0,Low_Salt,None,0
+82,Female,European,North America,1,0,1,0,Low_Salt,None,0
+61,Male,European,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,1
+51,Female,South Asian,Africa,1,0,0,0,Low_Salt,None,0
+89,Female,European,North America,0,1,0,1,Low_Salt,Chronic Gastritis,0
+26,Female,Middle Eastern,Europe,0,0,0,1,Low_Salt,None,0
+29,Male,African / Caribbean,South Asia,1,1,0,0,Low_Salt,Chronic Gastritis,0
+39,Male,South Asian,South Asia,0,0,0,0,Low_Salt,Diabetes,0
+18,Female,Latin American,East Asia,0,0,0,0,High_Salt,None,1
+68,Male,Latin American,Europe,1,0,0,0,High_Salt,Chronic Gastritis,1
+63,Male,East Asian,North America,0,1,1,0,Low_Salt,Chronic Gastritis,1
+26,Male,Latin American,East Asia,0,1,0,1,High_Salt,Chronic Gastritis,0
+25,Female,Latin American,South Asia,1,1,0,1,High_Salt,None,1
+33,Male,Middle Eastern,East Asia,0,1,0,1,High_Salt,Chronic Gastritis,0
+66,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+82,Female,East Asian,Africa,0,1,1,0,Low_Salt,None,0
+43,Female,South Asian,South Asia,0,0,0,0,High_Salt,None,1
+46,Female,European,Africa,0,1,1,1,High_Salt,None,1
+71,Female,Middle Eastern,South Asia,0,0,1,0,Low_Salt,None,0
+31,Male,South Asian,East Asia,0,0,1,0,High_Salt,None,0
+76,Male,South Asian,North America,0,0,0,0,High_Salt,None,1
+82,Male,Latin American,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+20,Male,East Asian,Africa,1,1,1,0,High_Salt,Chronic Gastritis,1
+78,Female,African / Caribbean,Europe,0,1,1,1,Low_Salt,None,1
+56,Female,East Asian,South America,1,0,0,0,High_Salt,Chronic Gastritis,0
+53,Male,Latin American,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+60,Female,African / Caribbean,Europe,1,0,0,1,High_Salt,Chronic Gastritis,1
+32,Female,European,South Asia,0,0,1,0,Low_Salt,None,0
+80,Female,South Asian,South Asia,1,0,1,0,Low_Salt,None,0
+74,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,None,0
+63,Female,Middle Eastern,North America,1,0,1,0,Low_Salt,Chronic Gastritis,1
+46,Female,European,Africa,0,0,0,1,Low_Salt,None,0
+23,Female,East Asian,Europe,1,0,1,0,Low_Salt,None,0
+55,Female,Middle Eastern,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+58,Male,Middle Eastern,Africa,0,0,1,0,Low_Salt,Diabetes,0
+68,Female,Middle Eastern,Africa,0,1,1,0,Low_Salt,Chronic Gastritis,1
+61,Female,African / Caribbean,North America,0,0,0,0,High_Salt,Chronic Gastritis,0
+87,Male,European,Africa,0,1,1,1,Low_Salt,None,0
+21,Male,Middle Eastern,Africa,0,0,0,0,Low_Salt,Diabetes,0
+31,Male,African / Caribbean,Europe,1,1,0,0,High_Salt,Chronic Gastritis,1
+25,Male,Latin American,Africa,0,0,0,0,Low_Salt,None,0
+27,Female,European,Africa,0,0,0,0,High_Salt,Chronic Gastritis,0
+38,Male,East Asian,East Asia,0,0,1,0,High_Salt,None,0
+69,Male,African / Caribbean,Europe,0,1,0,1,High_Salt,Chronic Gastritis,1
+80,Male,African / Caribbean,South America,0,0,0,1,High_Salt,None,0
+18,Female,Latin American,North America,0,0,1,0,Low_Salt,None,0
+82,Male,South Asian,Africa,0,1,1,0,High_Salt,None,1
+55,Male,East Asian,South America,0,0,0,1,Low_Salt,None,0
+63,Male,South Asian,Africa,0,1,0,0,High_Salt,None,0
+74,Male,African / Caribbean,Europe,0,1,1,0,High_Salt,None,1
+28,Male,South Asian,East Asia,0,0,0,0,Low_Salt,None,0
+58,Female,African / Caribbean,North America,1,1,1,1,Low_Salt,Chronic Gastritis,1
+52,Male,European,East Asia,1,0,1,1,Low_Salt,None,1
+40,Female,Latin American,North America,0,0,1,1,Low_Salt,None,0
+44,Female,African / Caribbean,Africa,0,1,0,0,High_Salt,Diabetes,1
+85,Female,East Asian,North America,0,0,0,1,High_Salt,Chronic Gastritis,1
+51,Female,African / Caribbean,Europe,0,0,1,0,Low_Salt,Diabetes,1
+74,Male,Latin American,North America,0,0,0,0,High_Salt,None,1
+41,Male,East Asian,East Asia,1,0,0,0,High_Salt,None,0
+49,Female,Middle Eastern,Africa,0,1,1,0,High_Salt,None,0
+25,Female,Latin American,Europe,0,1,0,0,High_Salt,Chronic Gastritis,0
+50,Male,African / Caribbean,East Asia,0,1,0,0,Low_Salt,None,0
+63,Male,European,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+62,Female,African / Caribbean,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,1
+71,Female,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,0
+25,Female,Middle Eastern,Europe,1,0,1,1,Low_Salt,None,0
+89,Male,Latin American,South America,0,0,1,0,Low_Salt,Diabetes,0
+39,Female,South Asian,East Asia,0,0,1,1,High_Salt,Diabetes,1
+54,Male,South Asian,South America,0,0,0,0,Low_Salt,None,0
+57,Male,East Asian,North America,0,1,0,0,Low_Salt,None,0
+55,Female,African / Caribbean,Europe,0,1,0,0,Low_Salt,None,0
+64,Female,East Asian,North America,0,0,1,1,Low_Salt,None,0
+76,Female,East Asian,North America,1,1,1,1,High_Salt,None,1
+84,Male,European,South Asia,0,0,0,0,High_Salt,Diabetes,0
+22,Male,East Asian,South America,0,1,1,0,Low_Salt,None,0
+74,Female,South Asian,Africa,0,0,0,0,High_Salt,Chronic Gastritis,1
+49,Male,European,South America,0,1,0,1,Low_Salt,None,0
+24,Female,Latin American,Europe,0,0,1,1,Low_Salt,None,1
+29,Female,African / Caribbean,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+52,Female,Middle Eastern,Africa,0,1,0,0,Low_Salt,None,0
+53,Male,Middle Eastern,South Asia,0,1,1,1,Low_Salt,None,1
+83,Female,European,East Asia,0,1,0,0,High_Salt,None,0
+85,Male,Middle Eastern,South Asia,0,1,0,1,Low_Salt,None,1
+88,Male,Middle Eastern,Africa,1,0,1,0,High_Salt,None,1
+80,Male,African / Caribbean,Africa,0,0,0,1,Low_Salt,None,0
+31,Male,South Asian,Africa,0,0,0,1,High_Salt,None,1
+44,Female,East Asian,Europe,0,0,1,0,Low_Salt,None,0
+54,Male,European,Europe,0,1,0,0,Low_Salt,None,0
+21,Female,Latin American,South America,0,0,1,0,Low_Salt,Diabetes,0
+89,Male,South Asian,South Asia,0,1,1,0,Low_Salt,None,0
+19,Female,Middle Eastern,South America,1,0,1,1,High_Salt,None,1
+40,Female,Middle Eastern,South America,1,0,0,1,High_Salt,Diabetes,0
+56,Female,Middle Eastern,South Asia,0,1,0,1,Low_Salt,None,0
+61,Female,Latin American,North America,1,0,1,0,Low_Salt,None,0
+69,Male,African / Caribbean,North America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+64,Female,African / Caribbean,Africa,0,0,0,1,Low_Salt,None,1
+32,Male,African / Caribbean,North America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+32,Female,African / Caribbean,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+74,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+66,Female,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,0
+33,Male,Middle Eastern,Africa,1,0,0,1,High_Salt,Chronic Gastritis,1
+22,Female,European,North America,0,1,0,1,Low_Salt,None,1
+31,Female,European,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+77,Male,South Asian,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,1
+40,Female,African / Caribbean,East Asia,0,1,1,1,Low_Salt,Diabetes,0
+76,Female,Middle Eastern,South Asia,0,0,1,0,High_Salt,None,1
+36,Female,South Asian,East Asia,0,0,1,1,Low_Salt,None,0
+49,Female,African / Caribbean,Africa,0,1,0,0,Low_Salt,None,0
+28,Male,South Asian,North America,0,0,0,0,Low_Salt,None,0
+46,Female,African / Caribbean,Africa,0,0,0,1,High_Salt,Chronic Gastritis,0
+72,Male,South Asian,Europe,0,0,1,1,Low_Salt,Chronic Gastritis,0
+30,Female,African / Caribbean,East Asia,0,0,0,1,High_Salt,Diabetes,0
+23,Female,European,East Asia,0,0,0,1,High_Salt,None,0
+69,Male,African / Caribbean,East Asia,0,1,1,1,Low_Salt,Chronic Gastritis,1
+71,Female,East Asian,East Asia,0,0,0,1,Low_Salt,None,0
+20,Male,African / Caribbean,South America,0,0,0,0,High_Salt,None,0
+30,Female,Middle Eastern,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+82,Female,Latin American,South Asia,0,0,1,0,High_Salt,None,0
+32,Male,Latin American,East Asia,1,0,0,1,Low_Salt,Chronic Gastritis,1
+50,Female,South Asian,South Asia,1,1,1,0,Low_Salt,Diabetes,1
+52,Female,South Asian,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+18,Female,European,North America,1,0,1,1,High_Salt,None,0
+32,Male,Middle Eastern,South Asia,1,0,1,0,High_Salt,None,0
+26,Female,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,0
+46,Female,European,Europe,0,1,0,0,Low_Salt,Chronic Gastritis,0
+22,Male,South Asian,Africa,1,0,0,0,Low_Salt,None,0
+46,Male,African / Caribbean,South Asia,0,1,0,0,Low_Salt,Diabetes,0
+83,Female,South Asian,North America,1,0,1,0,Low_Salt,None,1
+41,Male,East Asian,North America,1,0,0,0,Low_Salt,None,0
+26,Male,South Asian,North America,0,0,1,1,Low_Salt,Chronic Gastritis,0
+66,Male,European,Europe,0,1,0,1,Low_Salt,Chronic Gastritis,1
+20,Female,Middle Eastern,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+86,Female,Middle Eastern,South America,0,0,0,0,Low_Salt,None,0
+71,Male,Latin American,Africa,0,0,0,0,Low_Salt,None,1
+39,Male,Latin American,East Asia,0,0,1,1,High_Salt,None,0
+54,Male,South Asian,East Asia,0,1,1,0,High_Salt,Diabetes,1
+39,Female,South Asian,East Asia,0,0,0,0,Low_Salt,None,0
+84,Female,South Asian,Africa,1,0,0,1,High_Salt,None,1
+82,Male,Latin American,Africa,0,0,1,0,High_Salt,Chronic Gastritis,1
+47,Male,Middle Eastern,South Asia,0,0,1,0,Low_Salt,Diabetes,0
+50,Female,Middle Eastern,Europe,1,0,0,0,Low_Salt,Chronic Gastritis,1
+72,Male,Middle Eastern,Europe,0,0,1,1,Low_Salt,Chronic Gastritis,1
+43,Male,Middle Eastern,East Asia,0,0,1,0,High_Salt,None,0
+51,Female,South Asian,Europe,1,1,0,0,High_Salt,Chronic Gastritis,0
+51,Female,East Asian,Europe,0,0,1,0,Low_Salt,None,0
+77,Male,Middle Eastern,South Asia,1,0,0,1,Low_Salt,None,0
+43,Female,European,Europe,0,1,1,0,Low_Salt,Diabetes,1
+67,Male,European,North America,0,0,1,0,Low_Salt,None,0
+22,Male,South Asian,South America,0,0,0,0,Low_Salt,None,0
+29,Female,East Asian,East Asia,0,0,0,0,Low_Salt,None,0
+35,Female,Latin American,South Asia,0,0,0,1,High_Salt,None,0
+28,Male,African / Caribbean,Africa,0,0,0,0,High_Salt,None,0
+75,Male,Latin American,Europe,0,1,0,1,Low_Salt,Chronic Gastritis,1
+81,Female,European,Africa,0,0,0,0,Low_Salt,None,0
+70,Female,Latin American,North America,0,1,0,0,High_Salt,None,1
+41,Male,Middle Eastern,South America,0,0,1,1,Low_Salt,Diabetes,0
+58,Male,African / Caribbean,Europe,0,1,0,0,High_Salt,None,1
+63,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+61,Female,African / Caribbean,South America,0,0,1,0,High_Salt,None,1
+19,Male,European,South America,0,1,1,1,High_Salt,Chronic Gastritis,1
+37,Male,South Asian,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+24,Female,South Asian,Africa,0,1,0,0,Low_Salt,Chronic Gastritis,1
+60,Female,European,South Asia,0,0,0,1,Low_Salt,None,0
+62,Female,South Asian,Africa,0,1,0,0,Low_Salt,None,0
+39,Male,East Asian,Europe,0,0,1,1,Low_Salt,None,1
+78,Male,Latin American,East Asia,1,1,1,0,High_Salt,Chronic Gastritis,1
+74,Female,East Asian,North America,0,0,0,0,Low_Salt,None,0
+47,Female,African / Caribbean,Europe,0,0,0,0,High_Salt,None,1
+72,Female,European,South America,1,0,1,1,High_Salt,None,1
+68,Male,South Asian,Africa,0,0,1,0,High_Salt,Chronic Gastritis,1
+77,Male,East Asian,East Asia,1,0,0,0,Low_Salt,None,1
+26,Female,European,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+84,Male,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,0
+29,Female,European,Europe,0,1,0,0,High_Salt,Diabetes,1
+54,Female,African / Caribbean,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+20,Female,East Asian,Europe,0,1,0,1,Low_Salt,None,0
+36,Female,South Asian,South Asia,0,0,1,0,Low_Salt,None,0
+32,Male,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,0
+38,Female,East Asian,Europe,0,1,1,0,Low_Salt,None,0
+61,Female,East Asian,Europe,0,0,1,0,High_Salt,Chronic Gastritis,0
+63,Male,South Asian,South Asia,0,0,1,1,Low_Salt,Chronic Gastritis,1
+30,Female,East Asian,East Asia,1,0,1,0,Low_Salt,Chronic Gastritis,1
+27,Female,South Asian,Europe,0,0,0,0,High_Salt,None,0
+78,Male,African / Caribbean,North America,0,0,0,1,Low_Salt,None,0
+18,Male,East Asian,North America,1,0,1,0,High_Salt,None,1
+64,Female,East Asian,South America,0,0,0,0,High_Salt,None,0
+80,Male,European,Africa,1,1,1,0,Low_Salt,Chronic Gastritis,1
+86,Female,European,Europe,0,0,1,0,Low_Salt,Diabetes,0
+80,Female,Latin American,Europe,1,1,0,0,Low_Salt,Chronic Gastritis,1
+86,Female,European,Europe,1,1,0,0,High_Salt,Chronic Gastritis,1
+49,Female,European,Europe,0,0,0,0,Low_Salt,None,1
+66,Female,Middle Eastern,Europe,0,1,0,0,High_Salt,Diabetes,1
+46,Female,European,East Asia,0,0,0,1,High_Salt,None,1
+59,Male,East Asian,South America,0,0,1,1,Low_Salt,Chronic Gastritis,1
+30,Male,South Asian,South America,0,0,1,0,Low_Salt,None,0
+72,Female,Middle Eastern,East Asia,0,1,0,0,Low_Salt,None,0
+40,Male,Middle Eastern,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,0
+55,Female,European,Africa,0,1,1,0,Low_Salt,Chronic Gastritis,0
+62,Male,South Asian,Africa,0,0,0,0,High_Salt,None,0
+70,Male,South Asian,Europe,0,0,1,0,Low_Salt,None,1
+65,Male,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,1
+58,Male,Middle Eastern,South America,0,0,1,1,Low_Salt,Chronic Gastritis,0
+84,Male,South Asian,Africa,0,0,0,0,High_Salt,Chronic Gastritis,0
+74,Female,Latin American,East Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+45,Male,European,South America,0,0,0,0,High_Salt,Chronic Gastritis,0
+67,Male,Latin American,South Asia,0,0,0,1,Low_Salt,None,0
+46,Male,Latin American,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+25,Male,Middle Eastern,Europe,0,1,0,0,Low_Salt,Diabetes,1
+59,Female,South Asian,East Asia,0,0,1,1,Low_Salt,Chronic Gastritis,1
+59,Male,South Asian,East Asia,0,0,1,0,High_Salt,None,1
+73,Male,African / Caribbean,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,1
+51,Male,East Asian,Africa,1,0,1,0,High_Salt,None,0
+53,Female,Middle Eastern,South Asia,1,1,1,0,High_Salt,None,1
+65,Female,European,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+70,Male,East Asian,Africa,0,0,0,1,High_Salt,Chronic Gastritis,1
+86,Male,European,South America,0,0,0,0,Low_Salt,None,0
+87,Male,South Asian,Africa,1,0,1,0,Low_Salt,None,1
+76,Female,South Asian,Europe,0,1,1,0,Low_Salt,None,0
+24,Male,South Asian,North America,0,0,0,0,Low_Salt,Diabetes,0
+82,Male,African / Caribbean,South America,1,1,0,0,High_Salt,None,1
+51,Female,African / Caribbean,Europe,0,0,0,0,High_Salt,None,0
+72,Male,European,North America,0,1,0,1,High_Salt,None,1
+18,Female,African / Caribbean,North America,0,0,1,0,Low_Salt,None,0
+40,Female,African / Caribbean,South America,0,0,0,1,Low_Salt,Diabetes,0
+83,Female,Latin American,North America,0,1,0,0,High_Salt,Chronic Gastritis,0
+79,Male,South Asian,South America,1,1,1,1,High_Salt,None,1
+85,Male,South Asian,South America,0,1,0,1,High_Salt,None,1
+35,Female,Latin American,North America,0,0,0,0,High_Salt,None,0
+40,Female,Middle Eastern,Africa,0,1,1,1,Low_Salt,None,0
+64,Male,East Asian,North America,0,0,0,0,Low_Salt,None,0
+43,Male,South Asian,Africa,0,1,0,0,High_Salt,Diabetes,0
+46,Female,South Asian,South America,0,1,1,1,Low_Salt,None,1
+36,Female,Latin American,North America,0,1,0,0,Low_Salt,None,0
+19,Female,East Asian,Europe,0,0,0,0,High_Salt,Diabetes,0
+44,Male,East Asian,Africa,1,1,1,1,Low_Salt,Diabetes,1
+28,Male,Latin American,South Asia,1,1,1,0,Low_Salt,None,1
+83,Male,European,East Asia,0,1,0,0,Low_Salt,Diabetes,0
+58,Female,European,North America,0,0,0,0,Low_Salt,None,0
+45,Female,African / Caribbean,Europe,0,0,0,1,Low_Salt,None,0
+39,Male,South Asian,Europe,0,1,1,0,Low_Salt,Chronic Gastritis,0
+55,Female,Middle Eastern,East Asia,0,1,1,1,Low_Salt,Chronic Gastritis,1
+29,Female,Middle Eastern,South America,0,0,0,0,Low_Salt,Diabetes,0
+39,Male,Middle Eastern,Europe,0,0,0,0,High_Salt,None,0
+47,Male,European,South America,1,1,0,1,Low_Salt,Chronic Gastritis,1
+79,Female,European,Africa,0,0,1,0,High_Salt,None,0
+22,Female,African / Caribbean,South Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+88,Female,East Asian,Europe,0,1,1,0,Low_Salt,Chronic Gastritis,1
+73,Female,South Asian,South America,0,0,0,0,Low_Salt,None,0
+50,Male,East Asian,Europe,1,0,0,1,Low_Salt,None,0
+84,Female,South Asian,East Asia,1,1,1,1,High_Salt,None,0
+33,Female,African / Caribbean,Africa,1,1,1,1,Low_Salt,Chronic Gastritis,1
+86,Male,South Asian,North America,0,0,0,0,Low_Salt,Diabetes,0
+88,Male,European,Europe,0,1,1,0,High_Salt,None,1
+31,Male,Latin American,South America,0,1,0,0,Low_Salt,Diabetes,0
+86,Male,European,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,1
+20,Male,East Asian,North America,0,1,0,1,High_Salt,None,1
+69,Female,Middle Eastern,Africa,0,0,0,0,High_Salt,Chronic Gastritis,0
+32,Female,Latin American,South America,1,1,1,0,High_Salt,Chronic Gastritis,1
+66,Male,Middle Eastern,Europe,0,1,1,0,Low_Salt,Chronic Gastritis,1
+32,Male,European,South America,0,0,1,0,High_Salt,None,1
+26,Female,European,South America,0,0,0,1,Low_Salt,None,0
+86,Male,Latin American,East Asia,0,1,0,1,Low_Salt,Chronic Gastritis,1
+62,Female,South Asian,Africa,0,1,0,0,High_Salt,None,0
+87,Male,European,South Asia,0,0,0,0,Low_Salt,None,0
+84,Male,East Asian,Africa,0,0,0,0,Low_Salt,None,0
+22,Female,South Asian,East Asia,1,0,0,1,High_Salt,None,1
+42,Male,African / Caribbean,East Asia,0,1,0,0,High_Salt,Diabetes,0
+64,Female,Middle Eastern,Africa,0,1,0,0,Low_Salt,None,0
+23,Male,Middle Eastern,Africa,0,1,0,0,High_Salt,None,0
+79,Male,African / Caribbean,North America,0,0,1,1,Low_Salt,Chronic Gastritis,1
+47,Female,South Asian,East Asia,0,1,1,1,High_Salt,None,1
+34,Female,East Asian,Europe,0,0,1,0,Low_Salt,Diabetes,1
+53,Male,South Asian,South America,0,0,1,0,Low_Salt,None,0
+69,Female,European,North America,1,0,1,0,High_Salt,None,1
+83,Female,East Asian,East Asia,0,0,0,1,High_Salt,Chronic Gastritis,1
+20,Female,European,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+73,Female,Middle Eastern,Africa,0,1,1,0,Low_Salt,None,0
+84,Male,African / Caribbean,East Asia,0,0,1,0,High_Salt,None,0
+68,Female,South Asian,South America,0,0,1,0,High_Salt,None,0
+20,Female,European,South America,1,0,1,1,Low_Salt,None,1
+55,Female,East Asian,Europe,1,0,1,1,Low_Salt,Chronic Gastritis,0
+18,Female,East Asian,Africa,0,0,1,0,Low_Salt,None,0
+39,Male,African / Caribbean,South Asia,1,1,1,1,High_Salt,None,1
+37,Male,Latin American,Africa,0,1,1,0,High_Salt,Diabetes,0
+36,Female,Middle Eastern,Africa,1,0,0,0,Low_Salt,None,0
+71,Male,East Asian,Europe,1,0,1,0,High_Salt,None,0
+68,Female,Latin American,South America,1,1,0,0,Low_Salt,None,0
+60,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+41,Male,South Asian,Europe,0,1,0,1,Low_Salt,Chronic Gastritis,0
+49,Female,African / Caribbean,North America,1,0,1,0,Low_Salt,None,0
+83,Female,European,Africa,1,1,1,0,Low_Salt,Chronic Gastritis,1
+42,Male,African / Caribbean,Europe,0,1,0,0,High_Salt,None,0
+80,Female,East Asian,South America,0,1,0,1,Low_Salt,Chronic Gastritis,1
+76,Male,Middle Eastern,South America,1,0,1,1,Low_Salt,None,1
+25,Female,European,Africa,0,0,1,0,High_Salt,Diabetes,0
+66,Male,Latin American,Europe,0,0,0,1,Low_Salt,None,0
+44,Male,African / Caribbean,North America,0,0,0,0,High_Salt,None,0
+64,Male,European,Africa,0,1,0,0,High_Salt,None,0
+39,Female,African / Caribbean,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+52,Male,Latin American,North America,0,1,1,0,High_Salt,None,0
+26,Female,African / Caribbean,Africa,0,0,0,0,Low_Salt,None,0
+80,Female,South Asian,South America,0,1,0,0,High_Salt,None,0
+80,Male,South Asian,North America,0,0,1,0,Low_Salt,Diabetes,0
+72,Male,Middle Eastern,East Asia,0,1,0,1,Low_Salt,None,0
+28,Female,Middle Eastern,North America,0,1,1,0,Low_Salt,Diabetes,0
+28,Male,African / Caribbean,Europe,1,1,1,0,High_Salt,None,1
+81,Female,East Asian,Africa,0,0,1,0,Low_Salt,None,1
+85,Female,European,Europe,0,1,0,1,Low_Salt,Diabetes,1
+78,Female,Latin American,Africa,1,0,0,1,High_Salt,None,1
+27,Female,African / Caribbean,South America,1,0,1,0,Low_Salt,Chronic Gastritis,1
+21,Female,African / Caribbean,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+52,Male,African / Caribbean,South America,0,0,0,1,High_Salt,None,1
+52,Female,African / Caribbean,Europe,1,0,1,1,Low_Salt,None,1
+73,Female,African / Caribbean,South America,0,1,0,0,Low_Salt,None,1
+48,Male,Middle Eastern,Europe,0,0,0,0,Low_Salt,None,0
+23,Female,Middle Eastern,North America,0,1,1,0,Low_Salt,None,0
+40,Female,South Asian,South Asia,0,0,0,0,Low_Salt,None,0
+59,Female,European,South America,0,0,1,1,Low_Salt,None,1
+41,Female,African / Caribbean,East Asia,0,1,1,0,High_Salt,Diabetes,0
+50,Male,African / Caribbean,South Asia,1,0,1,0,Low_Salt,None,0
+88,Male,South Asian,East Asia,0,0,1,0,Low_Salt,None,1
+53,Male,East Asian,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,0
+81,Female,South Asian,Europe,0,0,1,0,High_Salt,None,1
+31,Male,African / Caribbean,North America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+30,Female,East Asian,Africa,0,1,0,0,Low_Salt,Chronic Gastritis,0
+58,Female,East Asian,Europe,0,1,0,0,Low_Salt,Diabetes,1
+48,Male,Middle Eastern,East Asia,1,0,1,1,Low_Salt,Chronic Gastritis,1
+53,Female,African / Caribbean,Europe,1,0,1,0,Low_Salt,Diabetes,1
+50,Female,South Asian,South America,0,1,1,1,Low_Salt,None,0
+19,Male,African / Caribbean,South Asia,0,1,1,0,Low_Salt,None,0
+79,Male,East Asian,South Asia,1,0,0,0,High_Salt,None,1
+30,Male,European,North America,1,0,1,0,High_Salt,None,0
+25,Female,Middle Eastern,North America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+79,Male,Latin American,South Asia,0,1,0,1,Low_Salt,None,1
+41,Female,East Asian,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+33,Female,Middle Eastern,Africa,0,1,1,1,High_Salt,Diabetes,1
+54,Female,Latin American,Africa,0,0,1,1,High_Salt,None,1
+81,Female,Middle Eastern,South Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+57,Female,Middle Eastern,South Asia,1,0,1,0,High_Salt,None,1
+27,Female,Latin American,South Asia,1,0,1,1,High_Salt,Chronic Gastritis,1
+35,Male,European,North America,0,0,1,0,Low_Salt,None,0
+74,Male,Middle Eastern,South America,1,0,0,0,High_Salt,None,1
+27,Female,South Asian,East Asia,1,0,0,1,Low_Salt,None,0
+68,Male,European,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+62,Female,African / Caribbean,East Asia,0,0,0,1,High_Salt,None,1
+37,Female,East Asian,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+82,Male,East Asian,North America,0,0,0,0,High_Salt,None,1
+71,Female,Latin American,Europe,1,0,1,0,Low_Salt,Chronic Gastritis,0
+29,Female,Latin American,North America,0,1,0,0,High_Salt,None,1
+38,Male,Latin American,South Asia,0,0,1,1,Low_Salt,None,1
+87,Male,Middle Eastern,Africa,1,0,1,0,High_Salt,None,1
+34,Male,Latin American,Africa,0,0,0,0,High_Salt,None,0
+52,Female,Latin American,North America,0,0,0,0,High_Salt,None,0
+70,Female,South Asian,South Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+78,Female,East Asian,East Asia,1,1,1,1,Low_Salt,Chronic Gastritis,1
+76,Male,Middle Eastern,South America,0,0,0,1,Low_Salt,None,1
+32,Female,South Asian,Europe,0,0,0,0,Low_Salt,None,0
+49,Female,East Asian,East Asia,0,0,1,0,High_Salt,Diabetes,0
+75,Male,Latin American,South America,1,0,0,1,Low_Salt,Chronic Gastritis,1
+83,Male,African / Caribbean,North America,0,1,0,0,Low_Salt,None,0
+68,Male,African / Caribbean,North America,0,0,1,0,High_Salt,Chronic Gastritis,0
+74,Female,African / Caribbean,Europe,0,0,0,1,Low_Salt,None,0
+37,Female,European,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+52,Female,European,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+23,Female,Latin American,Africa,0,0,1,0,Low_Salt,None,0
+69,Female,Middle Eastern,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+74,Male,Middle Eastern,North America,1,1,1,1,Low_Salt,None,0
+53,Male,Latin American,South America,0,1,0,1,Low_Salt,None,1
+25,Male,South Asian,South America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+37,Male,East Asian,South America,0,0,1,1,Low_Salt,Diabetes,0
+31,Male,East Asian,East Asia,0,0,1,0,Low_Salt,None,0
+66,Female,East Asian,North America,0,0,0,0,High_Salt,None,0
+50,Male,African / Caribbean,Africa,0,0,0,1,High_Salt,None,0
+86,Female,Middle Eastern,South America,1,0,0,0,Low_Salt,Diabetes,1
+87,Female,East Asian,North America,0,1,0,0,Low_Salt,Diabetes,1
+57,Female,East Asian,South America,0,0,1,1,Low_Salt,None,0
+31,Female,Latin American,North America,0,1,0,1,Low_Salt,None,0
+57,Male,African / Caribbean,Africa,1,0,0,0,High_Salt,None,1
+38,Male,East Asian,Africa,0,0,1,0,High_Salt,None,0
+71,Male,South Asian,South America,0,0,1,1,Low_Salt,None,0
+40,Female,European,Europe,1,0,1,1,High_Salt,None,1
+72,Female,Middle Eastern,South America,0,0,0,0,Low_Salt,None,1
+58,Female,Latin American,Europe,0,0,1,0,High_Salt,None,0
+26,Female,East Asian,East Asia,1,1,0,0,Low_Salt,Chronic Gastritis,1
+51,Female,African / Caribbean,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+66,Male,European,Africa,0,1,0,1,Low_Salt,None,1
+44,Female,East Asian,Africa,1,0,1,1,Low_Salt,None,1
+76,Female,Middle Eastern,South Asia,1,0,0,1,Low_Salt,Chronic Gastritis,1
+30,Male,European,North America,0,1,1,0,Low_Salt,None,0
+64,Male,Latin American,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,1
+62,Male,Latin American,North America,0,0,0,0,Low_Salt,None,0
+64,Male,East Asian,Africa,0,0,1,1,Low_Salt,None,0
+32,Male,South Asian,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+59,Female,European,East Asia,1,1,1,1,Low_Salt,None,1
+52,Male,European,Europe,0,1,0,0,High_Salt,Chronic Gastritis,0
+33,Female,African / Caribbean,South America,0,0,1,0,High_Salt,Chronic Gastritis,0
+26,Female,European,South America,0,0,1,0,High_Salt,None,0
+76,Male,Middle Eastern,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,1
+22,Male,African / Caribbean,East Asia,1,0,0,1,Low_Salt,None,1
+81,Male,Latin American,Europe,1,1,1,1,Low_Salt,Chronic Gastritis,0
+41,Female,Latin American,South Asia,1,0,0,0,High_Salt,None,0
+20,Male,African / Caribbean,Europe,0,0,0,0,High_Salt,None,0
+49,Male,East Asian,South America,1,1,0,0,High_Salt,Diabetes,1
+36,Female,East Asian,South Asia,0,1,1,0,High_Salt,None,0
+82,Female,African / Caribbean,North America,0,0,0,0,High_Salt,None,0
+26,Male,East Asian,Africa,0,0,0,0,High_Salt,None,0
+64,Male,European,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,1
+82,Female,Latin American,East Asia,0,1,0,1,Low_Salt,None,0
+19,Male,African / Caribbean,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+70,Female,East Asian,South Asia,0,1,0,1,Low_Salt,Diabetes,1
+36,Male,African / Caribbean,South America,0,1,1,0,Low_Salt,None,0
+70,Male,Middle Eastern,South America,0,1,0,0,Low_Salt,Chronic Gastritis,1
+50,Female,South Asian,Africa,0,0,0,1,High_Salt,None,0
+75,Female,Middle Eastern,Africa,0,1,0,1,High_Salt,Chronic Gastritis,1
+18,Male,South Asian,East Asia,1,0,0,0,High_Salt,Diabetes,0
+31,Female,African / Caribbean,Europe,1,1,1,0,High_Salt,Diabetes,0
+26,Male,Middle Eastern,South America,0,0,0,0,Low_Salt,Diabetes,0
+77,Male,Latin American,Africa,1,1,1,1,High_Salt,Chronic Gastritis,1
+80,Male,European,North America,0,0,1,0,High_Salt,None,0
+88,Male,African / Caribbean,North America,1,1,0,0,Low_Salt,None,1
+72,Female,East Asian,South America,1,0,0,0,Low_Salt,None,0
+80,Male,African / Caribbean,Africa,1,0,1,0,Low_Salt,Diabetes,0
+72,Male,South Asian,Africa,0,1,1,0,Low_Salt,None,0
+52,Male,Middle Eastern,South America,0,0,1,0,High_Salt,None,0
+18,Male,Latin American,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+67,Female,African / Caribbean,South Asia,0,1,1,0,Low_Salt,None,0
+64,Female,African / Caribbean,South America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+24,Female,Middle Eastern,Europe,0,0,0,1,Low_Salt,Diabetes,0
+35,Female,South Asian,East Asia,0,0,1,0,Low_Salt,None,0
+42,Male,European,Africa,0,0,1,0,High_Salt,None,0
+72,Male,Middle Eastern,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,1
+61,Female,South Asian,South Asia,0,0,0,0,High_Salt,Diabetes,0
+40,Female,South Asian,Africa,1,1,1,1,High_Salt,None,0
+83,Male,Latin American,South Asia,0,1,0,0,Low_Salt,None,0
+72,Male,East Asian,South Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+64,Female,African / Caribbean,North America,0,1,1,1,High_Salt,None,1
+70,Female,European,Europe,0,1,0,1,Low_Salt,None,1
+33,Male,South Asian,South Asia,0,0,0,0,Low_Salt,None,0
+43,Female,East Asian,South America,1,0,0,0,High_Salt,None,0
+20,Male,Middle Eastern,East Asia,1,0,0,0,Low_Salt,Diabetes,0
+23,Male,East Asian,Europe,0,0,0,0,High_Salt,Diabetes,0
+86,Female,European,South America,0,0,0,1,High_Salt,Chronic Gastritis,0
+51,Male,Middle Eastern,South Asia,0,1,1,0,Low_Salt,None,0
+76,Male,Latin American,South Asia,0,1,1,0,Low_Salt,Diabetes,1
+86,Male,Latin American,South America,0,0,0,0,Low_Salt,None,0
+87,Male,African / Caribbean,Europe,0,1,0,1,High_Salt,Diabetes,1
+49,Female,Middle Eastern,East Asia,0,0,1,1,Low_Salt,Diabetes,1
+59,Male,South Asian,East Asia,1,1,1,0,Low_Salt,Diabetes,1
+52,Male,Middle Eastern,East Asia,0,0,0,1,High_Salt,None,1
+86,Female,East Asian,North America,0,0,0,0,Low_Salt,None,0
+62,Male,African / Caribbean,North America,0,0,1,0,High_Salt,None,0
+55,Male,European,East Asia,0,1,1,0,High_Salt,Chronic Gastritis,1
+64,Female,South Asian,North America,0,0,1,1,Low_Salt,Diabetes,0
+64,Male,African / Caribbean,Europe,1,0,1,0,Low_Salt,Diabetes,0
+58,Female,East Asian,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+68,Male,South Asian,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,0
+81,Female,East Asian,East Asia,1,0,1,0,High_Salt,Chronic Gastritis,0
+21,Male,European,Africa,0,0,0,1,High_Salt,None,0
+44,Male,Latin American,Europe,0,1,0,0,Low_Salt,None,0
+89,Female,African / Caribbean,Europe,0,0,1,0,Low_Salt,None,1
+23,Male,African / Caribbean,South America,1,0,0,1,High_Salt,Chronic Gastritis,0
+69,Female,European,East Asia,1,1,0,0,Low_Salt,Chronic Gastritis,1
+87,Female,South Asian,East Asia,0,0,1,0,Low_Salt,None,0
+72,Female,Middle Eastern,North America,0,0,1,0,Low_Salt,None,1
+25,Male,European,Africa,0,0,1,1,Low_Salt,None,0
+21,Female,African / Caribbean,North America,0,1,0,0,High_Salt,None,0
+36,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+88,Female,European,Africa,1,0,0,0,Low_Salt,Diabetes,0
+22,Male,East Asian,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+82,Female,East Asian,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+27,Female,East Asian,Europe,0,0,0,1,Low_Salt,None,0
+45,Female,European,Africa,0,0,1,0,Low_Salt,Diabetes,0
+65,Male,Latin American,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+68,Female,European,South Asia,0,0,1,0,Low_Salt,None,0
+45,Female,African / Caribbean,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+86,Male,Middle Eastern,East Asia,0,1,1,1,Low_Salt,None,1
+27,Male,African / Caribbean,South Asia,1,1,1,0,Low_Salt,None,0
+31,Female,Latin American,Africa,1,1,0,1,Low_Salt,Chronic Gastritis,1
+80,Male,South Asian,South America,1,0,1,0,Low_Salt,None,0
+72,Female,European,East Asia,0,1,1,1,Low_Salt,Chronic Gastritis,1
+37,Female,African / Caribbean,Europe,1,0,0,0,Low_Salt,None,0
+72,Female,African / Caribbean,East Asia,0,0,0,0,High_Salt,Diabetes,0
+86,Male,Latin American,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+53,Female,East Asian,South Asia,0,0,1,0,Low_Salt,Diabetes,0
+45,Female,East Asian,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+35,Female,European,East Asia,0,0,0,0,High_Salt,None,0
+42,Female,African / Caribbean,North America,0,0,1,0,High_Salt,Chronic Gastritis,1
+23,Female,European,South Asia,0,0,0,0,High_Salt,Diabetes,0
+47,Female,Latin American,East Asia,0,1,1,0,High_Salt,Chronic Gastritis,1
+47,Female,European,Europe,0,0,1,1,Low_Salt,None,1
+80,Female,East Asian,East Asia,1,0,0,1,Low_Salt,None,1
+89,Male,South Asian,North America,0,1,1,1,High_Salt,None,1
+43,Male,African / Caribbean,North America,0,0,0,0,Low_Salt,None,0
+75,Female,East Asian,Europe,1,1,0,0,Low_Salt,None,1
+25,Female,European,Europe,0,0,1,1,Low_Salt,Chronic Gastritis,0
+80,Male,Latin American,North America,0,0,1,0,Low_Salt,Diabetes,0
+28,Female,South Asian,East Asia,0,0,0,0,High_Salt,Diabetes,0
+86,Female,South Asian,South America,1,0,1,0,Low_Salt,Chronic Gastritis,0
+18,Male,Middle Eastern,North America,1,0,0,1,Low_Salt,Chronic Gastritis,1
+71,Female,Latin American,Europe,0,0,1,1,Low_Salt,None,0
+84,Male,Middle Eastern,Europe,0,0,1,0,Low_Salt,None,0
+87,Male,African / Caribbean,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,1
+66,Female,African / Caribbean,Europe,1,0,1,1,Low_Salt,None,1
+47,Male,African / Caribbean,South America,0,1,1,1,High_Salt,Chronic Gastritis,1
+71,Male,Middle Eastern,Africa,0,1,1,0,Low_Salt,None,0
+51,Female,South Asian,Europe,0,0,0,1,High_Salt,Chronic Gastritis,1
+73,Female,East Asian,South America,0,1,0,0,High_Salt,Diabetes,1
+44,Male,East Asian,South America,0,0,0,0,High_Salt,Diabetes,0
+65,Female,European,Africa,0,0,1,0,High_Salt,Chronic Gastritis,1
+76,Female,Middle Eastern,Africa,0,0,0,0,Low_Salt,None,0
+81,Male,Middle Eastern,South America,0,0,1,0,High_Salt,Diabetes,0
+44,Female,Latin American,Africa,1,0,1,0,Low_Salt,Diabetes,0
+84,Male,European,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+61,Female,African / Caribbean,Europe,0,0,0,1,Low_Salt,None,0
+84,Female,South Asian,East Asia,0,0,0,0,High_Salt,None,0
+71,Female,Latin American,Europe,0,1,0,1,High_Salt,Diabetes,1
+36,Female,Middle Eastern,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+52,Female,African / Caribbean,East Asia,0,0,0,0,Low_Salt,None,0
+52,Female,Middle Eastern,South Asia,0,1,0,1,Low_Salt,None,1
+57,Male,East Asian,North America,1,1,1,0,Low_Salt,None,0
+88,Male,South Asian,South Asia,0,1,0,1,Low_Salt,None,1
+82,Female,Middle Eastern,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+56,Female,Middle Eastern,South America,1,0,0,0,High_Salt,None,0
+20,Female,African / Caribbean,Africa,1,0,1,0,High_Salt,Chronic Gastritis,0
+60,Female,European,South America,1,0,0,0,High_Salt,Chronic Gastritis,0
+48,Female,Latin American,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,0
+70,Female,East Asian,North America,0,0,0,0,High_Salt,Diabetes,1
+18,Female,African / Caribbean,East Asia,0,1,1,1,High_Salt,None,1
+48,Female,African / Caribbean,Europe,0,0,0,1,Low_Salt,None,0
+75,Male,Middle Eastern,East Asia,1,1,0,0,Low_Salt,None,0
+75,Female,European,South Asia,1,0,1,0,Low_Salt,None,0
+22,Female,African / Caribbean,East Asia,1,0,1,0,High_Salt,None,0
+67,Male,Latin American,East Asia,1,0,0,1,High_Salt,None,0
+46,Male,European,North America,1,0,0,1,Low_Salt,Chronic Gastritis,1
+36,Female,European,South America,0,1,0,0,Low_Salt,None,0
+62,Male,South Asian,South Asia,1,1,0,0,High_Salt,None,1
+35,Female,European,South Asia,0,0,0,0,High_Salt,None,0
+54,Male,Latin American,Africa,0,1,1,0,High_Salt,None,0
+41,Female,African / Caribbean,Europe,0,0,0,0,Low_Salt,Diabetes,1
+27,Female,East Asian,North America,0,0,1,1,Low_Salt,Chronic Gastritis,0
+87,Male,Latin American,Africa,1,0,0,0,Low_Salt,Chronic Gastritis,0
+81,Male,African / Caribbean,North America,0,0,1,1,Low_Salt,None,0
+35,Male,East Asian,South America,0,1,0,0,High_Salt,None,0
+78,Male,East Asian,South America,0,0,0,0,High_Salt,None,1
+76,Female,Middle Eastern,South America,1,0,0,0,High_Salt,None,1
+51,Female,East Asian,Africa,0,1,1,0,High_Salt,Chronic Gastritis,1
+73,Female,Middle Eastern,North America,0,0,1,0,High_Salt,Chronic Gastritis,1
+76,Male,Latin American,Europe,0,1,1,0,High_Salt,None,1
+59,Female,South Asian,Africa,0,1,0,0,High_Salt,None,1
+62,Male,South Asian,South America,0,0,0,1,High_Salt,None,1
+39,Male,African / Caribbean,South America,1,0,1,1,High_Salt,Chronic Gastritis,0
+56,Male,European,Africa,0,1,0,0,High_Salt,None,1
+22,Female,Latin American,South Asia,0,0,1,1,Low_Salt,Diabetes,0
+72,Female,African / Caribbean,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+85,Female,Latin American,South Asia,0,0,0,1,High_Salt,Diabetes,1
+32,Female,Latin American,Europe,0,0,0,0,High_Salt,None,0
+47,Female,Latin American,Africa,0,0,1,1,Low_Salt,None,0
+70,Male,European,Africa,1,0,0,0,Low_Salt,Diabetes,1
+19,Female,African / Caribbean,South Asia,0,1,0,0,High_Salt,None,1
+32,Female,East Asian,Europe,0,0,0,0,Low_Salt,None,0
+79,Female,Middle Eastern,South Asia,1,1,1,1,Low_Salt,None,1
+45,Female,South Asian,North America,0,0,1,0,High_Salt,Diabetes,0
+76,Female,South Asian,South America,0,0,0,0,Low_Salt,None,1
+41,Female,South Asian,South America,0,0,0,0,Low_Salt,None,1
+80,Male,East Asian,Africa,0,0,0,0,Low_Salt,None,0
+65,Female,Middle Eastern,Africa,0,0,1,1,Low_Salt,None,0
+25,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+62,Female,Latin American,South America,1,1,0,1,Low_Salt,Diabetes,1
+20,Male,East Asian,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+59,Female,Latin American,East Asia,1,1,0,1,High_Salt,None,1
+22,Female,South Asian,South Asia,0,1,1,1,High_Salt,None,1
+19,Male,East Asian,East Asia,1,0,0,0,High_Salt,None,0
+23,Female,East Asian,Europe,0,0,0,0,Low_Salt,None,0
+86,Female,European,Europe,0,0,1,0,Low_Salt,Chronic Gastritis,0
+64,Male,European,Europe,0,0,0,0,Low_Salt,Diabetes,0
+41,Female,Latin American,North America,0,1,0,1,Low_Salt,Diabetes,0
+82,Female,African / Caribbean,East Asia,0,1,0,1,Low_Salt,Chronic Gastritis,1
+67,Female,Latin American,North America,0,0,1,0,Low_Salt,None,0
+39,Male,South Asian,Africa,0,0,1,1,High_Salt,Chronic Gastritis,1
+51,Male,South Asian,South America,1,0,0,0,High_Salt,None,1
+77,Female,South Asian,Africa,0,1,0,1,Low_Salt,Chronic Gastritis,1
+68,Male,African / Caribbean,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+66,Male,Middle Eastern,South America,1,0,0,0,High_Salt,None,1
+28,Female,South Asian,North America,0,0,1,1,Low_Salt,None,0
+32,Male,African / Caribbean,South Asia,1,0,0,0,Low_Salt,None,0
+66,Male,Latin American,South America,1,0,1,0,High_Salt,Diabetes,0
+50,Male,Latin American,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+19,Female,Latin American,South America,0,0,0,0,High_Salt,None,0
+65,Female,Middle Eastern,South America,0,0,0,1,Low_Salt,None,0
+31,Male,Middle Eastern,East Asia,1,0,0,0,Low_Salt,None,1
+55,Female,East Asian,South America,0,1,0,0,Low_Salt,None,0
+38,Female,East Asian,South America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+23,Female,African / Caribbean,Europe,1,1,1,0,High_Salt,None,0
+31,Female,African / Caribbean,South Asia,0,1,1,1,High_Salt,None,1
+65,Male,European,Africa,0,0,1,0,High_Salt,None,1
+50,Female,Latin American,Africa,0,0,0,0,Low_Salt,None,0
+74,Male,South Asian,Europe,0,0,1,0,Low_Salt,None,0
+56,Male,European,South America,0,0,0,1,Low_Salt,None,0
+23,Male,European,South Asia,0,1,0,0,Low_Salt,Diabetes,0
+61,Female,East Asian,Europe,1,1,0,1,High_Salt,None,0
+86,Male,African / Caribbean,Africa,0,1,1,1,Low_Salt,Diabetes,1
+44,Female,Latin American,Europe,0,0,0,1,Low_Salt,Chronic Gastritis,1
+57,Female,South Asian,South Asia,1,1,0,0,Low_Salt,Chronic Gastritis,0
+51,Female,East Asian,East Asia,0,0,0,0,High_Salt,None,0
+22,Female,African / Caribbean,South America,0,0,0,0,Low_Salt,Diabetes,0
+42,Female,European,Europe,1,0,0,0,Low_Salt,Diabetes,1
+52,Male,South Asian,Europe,0,0,0,1,Low_Salt,Chronic Gastritis,0
+24,Male,South Asian,Africa,0,0,0,0,High_Salt,None,0
+68,Male,European,Europe,0,1,0,1,Low_Salt,None,0
+64,Female,South Asian,South America,0,0,1,0,High_Salt,None,0
+53,Female,East Asian,South Asia,1,0,1,1,High_Salt,None,0
+86,Female,East Asian,Africa,0,0,0,0,Low_Salt,None,0
+45,Female,South Asian,South Asia,0,0,0,0,Low_Salt,None,0
+88,Female,African / Caribbean,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+67,Male,East Asian,South America,0,0,0,0,High_Salt,None,0
+27,Male,East Asian,North America,0,0,1,1,High_Salt,None,0
+87,Female,African / Caribbean,South Asia,0,1,1,1,High_Salt,None,1
+64,Male,East Asian,East Asia,1,0,0,0,Low_Salt,None,0
+35,Male,European,North America,0,1,0,0,Low_Salt,Diabetes,0
+53,Female,Middle Eastern,South America,0,1,0,0,Low_Salt,Diabetes,0
+78,Male,East Asian,Africa,0,1,1,1,High_Salt,None,1
+18,Male,Latin American,Africa,0,0,0,0,High_Salt,Diabetes,0
+84,Male,South Asian,Europe,1,0,1,0,Low_Salt,None,1
+75,Male,European,East Asia,0,0,1,0,Low_Salt,None,0
+41,Female,East Asian,Europe,0,0,1,1,High_Salt,None,0
+25,Male,South Asian,North America,1,1,1,0,High_Salt,None,1
+89,Female,Middle Eastern,South America,0,0,0,1,High_Salt,None,0
+63,Female,European,Africa,1,1,0,1,Low_Salt,Diabetes,1
+69,Male,South Asian,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,1
+34,Male,South Asian,Africa,0,1,0,0,High_Salt,Diabetes,0
+63,Female,African / Caribbean,South America,0,0,0,1,High_Salt,None,1
+82,Female,European,South America,0,1,0,1,High_Salt,None,0
+18,Female,African / Caribbean,Africa,0,0,1,0,High_Salt,None,0
+78,Male,South Asian,Africa,0,1,0,0,High_Salt,Chronic Gastritis,0
+51,Male,European,East Asia,0,0,0,1,Low_Salt,Diabetes,0
+20,Male,South Asian,East Asia,0,1,1,1,Low_Salt,Diabetes,0
+62,Female,South Asian,South Asia,0,1,0,1,High_Salt,None,1
+28,Female,European,Europe,0,0,1,1,High_Salt,Diabetes,0
+73,Male,South Asian,South Asia,1,0,0,1,High_Salt,None,1
+55,Male,Latin American,South Asia,0,1,0,0,High_Salt,None,1
+89,Female,South Asian,East Asia,0,0,1,1,High_Salt,Chronic Gastritis,1
+35,Male,African / Caribbean,South Asia,0,0,1,0,Low_Salt,None,0
+67,Female,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,0
+65,Male,European,South Asia,1,0,0,0,Low_Salt,Diabetes,0
+36,Male,South Asian,North America,1,1,1,1,Low_Salt,None,1
+72,Male,East Asian,North America,0,1,0,1,High_Salt,Diabetes,1
+74,Male,African / Caribbean,South America,0,1,1,1,High_Salt,Diabetes,1
+49,Male,East Asian,East Asia,0,1,1,0,Low_Salt,None,0
+51,Male,African / Caribbean,Europe,0,0,1,1,Low_Salt,None,1
+26,Male,East Asian,East Asia,0,1,0,1,Low_Salt,None,1
+83,Male,East Asian,South America,1,0,0,0,High_Salt,None,0
+27,Female,South Asian,North America,0,0,0,0,High_Salt,None,0
+31,Female,Middle Eastern,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+59,Female,European,Africa,0,0,0,0,Low_Salt,None,0
+85,Female,East Asian,North America,0,1,0,0,Low_Salt,None,0
+23,Male,African / Caribbean,Europe,0,0,1,0,High_Salt,Chronic Gastritis,0
+61,Female,Latin American,Europe,0,0,1,0,High_Salt,None,1
+48,Male,South Asian,South Asia,0,0,0,0,Low_Salt,Diabetes,0
+28,Male,European,Europe,1,0,1,0,Low_Salt,Diabetes,0
+76,Female,South Asian,South Asia,0,1,0,1,Low_Salt,None,0
+74,Female,East Asian,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,1
+49,Female,European,East Asia,1,0,0,1,Low_Salt,Chronic Gastritis,1
+59,Female,Latin American,Europe,0,0,0,0,High_Salt,None,0
+63,Male,South Asian,South Asia,0,1,0,0,High_Salt,None,0
+66,Male,Latin American,Africa,0,0,0,0,High_Salt,Chronic Gastritis,1
+47,Male,European,East Asia,0,0,0,0,High_Salt,None,0
+32,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,Diabetes,1
+42,Female,European,North America,0,1,1,0,Low_Salt,None,0
+54,Male,African / Caribbean,South America,0,1,1,0,Low_Salt,None,1
+86,Female,South Asian,Europe,0,1,0,1,Low_Salt,None,1
+56,Female,Middle Eastern,Europe,0,0,1,1,High_Salt,Diabetes,1
+32,Female,South Asian,South Asia,0,1,0,1,Low_Salt,Chronic Gastritis,0
+33,Male,Latin American,South America,1,0,0,0,Low_Salt,None,0
+87,Female,South Asian,South Asia,1,0,0,1,Low_Salt,None,0
+19,Male,South Asian,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+76,Female,Middle Eastern,North America,0,1,0,0,Low_Salt,None,0
+26,Male,Middle Eastern,South Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+49,Male,Latin American,South America,0,1,0,0,Low_Salt,None,0
+18,Male,East Asian,South America,0,0,0,0,High_Salt,None,0
+23,Female,East Asian,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+20,Female,Middle Eastern,North America,0,0,1,0,Low_Salt,Diabetes,0
+77,Female,European,North America,1,1,0,0,Low_Salt,Diabetes,1
+18,Male,South Asian,East Asia,0,0,0,1,High_Salt,None,1
+72,Male,South Asian,South Asia,1,1,0,1,High_Salt,Chronic Gastritis,0
+19,Female,Latin American,East Asia,1,0,1,0,Low_Salt,None,0
+69,Female,African / Caribbean,Africa,0,0,1,0,High_Salt,None,0
+76,Female,Middle Eastern,Africa,0,1,0,1,High_Salt,None,1
+64,Female,South Asian,Africa,0,1,0,0,High_Salt,None,1
+47,Male,East Asian,East Asia,0,0,0,0,Low_Salt,None,1
+36,Male,East Asian,South Asia,0,0,0,1,Low_Salt,None,0
+54,Male,Middle Eastern,North America,0,1,1,0,High_Salt,None,0
+74,Male,European,East Asia,0,0,1,0,High_Salt,None,0
+26,Male,European,Europe,0,0,1,0,High_Salt,Chronic Gastritis,0
+67,Female,Latin American,North America,1,0,1,0,Low_Salt,Chronic Gastritis,1
+44,Male,South Asian,Europe,1,0,0,0,High_Salt,Chronic Gastritis,0
+61,Female,Latin American,North America,0,0,0,0,Low_Salt,None,0
+18,Female,Middle Eastern,South Asia,1,0,0,1,High_Salt,None,0
+72,Male,East Asian,Africa,0,1,1,1,High_Salt,None,0
+66,Male,Middle Eastern,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+60,Female,Latin American,South Asia,0,0,0,0,High_Salt,Diabetes,1
+66,Male,East Asian,Africa,0,1,1,0,Low_Salt,None,0
+47,Female,European,Africa,0,0,0,1,High_Salt,Chronic Gastritis,1
+40,Female,African / Caribbean,North America,0,0,1,1,Low_Salt,Diabetes,0
+51,Male,European,South Asia,0,0,0,1,Low_Salt,None,0
+49,Female,South Asian,Europe,0,0,0,0,High_Salt,Diabetes,1
+18,Female,South Asian,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+19,Female,European,South Asia,1,1,1,0,Low_Salt,None,0
+33,Male,Middle Eastern,East Asia,0,0,0,0,High_Salt,None,0
+70,Male,European,North America,0,1,1,0,High_Salt,Chronic Gastritis,1
+70,Female,Middle Eastern,South Asia,0,1,0,0,Low_Salt,None,1
+18,Female,Middle Eastern,North America,0,1,0,1,High_Salt,Diabetes,1
+57,Female,Middle Eastern,North America,0,0,1,0,High_Salt,Chronic Gastritis,1
+67,Female,Latin American,Africa,0,1,0,1,High_Salt,Chronic Gastritis,1
+59,Female,East Asian,East Asia,0,0,0,0,Low_Salt,None,0
+45,Male,European,South America,1,1,0,0,Low_Salt,Chronic Gastritis,1
+28,Male,African / Caribbean,Africa,1,0,1,1,Low_Salt,Diabetes,1
+33,Male,South Asian,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+40,Female,East Asian,East Asia,0,0,0,0,High_Salt,None,0
+85,Female,African / Caribbean,Africa,0,1,1,0,High_Salt,Chronic Gastritis,0
+45,Male,South Asian,North America,1,1,0,1,Low_Salt,None,1
+45,Female,Latin American,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+40,Male,South Asian,Europe,0,0,0,1,Low_Salt,Diabetes,1
+43,Male,Latin American,South America,0,1,0,1,Low_Salt,Chronic Gastritis,0
+39,Female,Middle Eastern,East Asia,1,0,1,0,Low_Salt,None,0
+84,Female,Middle Eastern,North America,0,0,1,1,Low_Salt,Diabetes,0
+22,Female,East Asian,Europe,0,1,0,0,Low_Salt,Chronic Gastritis,0
+26,Female,Middle Eastern,North America,0,0,0,0,Low_Salt,None,0
+18,Male,Latin American,East Asia,1,0,1,0,Low_Salt,None,0
+87,Male,East Asian,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+73,Female,East Asian,Europe,0,1,1,0,High_Salt,Diabetes,1
+62,Female,African / Caribbean,South America,0,0,1,0,High_Salt,Chronic Gastritis,1
+72,Male,African / Caribbean,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,0
+59,Female,Middle Eastern,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,0
+78,Female,African / Caribbean,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,1
+35,Female,European,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,1
+78,Female,African / Caribbean,Africa,0,0,0,0,High_Salt,None,1
+58,Female,South Asian,Africa,1,1,0,0,High_Salt,Diabetes,1
+39,Male,African / Caribbean,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+46,Male,European,Africa,0,0,0,1,Low_Salt,None,0
+22,Male,African / Caribbean,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,1
+66,Male,European,Africa,0,1,0,0,Low_Salt,Chronic Gastritis,1
+46,Male,European,North America,0,1,0,0,Low_Salt,Diabetes,0
+25,Female,European,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+67,Female,European,South America,1,0,1,1,High_Salt,None,1
+44,Female,South Asian,North America,1,0,0,0,High_Salt,None,0
+88,Female,Latin American,North America,1,0,0,0,High_Salt,None,0
+25,Male,South Asian,South America,0,1,1,0,Low_Salt,Diabetes,0
+84,Male,Latin American,North America,0,0,0,0,Low_Salt,Diabetes,0
+83,Female,Latin American,Africa,0,1,0,0,High_Salt,Diabetes,1
+89,Female,South Asian,North America,0,1,0,0,High_Salt,None,1
+41,Female,Latin American,South Asia,1,1,0,1,Low_Salt,None,0
+73,Female,Latin American,South America,0,0,0,0,High_Salt,None,1
+51,Male,African / Caribbean,North America,0,1,1,0,High_Salt,Diabetes,0
+58,Male,Middle Eastern,Europe,0,1,1,1,High_Salt,Chronic Gastritis,1
+24,Female,Middle Eastern,North America,0,0,0,0,Low_Salt,None,0
+50,Female,African / Caribbean,South America,0,0,0,0,Low_Salt,None,0
+79,Male,South Asian,Africa,0,0,0,1,Low_Salt,None,1
+61,Male,South Asian,Africa,0,0,0,1,Low_Salt,None,0
+44,Male,Latin American,South Asia,0,0,1,0,Low_Salt,None,0
+27,Female,South Asian,Europe,1,1,1,1,High_Salt,Diabetes,1
+59,Male,South Asian,Africa,0,0,1,1,High_Salt,None,1
+81,Male,Latin American,Africa,0,0,0,0,Low_Salt,Diabetes,0
+29,Male,South Asian,South Asia,1,1,1,1,Low_Salt,Chronic Gastritis,1
+85,Female,East Asian,South America,0,1,0,0,High_Salt,Chronic Gastritis,1
+31,Male,African / Caribbean,North America,1,0,0,1,Low_Salt,Diabetes,1
+66,Male,Latin American,North America,0,1,1,0,Low_Salt,None,1
+50,Female,Latin American,South America,0,0,1,1,High_Salt,None,1
+87,Female,African / Caribbean,Africa,1,0,1,0,High_Salt,None,0
+67,Male,Latin American,South Asia,0,0,0,0,Low_Salt,None,0
+19,Male,East Asian,South America,0,1,1,1,Low_Salt,None,0
+77,Male,East Asian,Africa,1,1,0,0,Low_Salt,None,0
+85,Male,Latin American,Europe,1,1,1,1,High_Salt,None,0
+71,Female,African / Caribbean,Europe,1,0,1,0,Low_Salt,Diabetes,0
+30,Female,East Asian,South Asia,0,0,0,0,Low_Salt,None,0
+23,Male,South Asian,South America,1,1,0,1,Low_Salt,Chronic Gastritis,1
+55,Female,Middle Eastern,North America,0,0,1,0,Low_Salt,None,0
+53,Female,East Asian,North America,0,0,1,0,Low_Salt,None,0
+37,Female,East Asian,South Asia,0,1,0,1,High_Salt,None,0
+85,Female,African / Caribbean,East Asia,1,0,1,0,Low_Salt,Diabetes,1
+21,Female,African / Caribbean,South Asia,1,1,0,0,High_Salt,Diabetes,0
+34,Female,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,1
+65,Male,Latin American,South America,0,0,1,0,Low_Salt,Chronic Gastritis,1
+61,Female,Latin American,Africa,0,0,1,0,High_Salt,Diabetes,0
+27,Male,East Asian,East Asia,0,0,1,1,Low_Salt,None,0
+57,Female,Latin American,Africa,0,1,0,0,Low_Salt,None,1
+85,Female,European,North America,0,0,1,0,Low_Salt,None,0
+51,Male,East Asian,South America,1,1,1,1,Low_Salt,Diabetes,0
+46,Female,East Asian,East Asia,0,0,0,0,Low_Salt,None,0
+29,Male,Middle Eastern,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+59,Male,Latin American,Africa,0,0,1,1,Low_Salt,None,0
+52,Female,African / Caribbean,South Asia,0,0,1,0,Low_Salt,None,0
+30,Male,South Asian,South Asia,0,0,1,1,Low_Salt,None,0
+61,Female,South Asian,South Asia,1,1,1,0,Low_Salt,Chronic Gastritis,1
+35,Female,South Asian,Europe,0,0,0,0,Low_Salt,None,0
+60,Male,South Asian,Europe,0,0,0,0,High_Salt,None,0
+65,Male,South Asian,Europe,0,0,1,0,Low_Salt,None,0
+57,Male,Latin American,North America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+50,Female,South Asian,Africa,0,0,1,0,Low_Salt,None,0
+74,Male,Middle Eastern,East Asia,0,0,1,1,Low_Salt,Chronic Gastritis,1
+78,Male,African / Caribbean,East Asia,0,0,1,0,Low_Salt,None,1
+55,Female,East Asian,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+41,Male,Middle Eastern,Europe,1,0,0,0,Low_Salt,Chronic Gastritis,1
+39,Female,African / Caribbean,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+39,Male,Latin American,Europe,1,0,0,0,High_Salt,Chronic Gastritis,1
+81,Female,European,East Asia,0,0,1,0,High_Salt,None,0
+43,Female,African / Caribbean,North America,0,0,1,0,High_Salt,None,0
+34,Male,European,South Asia,0,0,1,0,Low_Salt,None,1
+85,Male,European,South America,0,0,0,0,Low_Salt,None,0
+60,Male,East Asian,East Asia,0,1,0,1,Low_Salt,Chronic Gastritis,1
+89,Male,South Asian,Africa,0,0,1,0,High_Salt,None,1
+20,Male,Latin American,Europe,1,0,0,1,Low_Salt,None,0
+80,Female,East Asian,South America,0,0,1,0,Low_Salt,Diabetes,1
+71,Female,Latin American,Africa,1,0,0,1,High_Salt,Diabetes,1
+71,Male,South Asian,South Asia,1,1,0,1,Low_Salt,Chronic Gastritis,1
+58,Female,African / Caribbean,Africa,1,0,1,0,Low_Salt,Chronic Gastritis,0
+83,Male,South Asian,East Asia,0,1,1,1,Low_Salt,Diabetes,0
+49,Female,South Asian,Europe,0,1,0,0,High_Salt,Diabetes,1
+57,Female,Latin American,East Asia,0,0,0,0,Low_Salt,None,0
+30,Male,South Asian,Africa,1,1,0,1,High_Salt,Chronic Gastritis,1
+61,Male,Middle Eastern,South Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+51,Male,East Asian,East Asia,0,0,1,0,High_Salt,None,1
+84,Female,Latin American,East Asia,1,1,0,0,High_Salt,Chronic Gastritis,1
+86,Female,African / Caribbean,South America,0,0,0,1,High_Salt,None,1
+79,Male,European,South America,0,0,0,0,High_Salt,Chronic Gastritis,1
+58,Female,Middle Eastern,North America,0,0,1,1,High_Salt,None,1
+69,Female,African / Caribbean,North America,0,1,1,0,High_Salt,Chronic Gastritis,1
+78,Male,East Asian,South America,1,1,1,0,Low_Salt,Chronic Gastritis,1
+19,Male,Middle Eastern,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+59,Male,South Asian,Africa,0,1,0,1,High_Salt,None,0
+20,Male,Middle Eastern,North America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+32,Male,European,Europe,1,0,0,0,Low_Salt,None,0
+18,Female,Middle Eastern,South America,1,0,0,1,Low_Salt,None,0
+66,Male,Middle Eastern,South Asia,0,1,0,1,Low_Salt,None,1
+29,Male,East Asian,South America,0,1,0,0,High_Salt,Chronic Gastritis,1
+85,Female,South Asian,South Asia,0,1,0,1,Low_Salt,Diabetes,1
+64,Female,African / Caribbean,North America,0,0,0,0,High_Salt,None,0
+43,Male,Latin American,South Asia,1,0,0,0,High_Salt,None,1
+69,Male,European,North America,0,1,0,1,Low_Salt,Diabetes,1
+75,Male,South Asian,North America,0,0,0,0,Low_Salt,Chronic Gastritis,1
+20,Male,South Asian,East Asia,1,0,1,0,Low_Salt,None,0
+81,Male,Middle Eastern,South America,0,0,0,0,Low_Salt,None,0
+43,Male,Middle Eastern,South America,0,1,1,1,High_Salt,None,1
+58,Male,European,Europe,0,1,0,1,Low_Salt,None,0
+72,Male,Middle Eastern,South Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+84,Female,South Asian,Europe,0,1,1,1,High_Salt,None,1
+46,Female,European,Europe,0,0,1,0,High_Salt,None,0
+52,Male,African / Caribbean,North America,1,1,0,0,High_Salt,Chronic Gastritis,1
+42,Female,European,East Asia,0,1,1,0,High_Salt,None,0
+22,Male,East Asian,Europe,0,1,0,0,High_Salt,None,0
+89,Female,European,South Asia,0,1,1,0,High_Salt,Diabetes,1
+63,Female,Middle Eastern,South America,0,0,1,1,Low_Salt,Diabetes,0
+65,Female,African / Caribbean,East Asia,1,0,1,1,High_Salt,Chronic Gastritis,1
+33,Male,Latin American,East Asia,1,0,1,0,High_Salt,None,0
+21,Female,Latin American,North America,0,0,1,1,Low_Salt,None,1
+62,Male,Middle Eastern,Europe,1,0,0,0,Low_Salt,Chronic Gastritis,1
+45,Female,East Asian,North America,0,0,1,0,High_Salt,None,1
+61,Male,European,North America,0,0,0,1,Low_Salt,None,0
+29,Female,East Asian,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+60,Male,European,North America,0,0,0,0,Low_Salt,None,0
+24,Male,European,South America,0,0,1,1,Low_Salt,None,0
+61,Male,Middle Eastern,East Asia,0,0,0,1,Low_Salt,Diabetes,0
+33,Male,Middle Eastern,South Asia,1,1,0,1,High_Salt,None,1
+46,Female,Middle Eastern,East Asia,0,0,0,0,High_Salt,None,0
+71,Male,African / Caribbean,Europe,1,1,0,1,High_Salt,Chronic Gastritis,1
+28,Male,European,South America,0,0,0,0,Low_Salt,None,0
+70,Female,Middle Eastern,East Asia,0,1,0,0,High_Salt,None,0
+36,Male,Latin American,Africa,0,0,0,0,Low_Salt,Diabetes,0
+77,Male,African / Caribbean,Africa,0,0,1,0,High_Salt,Diabetes,1
+38,Female,African / Caribbean,Africa,1,0,1,1,High_Salt,None,1
+23,Female,African / Caribbean,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+39,Male,Middle Eastern,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+21,Female,African / Caribbean,Africa,0,1,0,1,High_Salt,Chronic Gastritis,1
+54,Male,Latin American,South Asia,1,0,1,0,Low_Salt,Diabetes,1
+50,Male,East Asian,South America,1,0,0,0,Low_Salt,None,0
+36,Male,South Asian,North America,0,0,0,0,High_Salt,Diabetes,0
+58,Female,East Asian,North America,0,1,0,0,High_Salt,Chronic Gastritis,0
+79,Male,African / Caribbean,North America,1,0,1,1,High_Salt,Diabetes,1
+30,Female,Middle Eastern,Europe,0,0,0,1,High_Salt,Diabetes,0
+84,Female,European,South Asia,0,0,1,0,High_Salt,Diabetes,1
+55,Male,Latin American,South America,0,0,1,1,High_Salt,None,0
+40,Male,African / Caribbean,South Asia,0,0,0,1,Low_Salt,None,0
+72,Female,Latin American,South America,0,0,0,0,High_Salt,Chronic Gastritis,1
+27,Female,East Asian,Africa,0,0,0,0,Low_Salt,None,0
+39,Male,European,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+54,Female,Middle Eastern,East Asia,0,0,0,0,High_Salt,None,0
+65,Male,East Asian,South America,1,0,1,1,Low_Salt,Chronic Gastritis,1
+41,Female,South Asian,Europe,0,0,1,0,Low_Salt,None,1
+73,Male,European,East Asia,0,0,0,0,Low_Salt,None,1
+68,Male,East Asian,Europe,0,0,1,0,Low_Salt,Diabetes,0
+71,Female,South Asian,Africa,1,0,1,0,High_Salt,None,1
+78,Female,Latin American,Africa,1,0,0,0,Low_Salt,None,0
+18,Male,Latin American,Europe,0,0,1,0,Low_Salt,None,0
+20,Female,African / Caribbean,Europe,0,0,1,0,High_Salt,None,0
+26,Female,South Asian,South America,0,0,1,0,High_Salt,Chronic Gastritis,1
+68,Male,European,Europe,1,0,0,0,High_Salt,None,1
+76,Male,African / Caribbean,South Asia,0,0,1,1,High_Salt,Diabetes,1
+54,Female,South Asian,East Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+80,Female,East Asian,North America,0,1,0,0,High_Salt,None,0
+80,Female,Middle Eastern,East Asia,0,1,1,0,Low_Salt,None,0
+48,Female,Middle Eastern,South America,0,0,1,1,High_Salt,None,0
+58,Female,African / Caribbean,Europe,0,1,1,0,Low_Salt,Chronic Gastritis,1
+59,Male,Middle Eastern,Europe,0,0,0,0,Low_Salt,None,0
+61,Female,Middle Eastern,South Asia,1,1,0,0,High_Salt,None,1
+45,Male,African / Caribbean,South America,0,0,0,1,Low_Salt,None,0
+87,Female,African / Caribbean,South America,0,0,1,0,High_Salt,Chronic Gastritis,1
+56,Male,European,South America,0,1,0,1,High_Salt,None,0
+46,Male,East Asian,South Asia,1,1,1,1,Low_Salt,Chronic Gastritis,1
+28,Female,South Asian,Africa,1,0,1,0,Low_Salt,None,0
+42,Female,East Asian,Africa,1,1,0,0,High_Salt,None,1
+35,Male,African / Caribbean,South America,1,1,0,1,High_Salt,Diabetes,1
+39,Female,Middle Eastern,South America,0,0,0,1,High_Salt,Diabetes,0
+46,Female,African / Caribbean,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+38,Male,European,East Asia,0,0,0,1,High_Salt,None,0
+19,Male,Latin American,East Asia,0,1,0,0,High_Salt,Chronic Gastritis,1
+48,Male,Middle Eastern,North America,0,0,1,0,Low_Salt,None,1
+84,Male,European,North America,0,0,0,0,Low_Salt,None,0
+62,Male,South Asian,South Asia,0,0,0,0,High_Salt,Diabetes,1
+71,Male,Middle Eastern,South Asia,1,0,1,0,Low_Salt,None,0
+20,Female,African / Caribbean,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,1
+24,Female,African / Caribbean,Africa,0,1,0,0,High_Salt,Diabetes,0
+31,Male,Latin American,North America,0,1,0,0,High_Salt,None,0
+56,Female,African / Caribbean,East Asia,0,0,1,1,Low_Salt,Chronic Gastritis,1
+47,Female,European,South America,1,1,0,0,Low_Salt,Diabetes,1
+63,Female,Latin American,Africa,1,1,1,0,Low_Salt,Chronic Gastritis,1
+81,Female,South Asian,South America,1,0,0,1,Low_Salt,None,0
+34,Female,South Asian,South Asia,0,0,1,0,High_Salt,None,1
+52,Female,East Asian,Europe,0,0,1,1,Low_Salt,Chronic Gastritis,1
+89,Female,East Asian,North America,1,0,0,0,High_Salt,None,1
+49,Male,Middle Eastern,South America,0,1,0,0,High_Salt,Chronic Gastritis,1
+44,Male,Middle Eastern,North America,1,1,1,0,Low_Salt,Diabetes,0
+62,Female,South Asian,South America,1,0,1,0,Low_Salt,Diabetes,1
+46,Female,East Asian,South America,0,1,0,0,High_Salt,Chronic Gastritis,0
+66,Female,Middle Eastern,North America,0,1,1,0,High_Salt,Chronic Gastritis,1
+56,Female,African / Caribbean,Europe,1,0,1,1,Low_Salt,None,1
+47,Female,Latin American,South Asia,1,0,0,0,High_Salt,None,1
+56,Female,Middle Eastern,Europe,0,0,0,1,Low_Salt,None,0
+46,Female,European,East Asia,1,1,0,0,Low_Salt,None,0
+86,Male,Latin American,North America,0,1,1,0,Low_Salt,None,1
+67,Female,Latin American,South America,0,1,0,0,High_Salt,None,0
+77,Male,Middle Eastern,Europe,0,0,1,0,High_Salt,None,1
+66,Female,South Asian,Europe,0,0,0,0,Low_Salt,None,1
+35,Male,Latin American,Africa,0,1,1,1,Low_Salt,None,0
+42,Male,African / Caribbean,South Asia,0,1,0,0,High_Salt,None,1
+78,Female,European,South America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+21,Female,South Asian,South America,0,0,0,0,High_Salt,Diabetes,0
+40,Male,Latin American,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+30,Female,Middle Eastern,East Asia,1,0,1,0,High_Salt,None,0
+34,Male,European,North America,0,0,0,1,High_Salt,None,0
+78,Female,European,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,1
+29,Male,South Asian,North America,0,1,0,0,High_Salt,Chronic Gastritis,0
+33,Male,Middle Eastern,South Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+40,Male,European,East Asia,1,1,0,0,Low_Salt,None,1
+81,Male,Latin American,South Asia,0,0,0,0,Low_Salt,None,1
+37,Female,East Asian,South Asia,0,0,1,1,Low_Salt,None,0
+72,Female,African / Caribbean,South America,0,0,0,0,High_Salt,None,0
+53,Male,European,East Asia,0,0,0,1,Low_Salt,Diabetes,1
+74,Female,Middle Eastern,South America,0,0,1,0,Low_Salt,None,0
+32,Male,South Asian,South America,0,1,0,1,Low_Salt,None,0
+31,Male,South Asian,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,1
+37,Male,South Asian,Africa,1,0,0,1,Low_Salt,Diabetes,0
+18,Female,Latin American,South America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+51,Male,South Asian,Africa,0,0,1,0,High_Salt,None,0
+18,Male,African / Caribbean,South America,1,1,1,0,Low_Salt,Chronic Gastritis,0
+56,Male,Middle Eastern,South America,0,1,0,0,High_Salt,None,1
+70,Female,Middle Eastern,Africa,0,0,0,1,High_Salt,None,1
+81,Female,European,North America,0,0,1,0,Low_Salt,None,0
+30,Female,African / Caribbean,North America,0,0,1,1,Low_Salt,None,0
+67,Female,Latin American,South Asia,0,0,0,1,High_Salt,Chronic Gastritis,1
+73,Female,European,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+85,Female,Middle Eastern,Africa,0,0,0,0,High_Salt,None,0
+33,Female,Latin American,North America,0,1,0,0,High_Salt,None,0
+84,Female,South Asian,South Asia,1,0,0,0,High_Salt,Diabetes,1
+27,Female,East Asian,East Asia,0,0,1,0,Low_Salt,None,1
+24,Female,Middle Eastern,East Asia,1,1,1,0,High_Salt,Chronic Gastritis,1
+44,Male,Middle Eastern,Africa,0,1,1,1,High_Salt,Chronic Gastritis,1
+54,Female,East Asian,Europe,1,0,0,1,High_Salt,Diabetes,1
+29,Female,European,South America,0,0,0,1,Low_Salt,Diabetes,0
+51,Female,African / Caribbean,South Asia,0,0,1,1,Low_Salt,None,0
+78,Female,East Asian,South America,1,0,0,0,Low_Salt,Chronic Gastritis,1
+58,Male,South Asian,North America,1,0,0,0,High_Salt,Chronic Gastritis,0
+27,Female,East Asian,South America,0,0,0,1,High_Salt,None,0
+77,Female,Latin American,Europe,1,1,1,0,High_Salt,Chronic Gastritis,0
+78,Male,East Asian,Africa,0,0,0,0,Low_Salt,None,0
+19,Male,Latin American,East Asia,0,0,0,1,Low_Salt,None,0
+89,Female,South Asian,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+56,Male,Latin American,South Asia,0,0,1,0,High_Salt,Diabetes,0
+26,Female,Latin American,South Asia,1,0,0,1,High_Salt,None,0
+27,Female,European,Europe,0,0,0,0,High_Salt,None,0
+86,Male,African / Caribbean,Africa,0,0,1,0,Low_Salt,Diabetes,1
+22,Female,South Asian,Europe,0,1,0,1,Low_Salt,None,1
+39,Female,African / Caribbean,South Asia,0,0,0,0,High_Salt,None,0
+20,Male,Middle Eastern,South America,1,0,0,1,Low_Salt,None,0
+52,Female,South Asian,Africa,0,0,0,1,High_Salt,None,1
+42,Female,Middle Eastern,Europe,0,0,1,0,Low_Salt,Diabetes,0
+88,Male,Middle Eastern,South America,0,0,0,0,High_Salt,Chronic Gastritis,0
+33,Female,Middle Eastern,Africa,0,0,0,1,Low_Salt,None,0
+32,Male,Latin American,East Asia,0,1,1,0,Low_Salt,None,0
+34,Male,South Asian,South America,0,1,1,1,High_Salt,None,0
+31,Female,South Asian,South America,0,1,0,0,Low_Salt,None,0
+63,Female,European,Africa,0,0,1,1,Low_Salt,Chronic Gastritis,0
+40,Female,African / Caribbean,Europe,1,0,0,0,Low_Salt,None,0
+71,Male,African / Caribbean,South America,0,0,1,1,High_Salt,None,0
+86,Female,European,East Asia,1,0,0,0,Low_Salt,Diabetes,0
+84,Male,African / Caribbean,North America,0,1,0,1,High_Salt,None,0
+82,Female,African / Caribbean,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+47,Male,South Asian,East Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+60,Male,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,0
+65,Female,Latin American,North America,1,1,0,0,High_Salt,Diabetes,1
+73,Female,African / Caribbean,South America,0,0,1,1,Low_Salt,None,0
+25,Female,European,East Asia,0,1,0,0,Low_Salt,None,1
+56,Female,East Asian,Africa,0,1,0,1,Low_Salt,Diabetes,0
+36,Male,East Asian,Europe,0,0,0,0,High_Salt,None,0
+64,Female,South Asian,South Asia,0,0,0,1,Low_Salt,Diabetes,0
+20,Female,European,North America,0,1,0,0,Low_Salt,None,0
+44,Male,African / Caribbean,Europe,0,1,1,0,Low_Salt,Diabetes,0
+64,Male,Middle Eastern,South Asia,0,0,1,1,Low_Salt,None,0
+74,Male,East Asian,North America,0,1,1,0,High_Salt,Chronic Gastritis,1
+18,Female,Middle Eastern,North America,0,0,1,0,Low_Salt,Diabetes,0
+25,Male,African / Caribbean,East Asia,1,1,0,1,High_Salt,Chronic Gastritis,1
+55,Female,East Asian,South America,0,0,0,0,High_Salt,None,0
+53,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,Diabetes,0
+86,Female,African / Caribbean,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+84,Female,European,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+63,Male,Latin American,Africa,0,1,1,0,Low_Salt,Chronic Gastritis,1
+70,Female,Latin American,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+61,Male,African / Caribbean,East Asia,0,0,1,0,Low_Salt,None,0
+80,Male,European,South Asia,1,1,0,0,Low_Salt,None,1
+55,Female,European,North America,0,0,0,0,Low_Salt,None,0
+24,Female,European,East Asia,1,0,0,0,Low_Salt,None,0
+23,Male,European,East Asia,0,0,1,1,Low_Salt,Diabetes,0
+54,Female,African / Caribbean,South Asia,0,0,0,0,High_Salt,None,1
+27,Female,East Asian,South America,0,0,0,0,High_Salt,None,0
+27,Female,East Asian,Europe,0,0,0,1,Low_Salt,Diabetes,0
+36,Male,European,East Asia,1,0,0,0,High_Salt,Diabetes,0
+45,Male,East Asian,South Asia,1,0,1,1,High_Salt,Chronic Gastritis,1
+63,Male,European,South Asia,0,0,1,1,Low_Salt,None,1
+75,Female,European,North America,0,0,1,0,High_Salt,Chronic Gastritis,1
+37,Female,Latin American,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+69,Female,African / Caribbean,Europe,1,0,0,1,High_Salt,None,1
+28,Female,East Asian,Africa,0,1,0,0,High_Salt,Chronic Gastritis,0
+25,Male,Middle Eastern,South Asia,0,0,0,1,High_Salt,Chronic Gastritis,0
+21,Female,African / Caribbean,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+33,Male,East Asian,East Asia,0,0,1,0,High_Salt,None,0
+65,Female,East Asian,South Asia,1,0,1,0,Low_Salt,Chronic Gastritis,0
+44,Male,South Asian,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+19,Male,European,North America,0,0,1,1,High_Salt,None,0
+21,Female,European,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+84,Female,East Asian,South Asia,1,0,0,0,Low_Salt,Chronic Gastritis,1
+34,Male,African / Caribbean,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+25,Male,European,Africa,0,1,0,0,Low_Salt,Chronic Gastritis,0
+26,Male,East Asian,North America,0,1,1,0,Low_Salt,None,0
+32,Male,European,East Asia,0,0,0,1,Low_Salt,Diabetes,0
+20,Female,East Asian,Africa,0,0,1,0,Low_Salt,None,0
+64,Male,Latin American,South Asia,1,0,0,0,High_Salt,Chronic Gastritis,0
+26,Female,Middle Eastern,North America,0,1,1,0,Low_Salt,None,0
+82,Female,European,North America,0,1,1,0,Low_Salt,None,1
+67,Male,South Asian,South Asia,0,1,0,1,Low_Salt,Diabetes,0
+56,Female,Latin American,Africa,0,0,1,0,Low_Salt,Diabetes,0
+57,Male,Latin American,Europe,0,0,1,1,Low_Salt,None,1
+55,Male,South Asian,Europe,1,0,0,1,High_Salt,Chronic Gastritis,0
+44,Female,African / Caribbean,North America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+40,Female,Latin American,East Asia,0,1,1,1,High_Salt,None,1
+51,Female,Latin American,Africa,0,0,0,0,Low_Salt,None,0
+77,Male,Middle Eastern,South America,0,1,1,1,High_Salt,Chronic Gastritis,1
+60,Male,Latin American,South America,1,0,1,0,High_Salt,Chronic Gastritis,0
+37,Male,Latin American,North America,0,0,0,0,Low_Salt,Diabetes,0
+23,Male,African / Caribbean,South Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+74,Male,European,North America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+36,Female,Latin American,East Asia,0,0,1,1,Low_Salt,None,0
+61,Female,Middle Eastern,Africa,0,1,1,0,Low_Salt,None,0
+46,Female,East Asian,South America,0,1,1,0,Low_Salt,None,1
+25,Male,East Asian,Africa,1,1,1,1,High_Salt,Chronic Gastritis,0
+39,Female,European,North America,0,0,0,0,Low_Salt,None,0
+37,Female,South Asian,South America,0,0,0,1,Low_Salt,Chronic Gastritis,1
+44,Male,East Asian,Europe,0,1,0,0,Low_Salt,Diabetes,0
+68,Female,South Asian,South America,0,1,1,0,Low_Salt,None,1
+67,Male,South Asian,East Asia,0,0,1,0,Low_Salt,None,0
+72,Female,South Asian,South America,0,0,0,0,High_Salt,Chronic Gastritis,1
+68,Female,African / Caribbean,Africa,1,1,0,0,High_Salt,None,1
+37,Male,Latin American,North America,0,1,0,1,High_Salt,Chronic Gastritis,0
+18,Male,Latin American,North America,0,0,1,0,Low_Salt,None,0
+22,Female,African / Caribbean,South Asia,1,0,1,0,Low_Salt,None,0
+36,Female,Latin American,East Asia,1,0,1,0,High_Salt,Diabetes,0
+51,Female,European,South Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+19,Female,Latin American,North America,0,0,1,1,Low_Salt,Diabetes,0
+31,Male,African / Caribbean,East Asia,0,0,0,0,High_Salt,None,0
+65,Male,African / Caribbean,Europe,1,0,0,1,Low_Salt,Chronic Gastritis,0
+80,Female,Latin American,North America,0,0,1,0,Low_Salt,None,0
+28,Male,South Asian,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,0
+74,Male,European,Africa,0,0,0,1,Low_Salt,None,1
+73,Male,Middle Eastern,South America,1,1,0,0,Low_Salt,Chronic Gastritis,1
+68,Male,Latin American,East Asia,0,0,0,0,Low_Salt,None,0
+36,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+37,Male,Latin American,South America,0,1,1,0,Low_Salt,None,0
+37,Female,Latin American,Africa,1,1,0,0,Low_Salt,Chronic Gastritis,0
+49,Female,Middle Eastern,Europe,0,1,0,1,Low_Salt,Chronic Gastritis,1
+62,Male,European,North America,0,0,0,0,Low_Salt,Chronic Gastritis,1
+54,Male,African / Caribbean,East Asia,0,1,0,1,Low_Salt,Chronic Gastritis,1
+30,Female,European,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+34,Male,East Asian,Africa,0,1,0,0,Low_Salt,None,0
+34,Male,European,Europe,0,0,1,0,Low_Salt,None,0
+36,Male,East Asian,Europe,1,0,0,1,Low_Salt,Chronic Gastritis,0
+36,Male,European,Europe,1,0,0,0,Low_Salt,None,0
+29,Female,South Asian,North America,1,0,0,0,Low_Salt,None,0
+74,Male,Middle Eastern,Europe,0,0,0,1,Low_Salt,None,0
+48,Male,African / Caribbean,Africa,1,1,0,0,Low_Salt,None,1
+82,Female,Middle Eastern,Europe,0,0,0,0,Low_Salt,None,1
+82,Male,Latin American,Africa,0,0,1,0,Low_Salt,Diabetes,0
+67,Male,East Asian,East Asia,1,1,0,0,Low_Salt,Chronic Gastritis,0
+44,Male,Middle Eastern,Europe,1,1,0,0,High_Salt,Chronic Gastritis,1
+69,Female,South Asian,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+74,Male,South Asian,North America,0,0,0,0,High_Salt,Chronic Gastritis,0
+35,Male,Latin American,South America,0,0,0,0,High_Salt,Chronic Gastritis,0
+71,Female,Middle Eastern,North America,0,1,0,0,Low_Salt,None,0
+38,Male,Middle Eastern,East Asia,1,1,0,1,High_Salt,Diabetes,1
+57,Male,South Asian,North America,0,1,1,1,Low_Salt,Diabetes,1
+39,Female,European,East Asia,0,1,0,0,High_Salt,None,1
+69,Female,Latin American,South Asia,0,1,0,0,Low_Salt,None,0
+54,Male,South Asian,South Asia,0,0,0,0,Low_Salt,None,0
+51,Female,Middle Eastern,Africa,0,0,0,0,Low_Salt,None,0
+47,Male,Middle Eastern,South America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+35,Male,African / Caribbean,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+70,Male,Latin American,Europe,0,1,0,0,Low_Salt,None,0
+54,Male,South Asian,Europe,0,0,1,1,High_Salt,Chronic Gastritis,1
+70,Female,Latin American,North America,0,0,1,0,Low_Salt,None,1
+59,Female,African / Caribbean,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,0
+27,Female,African / Caribbean,South Asia,0,0,0,1,High_Salt,Chronic Gastritis,0
+18,Female,East Asian,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+27,Male,African / Caribbean,East Asia,1,0,1,1,Low_Salt,None,1
+20,Female,African / Caribbean,North America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+88,Male,European,East Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+61,Male,Middle Eastern,South Asia,0,0,0,1,High_Salt,None,0
+25,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,None,0
+30,Female,South Asian,South Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+37,Female,African / Caribbean,Europe,0,0,1,0,Low_Salt,Diabetes,0
+52,Female,East Asian,Europe,0,0,1,1,High_Salt,None,1
+41,Female,South Asian,South America,1,0,0,0,Low_Salt,None,1
+78,Male,East Asian,South America,0,1,0,1,Low_Salt,None,1
+83,Female,Middle Eastern,South America,0,0,0,0,High_Salt,Chronic Gastritis,1
+58,Female,African / Caribbean,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+52,Female,African / Caribbean,South America,0,0,0,1,Low_Salt,None,0
+57,Male,African / Caribbean,South Asia,0,0,0,1,High_Salt,Chronic Gastritis,1
+40,Male,East Asian,North America,0,0,0,1,Low_Salt,None,0
+35,Male,European,Europe,1,1,0,0,High_Salt,None,0
+39,Female,Middle Eastern,East Asia,0,0,0,0,Low_Salt,None,0
+68,Male,East Asian,Europe,0,0,1,0,Low_Salt,Chronic Gastritis,0
+30,Female,South Asian,East Asia,0,1,1,0,Low_Salt,None,0
+53,Male,South Asian,East Asia,1,0,1,0,Low_Salt,None,1
+51,Male,Latin American,South Asia,0,1,0,0,High_Salt,None,0
+22,Female,European,Europe,1,1,1,0,High_Salt,None,1
+44,Female,South Asian,South Asia,1,1,0,0,High_Salt,None,1
+18,Male,Latin American,South Asia,0,1,0,0,High_Salt,Diabetes,0
+40,Male,East Asian,North America,0,1,1,1,Low_Salt,Chronic Gastritis,1
+74,Female,East Asian,North America,1,0,1,0,High_Salt,None,1
+89,Female,South Asian,Europe,1,1,0,1,High_Salt,None,1
+79,Male,European,Africa,0,0,1,0,High_Salt,Chronic Gastritis,1
+19,Male,South Asian,South America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+31,Male,East Asian,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,1
+42,Female,South Asian,Europe,0,0,1,0,High_Salt,None,1
+80,Female,East Asian,Africa,0,1,0,0,High_Salt,None,0
+55,Male,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+72,Male,African / Caribbean,South America,0,0,1,0,High_Salt,Chronic Gastritis,1
+37,Male,Latin American,North America,0,1,1,1,Low_Salt,Chronic Gastritis,1
+66,Female,European,East Asia,1,0,0,0,Low_Salt,None,0
+46,Male,Middle Eastern,Africa,0,0,0,0,High_Salt,Chronic Gastritis,0
+60,Female,African / Caribbean,South America,0,1,0,0,Low_Salt,None,0
+39,Female,East Asian,South America,0,0,1,0,High_Salt,None,0
+72,Male,African / Caribbean,North America,0,0,1,0,Low_Salt,Chronic Gastritis,1
+83,Female,African / Caribbean,Europe,0,0,0,0,High_Salt,None,1
+58,Male,Latin American,North America,0,0,1,1,Low_Salt,Chronic Gastritis,1
+29,Male,Middle Eastern,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+18,Male,Latin American,East Asia,0,0,0,1,Low_Salt,Diabetes,0
+84,Male,East Asian,East Asia,0,0,0,0,Low_Salt,Diabetes,0
+73,Male,European,South Asia,0,0,1,0,Low_Salt,None,1
+32,Male,Middle Eastern,Europe,0,0,1,0,High_Salt,None,0
+76,Female,Middle Eastern,Europe,1,1,0,0,Low_Salt,Diabetes,1
+78,Male,African / Caribbean,East Asia,0,0,1,0,High_Salt,Diabetes,0
+58,Female,Latin American,South Asia,0,0,0,1,Low_Salt,None,0
+32,Male,European,South Asia,0,0,1,0,Low_Salt,None,0
+35,Female,South Asian,North America,0,0,1,1,High_Salt,None,1
+65,Male,Latin American,Europe,0,0,0,0,Low_Salt,None,0
+53,Male,European,South America,0,0,0,0,High_Salt,None,0
+68,Female,East Asian,East Asia,0,1,1,1,Low_Salt,Chronic Gastritis,0
+37,Female,South Asian,East Asia,0,0,0,0,High_Salt,None,0
+39,Female,Middle Eastern,North America,0,0,0,0,High_Salt,None,0
+45,Male,European,East Asia,0,0,0,1,High_Salt,Chronic Gastritis,1
+71,Female,South Asian,Europe,0,0,0,0,Low_Salt,None,1
+49,Female,Latin American,South Asia,0,0,0,0,High_Salt,None,0
+75,Male,Middle Eastern,Africa,0,1,0,1,High_Salt,Chronic Gastritis,1
+33,Male,South Asian,Europe,0,1,1,1,Low_Salt,Diabetes,0
+73,Female,African / Caribbean,South Asia,1,0,1,0,Low_Salt,None,1
+50,Female,South Asian,East Asia,0,0,0,0,High_Salt,Diabetes,0
+88,Female,Latin American,South Asia,0,0,1,0,High_Salt,Diabetes,0
+61,Male,South Asian,South Asia,1,0,0,0,Low_Salt,Diabetes,0
+63,Male,Latin American,Europe,0,1,1,0,Low_Salt,None,0
+18,Female,African / Caribbean,Africa,0,0,0,1,High_Salt,None,0
+68,Male,South Asian,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+22,Male,African / Caribbean,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+43,Female,South Asian,Africa,0,0,0,0,Low_Salt,None,0
+78,Male,African / Caribbean,South America,0,1,0,0,High_Salt,None,1
+84,Female,Latin American,South Asia,0,0,1,0,Low_Salt,Diabetes,0
+88,Male,Middle Eastern,South Asia,0,0,0,1,Low_Salt,None,0
+25,Male,South Asian,East Asia,0,1,1,0,Low_Salt,None,0
+26,Male,European,South Asia,0,1,0,1,Low_Salt,Chronic Gastritis,0
+44,Male,Latin American,South Asia,1,0,0,0,Low_Salt,None,1
+66,Male,East Asian,Europe,1,0,0,0,Low_Salt,None,0
+69,Female,African / Caribbean,South Asia,0,1,0,0,High_Salt,Chronic Gastritis,0
+37,Female,South Asian,East Asia,0,1,0,0,Low_Salt,None,0
+47,Female,European,East Asia,0,1,0,0,Low_Salt,None,0
+69,Male,South Asian,East Asia,1,0,1,0,Low_Salt,None,0
+65,Male,Middle Eastern,Africa,1,0,0,0,Low_Salt,Diabetes,0
+31,Male,Latin American,Europe,0,0,0,0,Low_Salt,None,0
+38,Female,East Asian,Africa,0,1,0,0,High_Salt,None,1
+59,Male,Latin American,South Asia,0,0,0,0,Low_Salt,None,0
+48,Female,Latin American,South America,0,0,1,0,High_Salt,Chronic Gastritis,1
+46,Male,Middle Eastern,Africa,0,1,1,0,Low_Salt,Diabetes,0
+71,Female,South Asian,South America,0,0,0,0,High_Salt,None,0
+25,Female,African / Caribbean,East Asia,0,0,0,0,High_Salt,None,0
+64,Male,European,East Asia,0,0,0,1,High_Salt,None,0
+89,Male,African / Caribbean,South America,1,1,1,0,Low_Salt,Diabetes,1
+84,Male,African / Caribbean,Europe,0,1,0,0,Low_Salt,Chronic Gastritis,0
+68,Female,European,Europe,1,0,1,0,Low_Salt,None,0
+79,Female,African / Caribbean,Europe,0,1,0,0,Low_Salt,None,0
+67,Male,South Asian,Africa,0,0,0,1,Low_Salt,None,0
+59,Female,Latin American,South Asia,0,0,1,1,Low_Salt,Chronic Gastritis,0
+32,Female,European,South Asia,1,0,1,0,High_Salt,None,1
+37,Male,European,South America,0,0,0,1,High_Salt,None,0
+29,Female,Latin American,North America,0,1,1,0,High_Salt,None,0
+54,Male,African / Caribbean,Europe,1,0,0,0,Low_Salt,None,0
+66,Male,Middle Eastern,North America,1,0,1,0,High_Salt,Diabetes,1
+81,Male,East Asian,South Asia,1,0,0,0,Low_Salt,None,0
+64,Male,East Asian,Europe,0,0,1,0,Low_Salt,None,0
+23,Female,Middle Eastern,South Asia,0,0,1,0,High_Salt,None,1
+33,Male,Middle Eastern,South Asia,0,1,0,0,High_Salt,None,1
+56,Male,South Asian,South America,0,1,0,0,High_Salt,Chronic Gastritis,1
+59,Male,Middle Eastern,North America,0,0,0,1,Low_Salt,Chronic Gastritis,1
+77,Male,Middle Eastern,Africa,0,1,0,0,Low_Salt,Chronic Gastritis,0
+54,Male,African / Caribbean,East Asia,0,1,1,0,Low_Salt,Diabetes,1
+69,Female,East Asian,South America,0,0,0,0,High_Salt,None,1
+86,Female,Latin American,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+77,Male,South Asian,North America,0,0,0,1,High_Salt,None,1
+65,Male,South Asian,South Asia,1,0,1,0,High_Salt,None,0
+77,Male,Middle Eastern,South America,1,1,1,0,Low_Salt,Chronic Gastritis,1
+41,Male,South Asian,Africa,0,0,1,1,Low_Salt,None,0
+83,Female,South Asian,North America,0,0,0,0,Low_Salt,None,0
+50,Male,Middle Eastern,Africa,0,0,0,0,Low_Salt,None,0
+42,Female,European,Africa,1,0,0,1,Low_Salt,None,0
+81,Female,Middle Eastern,East Asia,1,0,0,1,Low_Salt,Chronic Gastritis,0
+80,Male,Latin American,East Asia,1,0,0,0,Low_Salt,Diabetes,0
+54,Male,Latin American,South Asia,0,1,0,0,Low_Salt,None,0
+78,Male,Middle Eastern,Africa,0,1,1,1,High_Salt,Chronic Gastritis,1
+80,Male,Middle Eastern,North America,0,0,0,0,Low_Salt,None,0
+32,Female,East Asian,South Asia,1,0,0,0,Low_Salt,Chronic Gastritis,0
+68,Female,East Asian,South Asia,0,1,0,0,Low_Salt,None,0
+46,Male,Middle Eastern,East Asia,0,1,1,0,High_Salt,None,0
+56,Male,European,Africa,1,0,0,0,Low_Salt,Chronic Gastritis,1
+74,Female,African / Caribbean,South Asia,0,0,1,0,Low_Salt,None,0
+21,Female,South Asian,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+46,Male,East Asian,North America,0,0,0,0,Low_Salt,None,0
+24,Female,European,Africa,0,1,0,0,High_Salt,Diabetes,1
+87,Female,East Asian,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+54,Male,European,Africa,0,1,1,0,High_Salt,Chronic Gastritis,1
+68,Female,Middle Eastern,Africa,1,0,1,1,Low_Salt,None,0
+48,Male,Middle Eastern,Europe,1,0,1,0,High_Salt,None,0
+86,Female,African / Caribbean,East Asia,0,1,1,0,Low_Salt,None,0
+43,Female,European,Africa,0,0,0,0,High_Salt,None,0
+72,Male,European,Europe,0,0,0,0,High_Salt,None,0
+44,Male,European,East Asia,0,0,0,1,Low_Salt,None,1
+64,Female,East Asian,North America,1,0,0,1,Low_Salt,None,1
+38,Female,South Asian,South America,0,0,1,0,High_Salt,None,0
+27,Female,Latin American,North America,1,1,0,0,Low_Salt,Chronic Gastritis,1
+62,Female,South Asian,North America,0,0,0,0,Low_Salt,Diabetes,1
+26,Female,South Asian,East Asia,0,0,0,0,High_Salt,None,0
+84,Female,Latin American,South America,1,1,0,0,High_Salt,Chronic Gastritis,1
+61,Female,Middle Eastern,North America,0,0,0,0,Low_Salt,None,0
+23,Male,Latin American,North America,0,1,0,0,High_Salt,None,0
+70,Female,African / Caribbean,South Asia,1,0,0,0,Low_Salt,None,0
+57,Female,African / Caribbean,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+20,Male,Latin American,South Asia,0,0,1,1,Low_Salt,Diabetes,0
+31,Female,East Asian,Europe,0,1,1,1,High_Salt,None,1
+34,Female,European,South America,0,0,1,1,High_Salt,None,0
+18,Male,European,South America,0,0,0,1,High_Salt,None,0
+26,Male,East Asian,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+46,Female,African / Caribbean,South America,0,0,1,0,High_Salt,Chronic Gastritis,1
+36,Female,Middle Eastern,South Asia,0,0,1,1,High_Salt,None,0
+42,Male,European,North America,0,0,1,0,Low_Salt,None,0
+51,Male,East Asian,North America,0,0,1,1,Low_Salt,Diabetes,1
+54,Male,African / Caribbean,South Asia,0,0,0,1,High_Salt,Chronic Gastritis,1
+87,Male,South Asian,Europe,0,0,0,0,Low_Salt,None,0
+65,Male,African / Caribbean,East Asia,0,1,0,0,High_Salt,None,0
+25,Male,African / Caribbean,Europe,0,0,0,0,Low_Salt,None,0
+21,Female,African / Caribbean,East Asia,0,1,0,1,Low_Salt,None,0
+60,Female,European,Europe,0,1,0,0,Low_Salt,Diabetes,0
+18,Female,East Asian,South America,1,1,0,0,High_Salt,Chronic Gastritis,0
+37,Male,Middle Eastern,South Asia,0,1,0,0,High_Salt,None,0
+46,Female,East Asian,East Asia,0,1,1,1,Low_Salt,None,0
+44,Male,Middle Eastern,South America,0,1,0,1,Low_Salt,None,1
+76,Female,African / Caribbean,North America,0,0,0,0,High_Salt,None,0
+83,Male,East Asian,North America,0,0,0,1,High_Salt,None,1
+88,Female,South Asian,East Asia,1,1,0,1,High_Salt,Chronic Gastritis,1
+81,Female,European,South Asia,0,0,0,0,Low_Salt,None,0
+78,Female,South Asian,Europe,1,1,0,0,Low_Salt,None,1
+33,Female,Latin American,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+68,Female,Middle Eastern,East Asia,0,0,1,1,Low_Salt,None,1
+86,Male,European,North America,0,1,0,1,Low_Salt,None,0
+23,Female,African / Caribbean,East Asia,1,0,0,0,High_Salt,None,0
+42,Female,East Asian,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,1
+21,Male,South Asian,North America,1,1,1,1,High_Salt,Chronic Gastritis,1
+26,Male,Middle Eastern,East Asia,0,0,1,0,Low_Salt,Diabetes,0
+77,Male,South Asian,East Asia,1,0,1,0,High_Salt,None,1
+41,Male,Middle Eastern,South America,0,0,1,0,High_Salt,None,1
+45,Male,East Asian,South America,0,0,1,0,Low_Salt,Chronic Gastritis,0
+80,Female,Latin American,South Asia,0,0,0,0,High_Salt,None,1
+55,Female,European,South Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+31,Female,Middle Eastern,South Asia,0,0,1,1,Low_Salt,Chronic Gastritis,1
+59,Male,Latin American,South Asia,0,1,1,0,High_Salt,Diabetes,1
+40,Female,European,South Asia,0,1,1,1,High_Salt,None,0
+66,Male,Latin American,East Asia,0,1,1,1,Low_Salt,Chronic Gastritis,0
+53,Female,South Asian,North America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+55,Male,African / Caribbean,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+54,Male,East Asian,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+26,Male,South Asian,East Asia,1,0,0,1,High_Salt,None,0
+20,Female,Latin American,Europe,1,0,0,0,Low_Salt,None,0
+48,Female,Latin American,East Asia,0,1,0,1,Low_Salt,Chronic Gastritis,1
+84,Female,Middle Eastern,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,0
+41,Female,African / Caribbean,South Asia,0,0,1,0,Low_Salt,Diabetes,1
+35,Female,South Asian,North America,0,0,1,0,High_Salt,None,0
+51,Male,South Asian,East Asia,1,1,0,0,Low_Salt,None,0
+89,Male,South Asian,Africa,1,1,1,0,Low_Salt,None,0
+20,Female,European,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+69,Male,East Asian,North America,1,0,1,0,High_Salt,Chronic Gastritis,1
+82,Male,South Asian,East Asia,1,0,1,0,Low_Salt,Chronic Gastritis,0
+49,Male,Latin American,East Asia,0,0,1,0,Low_Salt,Diabetes,0
+29,Female,European,Africa,0,1,0,0,Low_Salt,Diabetes,0
+47,Male,African / Caribbean,East Asia,1,1,0,0,High_Salt,None,1
+72,Female,Middle Eastern,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+43,Female,European,Africa,0,0,0,1,High_Salt,Chronic Gastritis,0
+74,Male,European,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,1
+76,Male,African / Caribbean,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+89,Male,Latin American,Europe,1,0,0,0,Low_Salt,None,0
+25,Male,Middle Eastern,South Asia,0,1,1,1,High_Salt,None,0
+63,Female,European,North America,0,1,0,0,High_Salt,None,0
+83,Female,Middle Eastern,North America,0,0,1,0,High_Salt,None,0
+29,Female,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,1
+35,Male,African / Caribbean,North America,1,1,1,0,High_Salt,None,0
+83,Male,African / Caribbean,South Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+72,Male,European,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+67,Female,East Asian,South Asia,0,0,0,1,High_Salt,None,0
+80,Male,Latin American,East Asia,0,1,1,0,High_Salt,None,0
+41,Female,European,Africa,0,1,0,0,Low_Salt,None,0
+61,Male,East Asian,East Asia,0,0,0,0,High_Salt,Diabetes,0
+67,Female,African / Caribbean,East Asia,1,0,0,0,Low_Salt,Chronic Gastritis,1
+86,Female,Latin American,South America,1,0,0,0,Low_Salt,Chronic Gastritis,0
+25,Male,Latin American,South America,1,1,1,0,Low_Salt,None,1
+29,Female,East Asian,Europe,0,0,1,1,Low_Salt,Chronic Gastritis,0
+87,Female,African / Caribbean,Africa,1,0,1,0,Low_Salt,Chronic Gastritis,0
+67,Female,European,North America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+20,Male,African / Caribbean,North America,0,1,0,0,High_Salt,None,1
+32,Male,Latin American,Europe,0,0,1,0,Low_Salt,Chronic Gastritis,0
+38,Female,South Asian,South America,1,0,0,0,High_Salt,None,0
+59,Female,European,East Asia,1,1,1,0,High_Salt,Chronic Gastritis,1
+85,Male,East Asian,North America,1,0,1,0,High_Salt,Chronic Gastritis,0
+62,Female,South Asian,Europe,1,0,0,0,Low_Salt,None,0
+81,Male,Latin American,North America,0,0,1,0,Low_Salt,Diabetes,0
+79,Female,South Asian,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+83,Male,South Asian,South America,1,0,0,0,Low_Salt,None,0
+41,Male,East Asian,South Asia,1,0,0,0,High_Salt,None,0
+30,Female,South Asian,South America,0,1,0,0,Low_Salt,None,0
+77,Male,East Asian,Africa,0,1,0,1,High_Salt,None,0
+77,Female,European,South America,0,1,1,1,High_Salt,Chronic Gastritis,1
+20,Male,East Asian,Africa,0,1,0,0,Low_Salt,None,0
+34,Male,Middle Eastern,South Asia,0,0,0,1,High_Salt,Diabetes,1
+48,Male,African / Caribbean,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,1
+41,Male,European,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,0
+78,Female,East Asian,South America,0,1,0,1,Low_Salt,None,0
+33,Male,East Asian,North America,1,0,0,0,High_Salt,None,0
+71,Male,European,Africa,0,0,0,0,Low_Salt,None,1
+28,Male,South Asian,Africa,0,1,1,0,Low_Salt,None,0
+29,Female,African / Caribbean,North America,1,1,0,1,Low_Salt,None,0
+44,Female,European,Europe,1,0,1,0,Low_Salt,None,0
+63,Male,South Asian,East Asia,0,1,0,0,Low_Salt,None,0
+87,Male,Latin American,South Asia,0,0,0,1,Low_Salt,None,1
+66,Male,European,South America,0,1,0,0,Low_Salt,Chronic Gastritis,0
+83,Male,South Asian,Africa,0,0,1,0,Low_Salt,Chronic Gastritis,0
+55,Male,African / Caribbean,East Asia,0,0,0,0,Low_Salt,None,0
+81,Male,European,South Asia,1,0,0,1,Low_Salt,None,0
+36,Female,Latin American,South America,0,0,0,0,Low_Salt,Diabetes,0
+24,Female,European,East Asia,1,0,0,0,Low_Salt,None,0
+64,Female,Latin American,South America,1,0,1,1,Low_Salt,None,0
+57,Female,South Asian,Europe,1,0,1,0,High_Salt,Diabetes,0
+60,Female,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,0
+29,Male,African / Caribbean,Africa,0,1,0,1,High_Salt,Diabetes,0
+45,Male,Middle Eastern,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,0
+26,Female,African / Caribbean,Europe,1,1,0,0,High_Salt,Chronic Gastritis,1
+72,Male,South Asian,North America,0,1,1,1,High_Salt,None,1
+21,Female,South Asian,Africa,0,1,0,1,Low_Salt,None,0
+50,Female,Middle Eastern,South Asia,0,0,0,0,Low_Salt,None,0
+45,Male,Latin American,South America,0,0,0,1,Low_Salt,None,0
+70,Female,African / Caribbean,North America,0,0,1,0,Low_Salt,Diabetes,1
+51,Male,Latin American,South America,1,0,0,1,High_Salt,None,0
+80,Male,African / Caribbean,North America,0,1,1,0,High_Salt,None,0
+84,Female,East Asian,South America,0,1,0,0,Low_Salt,Diabetes,0
+39,Female,Latin American,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+57,Male,South Asian,Africa,0,0,1,0,High_Salt,Chronic Gastritis,0
+80,Male,Middle Eastern,South America,0,0,0,0,High_Salt,None,0
+19,Female,European,South Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+49,Female,Latin American,South America,1,0,0,1,High_Salt,Chronic Gastritis,1
+73,Female,South Asian,Africa,1,1,0,0,High_Salt,Chronic Gastritis,0
+38,Male,Middle Eastern,Europe,1,1,1,1,Low_Salt,None,0
+34,Female,Latin American,Africa,0,0,1,1,Low_Salt,None,0
+80,Male,East Asian,Africa,0,0,1,1,Low_Salt,None,0
+44,Female,European,North America,1,1,0,0,High_Salt,Chronic Gastritis,1
+68,Male,East Asian,Europe,0,1,1,0,High_Salt,None,0
+89,Female,European,South America,0,0,1,1,Low_Salt,None,1
+63,Male,European,Africa,0,1,1,0,Low_Salt,Diabetes,0
+82,Male,African / Caribbean,Africa,1,0,0,1,Low_Salt,None,1
+65,Female,European,North America,1,0,0,1,High_Salt,None,0
+51,Male,East Asian,North America,1,0,1,1,High_Salt,Diabetes,0
+56,Male,African / Caribbean,Europe,0,0,1,0,Low_Salt,Chronic Gastritis,1
+25,Male,East Asian,South America,1,0,1,0,Low_Salt,None,0
+63,Female,Middle Eastern,South Asia,0,0,1,1,Low_Salt,None,1
+20,Male,Middle Eastern,Africa,0,0,0,0,High_Salt,None,0
+30,Female,South Asian,Europe,0,0,0,0,High_Salt,None,0
+26,Male,East Asian,South Asia,0,1,1,0,Low_Salt,Diabetes,0
+72,Male,European,East Asia,0,1,1,0,High_Salt,Diabetes,1
+18,Male,South Asian,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+25,Female,African / Caribbean,South America,1,0,1,0,Low_Salt,Diabetes,0
+38,Male,East Asian,Europe,1,0,0,1,Low_Salt,None,1
+67,Male,African / Caribbean,South Asia,0,1,0,1,High_Salt,None,1
+48,Female,Middle Eastern,North America,1,0,1,1,Low_Salt,Chronic Gastritis,1
+25,Male,European,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+86,Male,European,East Asia,0,0,1,0,Low_Salt,None,0
+69,Male,African / Caribbean,South America,0,0,1,1,Low_Salt,None,0
+89,Female,European,Europe,0,0,1,0,Low_Salt,None,0
+48,Female,European,Europe,0,0,0,0,Low_Salt,None,0
+74,Male,South Asian,North America,1,1,0,0,High_Salt,None,1
+67,Male,Latin American,East Asia,0,0,0,0,High_Salt,None,0
+82,Male,African / Caribbean,Africa,0,1,1,0,High_Salt,Chronic Gastritis,1
+62,Female,Latin American,East Asia,0,1,0,0,Low_Salt,Diabetes,1
+46,Female,East Asian,South Asia,0,1,1,1,Low_Salt,None,1
+41,Female,South Asian,Europe,1,0,1,0,High_Salt,None,1
+67,Male,Middle Eastern,Europe,0,1,1,1,Low_Salt,None,1
+52,Female,East Asian,North America,0,0,0,0,Low_Salt,None,0
+32,Female,African / Caribbean,South America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+31,Male,Middle Eastern,East Asia,0,0,0,1,High_Salt,Diabetes,0
+27,Female,South Asian,North America,0,1,1,1,High_Salt,None,1
+44,Female,Middle Eastern,North America,0,0,1,0,Low_Salt,None,0
+58,Male,European,South America,0,1,0,0,High_Salt,None,0
+54,Female,African / Caribbean,Europe,1,0,1,0,High_Salt,None,0
+72,Male,Latin American,North America,0,0,1,0,Low_Salt,None,0
+52,Female,East Asian,South America,0,0,0,0,High_Salt,None,0
+48,Male,East Asian,South America,0,0,0,1,Low_Salt,None,0
+21,Male,South Asian,Africa,0,1,1,0,Low_Salt,None,0
+88,Male,Middle Eastern,East Asia,0,0,0,0,High_Salt,None,1
+82,Female,South Asian,Africa,0,1,0,0,Low_Salt,Diabetes,0
+67,Female,South Asian,East Asia,0,0,0,1,High_Salt,Diabetes,1
+57,Female,Middle Eastern,East Asia,1,0,1,1,Low_Salt,None,1
+28,Female,African / Caribbean,South Asia,0,0,0,0,High_Salt,Chronic Gastritis,1
+77,Male,South Asian,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+57,Male,East Asian,North America,0,0,0,0,Low_Salt,Chronic Gastritis,1
+56,Male,Latin American,South Asia,1,0,0,0,High_Salt,None,0
+48,Female,Latin American,Europe,1,1,0,1,High_Salt,None,1
+69,Female,European,Africa,1,1,0,0,High_Salt,Diabetes,1
+73,Male,East Asian,East Asia,0,0,0,1,Low_Salt,None,1
+61,Female,South Asian,North America,0,0,0,0,Low_Salt,None,0
+53,Male,European,East Asia,0,0,1,1,High_Salt,None,1
+47,Female,African / Caribbean,South America,0,0,0,1,High_Salt,Diabetes,0
+30,Female,European,South America,1,1,1,0,High_Salt,Chronic Gastritis,1
+62,Female,Middle Eastern,Europe,1,1,1,0,High_Salt,Chronic Gastritis,1
+67,Female,South Asian,North America,0,0,1,1,Low_Salt,Diabetes,1
+77,Female,Latin American,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,1
+81,Male,Middle Eastern,Africa,0,1,0,1,High_Salt,None,1
+24,Female,African / Caribbean,East Asia,0,1,1,0,Low_Salt,None,0
+57,Male,Latin American,South America,0,1,0,0,Low_Salt,None,0
+31,Male,Latin American,North America,0,0,0,1,High_Salt,Diabetes,0
+51,Male,Middle Eastern,North America,0,1,0,0,Low_Salt,None,0
+44,Female,Middle Eastern,South America,0,0,1,0,Low_Salt,None,0
+29,Male,South Asian,East Asia,0,0,0,1,High_Salt,Chronic Gastritis,0
+68,Female,East Asian,Africa,1,0,0,0,High_Salt,Diabetes,1
+43,Female,Middle Eastern,North America,1,0,0,0,High_Salt,None,0
+55,Female,African / Caribbean,Europe,0,1,1,1,Low_Salt,None,0
+26,Female,European,South Asia,1,0,0,0,High_Salt,None,0
+25,Female,European,South Asia,1,1,0,0,Low_Salt,None,0
+21,Male,East Asian,North America,0,0,1,0,Low_Salt,None,0
+82,Female,South Asian,North America,1,0,0,0,High_Salt,None,0
+21,Male,East Asian,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+56,Female,Latin American,North America,1,0,0,0,Low_Salt,Chronic Gastritis,1
+35,Male,Latin American,South America,0,0,1,1,Low_Salt,None,0
+18,Female,European,North America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+59,Female,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,0
+74,Female,East Asian,Africa,0,1,1,1,Low_Salt,None,1
+56,Male,Latin American,South America,0,0,1,1,Low_Salt,None,0
+78,Female,East Asian,Europe,0,1,0,0,High_Salt,Chronic Gastritis,1
+24,Female,European,South Asia,0,0,1,0,High_Salt,None,0
+82,Female,European,South America,0,0,0,0,Low_Salt,None,0
+25,Male,South Asian,Europe,0,0,1,0,High_Salt,None,0
+86,Male,European,South America,1,0,1,0,Low_Salt,None,0
+54,Male,Latin American,North America,0,0,1,1,High_Salt,Diabetes,0
+69,Male,Middle Eastern,North America,0,0,1,0,High_Salt,Diabetes,0
+44,Female,African / Caribbean,North America,0,1,0,1,Low_Salt,None,1
+40,Female,Latin American,North America,1,0,0,0,Low_Salt,None,0
+25,Female,African / Caribbean,South Asia,0,1,0,1,High_Salt,Chronic Gastritis,0
+58,Female,African / Caribbean,East Asia,0,1,0,0,High_Salt,None,0
+22,Male,East Asian,East Asia,1,1,0,0,Low_Salt,Chronic Gastritis,0
+49,Female,African / Caribbean,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+46,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,None,0
+76,Male,European,East Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+56,Male,South Asian,Europe,0,1,0,0,Low_Salt,Diabetes,1
+47,Male,East Asian,South America,1,0,0,1,Low_Salt,None,1
+68,Male,Latin American,Africa,0,0,0,0,High_Salt,None,0
+78,Male,South Asian,Europe,0,1,0,1,High_Salt,None,0
+42,Male,Latin American,North America,0,1,0,0,Low_Salt,None,0
+41,Male,European,Europe,0,0,1,1,Low_Salt,None,0
+43,Male,Latin American,Europe,0,0,0,1,Low_Salt,None,1
+51,Female,African / Caribbean,North America,1,1,1,0,Low_Salt,Chronic Gastritis,1
+56,Male,South Asian,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+77,Male,European,East Asia,0,0,1,1,Low_Salt,Diabetes,0
+28,Male,South Asian,North America,0,0,0,0,High_Salt,Chronic Gastritis,1
+79,Female,South Asian,South America,0,0,0,0,Low_Salt,Chronic Gastritis,1
+88,Female,Latin American,South America,0,1,1,0,High_Salt,None,1
+68,Female,European,South America,0,0,0,1,Low_Salt,Chronic Gastritis,1
+43,Female,South Asian,South America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+24,Female,Latin American,North America,0,0,0,0,High_Salt,Chronic Gastritis,0
+52,Male,East Asian,Europe,1,0,1,0,Low_Salt,Chronic Gastritis,0
+51,Female,South Asian,North America,0,0,0,0,High_Salt,None,0
+87,Male,African / Caribbean,Europe,1,1,1,0,Low_Salt,Chronic Gastritis,1
+32,Male,European,Africa,0,0,0,0,High_Salt,None,0
+43,Female,East Asian,Africa,0,0,1,1,Low_Salt,Diabetes,0
+83,Male,South Asian,South America,0,0,0,0,Low_Salt,None,0
+73,Female,African / Caribbean,North America,0,0,0,0,High_Salt,None,0
+85,Female,European,Africa,0,1,1,1,High_Salt,Diabetes,1
+35,Female,European,Africa,1,0,0,1,Low_Salt,None,0
+89,Male,Middle Eastern,Africa,1,0,0,0,High_Salt,None,0
+27,Female,Latin American,South Asia,0,1,0,1,Low_Salt,None,1
+48,Female,European,North America,1,1,0,1,High_Salt,None,0
+38,Male,European,East Asia,0,1,1,1,High_Salt,None,0
+45,Female,Middle Eastern,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+66,Male,European,Africa,0,0,1,0,Low_Salt,Diabetes,0
+42,Female,African / Caribbean,Europe,0,0,1,1,Low_Salt,None,0
+55,Female,Middle Eastern,Europe,1,1,0,1,High_Salt,None,0
+66,Female,Middle Eastern,North America,0,1,1,0,Low_Salt,None,1
+18,Female,South Asian,South Asia,1,0,1,0,High_Salt,Diabetes,1
+53,Male,South Asian,Africa,1,0,1,0,High_Salt,None,1
+54,Female,Middle Eastern,Africa,0,1,0,0,Low_Salt,Diabetes,0
+31,Female,African / Caribbean,Europe,0,0,0,0,Low_Salt,None,0
+32,Female,East Asian,East Asia,1,0,0,0,Low_Salt,None,0
+68,Male,East Asian,Africa,0,1,0,1,High_Salt,Chronic Gastritis,1
+39,Male,Middle Eastern,North America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+28,Female,African / Caribbean,North America,0,0,1,0,Low_Salt,None,0
+22,Male,Latin American,Europe,0,1,1,0,High_Salt,Chronic Gastritis,0
+56,Male,African / Caribbean,Africa,0,0,0,0,Low_Salt,None,0
+41,Male,African / Caribbean,South Asia,1,0,0,1,Low_Salt,None,0
+28,Female,African / Caribbean,South Asia,0,0,0,0,Low_Salt,None,0
+79,Female,African / Caribbean,North America,0,1,0,1,Low_Salt,None,0
+69,Female,Latin American,South Asia,0,0,1,0,Low_Salt,None,1
+28,Male,African / Caribbean,South Asia,0,0,1,0,Low_Salt,None,0
+20,Male,Middle Eastern,North America,0,0,0,0,Low_Salt,None,1
+53,Male,Middle Eastern,Europe,0,0,0,0,High_Salt,None,0
+34,Male,African / Caribbean,Africa,0,0,0,0,Low_Salt,None,1
+40,Female,African / Caribbean,East Asia,1,1,1,0,Low_Salt,Diabetes,1
+88,Female,African / Caribbean,Africa,0,1,1,0,Low_Salt,Chronic Gastritis,1
+45,Male,African / Caribbean,Africa,0,1,1,0,Low_Salt,Chronic Gastritis,1
+43,Female,European,North America,0,1,1,1,High_Salt,None,0
+87,Female,South Asian,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,1
+79,Female,Middle Eastern,South Asia,1,1,0,0,High_Salt,Diabetes,0
+44,Female,South Asian,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+61,Male,European,South America,0,1,1,0,High_Salt,None,1
+24,Female,East Asian,South Asia,0,1,0,0,High_Salt,None,0
+54,Male,African / Caribbean,East Asia,0,1,0,0,Low_Salt,None,0
+84,Male,Middle Eastern,South Asia,1,0,1,1,Low_Salt,None,1
+62,Male,African / Caribbean,Europe,0,1,0,0,Low_Salt,None,0
+18,Male,European,Africa,0,1,0,1,Low_Salt,None,0
+53,Female,South Asian,Africa,0,1,0,1,Low_Salt,None,0
+87,Female,African / Caribbean,North America,0,0,1,1,Low_Salt,Chronic Gastritis,1
+49,Female,African / Caribbean,East Asia,0,1,1,0,Low_Salt,None,0
+40,Male,East Asian,East Asia,0,0,0,1,Low_Salt,None,0
+71,Female,East Asian,North America,0,0,0,1,High_Salt,Chronic Gastritis,0
+62,Female,European,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+59,Male,African / Caribbean,East Asia,0,1,0,1,High_Salt,Chronic Gastritis,1
+88,Female,Latin American,Africa,1,0,0,0,Low_Salt,Chronic Gastritis,0
+84,Female,South Asian,Europe,0,0,1,1,Low_Salt,Diabetes,0
+56,Female,East Asian,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,1
+65,Female,Middle Eastern,South Asia,0,0,0,1,Low_Salt,None,0
+31,Male,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,0
+86,Male,South Asian,South Asia,0,0,0,0,High_Salt,None,0
+49,Female,East Asian,South Asia,0,0,0,1,Low_Salt,None,0
+23,Female,African / Caribbean,Africa,0,0,1,0,Low_Salt,None,0
+62,Female,African / Caribbean,Africa,0,1,1,0,Low_Salt,Diabetes,0
+61,Male,European,North America,0,0,1,0,Low_Salt,None,1
+67,Male,South Asian,South Asia,0,0,1,0,High_Salt,None,1
+81,Male,European,Africa,0,0,0,1,Low_Salt,Chronic Gastritis,1
+47,Male,East Asian,Europe,0,1,0,1,Low_Salt,None,0
+76,Male,East Asian,North America,0,1,1,0,High_Salt,None,1
+46,Male,African / Caribbean,South America,0,0,1,0,Low_Salt,None,0
+76,Female,Middle Eastern,South Asia,1,0,0,1,High_Salt,Diabetes,1
+61,Male,European,South America,0,1,0,0,High_Salt,Diabetes,1
+44,Male,European,East Asia,1,0,0,1,High_Salt,None,0
+73,Male,Latin American,South America,0,1,1,1,Low_Salt,None,0
+57,Female,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,0
+66,Female,Middle Eastern,Europe,1,1,0,1,High_Salt,Chronic Gastritis,1
+31,Female,East Asian,Africa,0,0,1,0,High_Salt,None,1
+77,Female,Middle Eastern,South America,0,0,1,1,Low_Salt,None,0
+40,Male,African / Caribbean,Europe,0,1,1,0,Low_Salt,None,0
+48,Female,European,Europe,0,0,1,0,Low_Salt,Diabetes,0
+88,Male,East Asian,South Asia,1,1,1,0,Low_Salt,Chronic Gastritis,1
+81,Female,East Asian,East Asia,0,0,0,1,High_Salt,None,0
+22,Male,European,North America,0,0,0,1,Low_Salt,None,0
+64,Female,South Asian,Europe,0,0,0,1,High_Salt,None,0
+21,Male,Latin American,Africa,0,0,0,0,High_Salt,None,0
+66,Female,European,South Asia,0,0,0,0,Low_Salt,None,0
+64,Female,Middle Eastern,South America,1,1,1,0,Low_Salt,None,0
+19,Female,South Asian,Africa,1,1,0,0,High_Salt,Chronic Gastritis,1
+82,Female,East Asian,North America,0,1,0,1,High_Salt,Chronic Gastritis,0
+77,Male,Latin American,South America,0,0,1,0,Low_Salt,None,0
+48,Female,South Asian,South Asia,0,0,0,0,Low_Salt,Diabetes,0
+29,Male,African / Caribbean,Africa,0,0,0,0,Low_Salt,Diabetes,0
+51,Female,East Asian,Europe,0,0,1,0,Low_Salt,None,0
+44,Male,Middle Eastern,Europe,0,1,1,0,Low_Salt,None,0
+75,Female,African / Caribbean,Europe,0,1,0,0,High_Salt,None,1
+22,Male,African / Caribbean,Africa,1,1,0,1,High_Salt,None,1
+37,Male,East Asian,North America,1,1,0,0,Low_Salt,None,0
+86,Female,Latin American,East Asia,0,0,1,0,Low_Salt,None,0
+71,Female,European,Europe,0,0,0,1,High_Salt,None,1
+71,Male,European,South Asia,1,1,0,1,Low_Salt,None,1
+56,Male,South Asian,South America,0,0,0,0,Low_Salt,None,0
+26,Male,African / Caribbean,Africa,1,0,1,0,Low_Salt,Chronic Gastritis,0
+89,Male,Middle Eastern,Europe,0,1,0,1,High_Salt,Chronic Gastritis,1
+28,Female,East Asian,North America,0,1,1,0,Low_Salt,None,0
+22,Female,African / Caribbean,South America,0,0,1,1,High_Salt,None,1
+75,Male,Middle Eastern,Africa,0,0,1,1,Low_Salt,None,0
+50,Female,East Asian,Africa,0,0,0,0,Low_Salt,None,0
+40,Male,Middle Eastern,East Asia,0,1,0,0,Low_Salt,None,0
+31,Male,Middle Eastern,South America,0,0,0,0,High_Salt,None,0
+34,Male,Latin American,East Asia,0,1,1,0,Low_Salt,Chronic Gastritis,0
+66,Male,African / Caribbean,Africa,0,0,1,1,Low_Salt,Diabetes,0
+64,Female,South Asian,Africa,0,0,0,0,High_Salt,None,0
+30,Male,Middle Eastern,Africa,1,0,1,0,Low_Salt,None,0
+19,Female,Middle Eastern,Africa,0,0,0,0,Low_Salt,None,0
+56,Female,European,North America,1,0,0,0,Low_Salt,None,0
+85,Male,South Asian,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,0
+20,Female,European,Europe,0,0,0,1,High_Salt,None,0
+43,Female,African / Caribbean,East Asia,1,0,1,1,Low_Salt,None,0
+43,Male,Latin American,South Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+74,Female,Latin American,Europe,1,0,0,1,Low_Salt,Diabetes,1
+24,Male,South Asian,South Asia,1,1,0,0,Low_Salt,None,1
+58,Male,South Asian,Europe,0,0,0,0,High_Salt,Chronic Gastritis,0
+60,Female,African / Caribbean,East Asia,0,1,0,0,Low_Salt,None,0
+69,Female,Middle Eastern,Africa,0,0,1,0,Low_Salt,Diabetes,0
+65,Male,East Asian,East Asia,0,0,0,0,High_Salt,Diabetes,0
+31,Male,African / Caribbean,East Asia,0,0,1,0,High_Salt,None,0
+26,Female,Latin American,South Asia,0,0,0,0,High_Salt,None,0
+74,Female,African / Caribbean,South America,0,1,1,0,High_Salt,Diabetes,1
+56,Male,Middle Eastern,East Asia,0,0,0,0,High_Salt,None,1
+35,Male,African / Caribbean,North America,0,0,1,1,High_Salt,None,1
+28,Male,East Asian,South America,0,1,0,0,Low_Salt,None,0
+33,Female,South Asian,Africa,0,1,1,0,High_Salt,Diabetes,0
+75,Male,European,East Asia,0,0,0,0,High_Salt,None,0
+66,Male,South Asian,East Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+87,Female,East Asian,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+24,Male,East Asian,North America,0,1,1,0,Low_Salt,None,0
+53,Female,East Asian,South Asia,0,1,1,0,High_Salt,Diabetes,0
+42,Male,South Asian,South Asia,1,1,1,0,Low_Salt,Chronic Gastritis,1
+86,Female,African / Caribbean,North America,0,1,0,0,Low_Salt,None,0
+75,Male,East Asian,Europe,0,1,0,0,Low_Salt,None,0
+87,Male,African / Caribbean,Europe,0,0,1,0,High_Salt,Diabetes,1
+55,Female,Latin American,North America,0,0,0,0,High_Salt,None,0
+79,Female,East Asian,South America,0,1,0,0,Low_Salt,None,0
+39,Female,African / Caribbean,Europe,0,0,1,0,Low_Salt,Diabetes,0
+89,Female,Middle Eastern,South Asia,1,0,1,0,High_Salt,Diabetes,0
+31,Female,European,Africa,0,0,0,0,High_Salt,None,0
+82,Female,African / Caribbean,South Asia,0,0,0,0,High_Salt,Diabetes,0
+31,Male,East Asian,Africa,0,1,0,0,High_Salt,None,0
+25,Female,East Asian,Europe,1,1,0,1,Low_Salt,None,0
+79,Male,Middle Eastern,South Asia,0,0,0,0,High_Salt,None,1
+67,Male,Latin American,South Asia,0,0,0,0,Low_Salt,Chronic Gastritis,1
+49,Male,European,Africa,1,0,0,0,High_Salt,None,0
+41,Male,African / Caribbean,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+23,Female,European,Europe,0,1,0,0,High_Salt,Chronic Gastritis,0
+70,Male,South Asian,North America,0,1,0,0,Low_Salt,None,1
+36,Female,South Asian,East Asia,0,0,0,0,High_Salt,Chronic Gastritis,0
+31,Female,Latin American,South Asia,0,0,0,1,Low_Salt,None,0
+89,Female,Middle Eastern,Africa,0,1,1,0,Low_Salt,Diabetes,1
+70,Male,South Asian,East Asia,1,1,0,0,High_Salt,Chronic Gastritis,0
+53,Male,Middle Eastern,East Asia,1,1,0,0,High_Salt,None,0
+21,Male,African / Caribbean,North America,0,0,0,0,High_Salt,Diabetes,0
+49,Female,European,East Asia,0,1,0,0,Low_Salt,Chronic Gastritis,0
+88,Female,South Asian,Europe,0,0,1,0,High_Salt,None,0
+49,Female,European,Africa,0,1,0,0,Low_Salt,None,1
+35,Male,African / Caribbean,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+54,Male,South Asian,Africa,0,0,1,1,Low_Salt,None,0
+30,Female,Latin American,South Asia,0,0,0,0,Low_Salt,Diabetes,0
+80,Male,South Asian,Africa,0,1,1,1,High_Salt,None,1
+25,Female,East Asian,South Asia,1,1,0,0,Low_Salt,None,0
+75,Female,Middle Eastern,North America,0,0,1,0,High_Salt,None,0
+55,Female,South Asian,North America,0,0,1,0,Low_Salt,Chronic Gastritis,1
+77,Male,Middle Eastern,Europe,0,1,0,1,High_Salt,None,1
+87,Female,East Asian,Europe,0,0,1,0,Low_Salt,Diabetes,0
+60,Female,European,South Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+41,Male,East Asian,North America,0,0,0,1,High_Salt,None,0
+37,Male,East Asian,East Asia,0,0,1,0,Low_Salt,Chronic Gastritis,0
+38,Male,African / Caribbean,East Asia,0,1,0,0,Low_Salt,None,0
+68,Male,Latin American,Europe,0,0,1,0,Low_Salt,None,1
+70,Female,South Asian,East Asia,0,0,1,0,High_Salt,None,1
+49,Male,Latin American,North America,0,0,1,0,High_Salt,None,0
+25,Female,European,Africa,0,1,0,0,Low_Salt,None,0
+36,Male,Middle Eastern,South America,1,0,0,0,Low_Salt,None,0
+88,Male,Latin American,South Asia,0,0,0,0,Low_Salt,None,1
+56,Female,Middle Eastern,North America,0,1,0,0,Low_Salt,None,0
+21,Male,African / Caribbean,South Asia,0,1,0,1,Low_Salt,Chronic Gastritis,1
+82,Male,European,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+84,Male,South Asian,Europe,1,1,1,0,High_Salt,Diabetes,1
+65,Female,South Asian,South America,0,0,1,0,High_Salt,None,0
+88,Female,Middle Eastern,Africa,0,0,0,1,Low_Salt,Diabetes,0
+68,Male,Latin American,South America,0,1,0,0,Low_Salt,None,0
+44,Male,South Asian,Africa,0,1,1,0,High_Salt,None,1
+69,Female,European,Europe,1,0,0,0,Low_Salt,None,0
+62,Male,European,North America,0,1,0,0,Low_Salt,None,0
+53,Female,Latin American,Africa,0,0,1,0,Low_Salt,None,0
+32,Female,East Asian,Africa,0,0,1,1,Low_Salt,Chronic Gastritis,1
+24,Male,Latin American,East Asia,0,0,0,0,Low_Salt,None,0
+39,Male,Middle Eastern,Europe,0,0,0,0,Low_Salt,Chronic Gastritis,1
+61,Male,African / Caribbean,South America,0,1,1,0,Low_Salt,Chronic Gastritis,0
+65,Male,East Asian,East Asia,0,0,0,0,Low_Salt,None,0
+44,Female,Latin American,Europe,0,0,0,0,High_Salt,None,0
+42,Male,African / Caribbean,Europe,0,1,1,1,Low_Salt,Chronic Gastritis,1
+88,Female,East Asian,South America,0,0,0,0,High_Salt,None,1
+88,Male,Latin American,North America,0,0,1,0,High_Salt,None,0
+25,Male,East Asian,South Asia,0,1,0,0,Low_Salt,Diabetes,0
+57,Female,South Asian,North America,0,0,1,1,High_Salt,Diabetes,1
+57,Female,European,East Asia,1,1,0,0,High_Salt,Diabetes,1
+31,Female,South Asian,North America,0,0,0,0,High_Salt,None,0
+29,Male,Latin American,Europe,1,0,1,0,High_Salt,None,0
+33,Female,Latin American,North America,0,0,0,1,Low_Salt,Chronic Gastritis,0
+44,Male,South Asian,South Asia,0,1,1,0,High_Salt,None,1
+71,Female,Middle Eastern,East Asia,0,0,0,0,Low_Salt,Chronic Gastritis,0
+50,Female,Latin American,North America,1,0,1,0,Low_Salt,Chronic Gastritis,0
+24,Female,Middle Eastern,Europe,0,1,0,1,High_Salt,None,0
+68,Female,South Asian,East Asia,0,0,1,0,Low_Salt,None,0
+51,Female,European,East Asia,0,0,1,1,Low_Salt,None,1
+58,Female,Middle Eastern,Europe,1,0,1,1,High_Salt,None,0
+30,Male,Middle Eastern,South America,1,0,0,0,Low_Salt,Diabetes,0
+48,Female,Middle Eastern,Africa,0,1,1,0,Low_Salt,Diabetes,0
+64,Female,Latin American,South America,0,0,1,0,Low_Salt,None,0
+85,Female,European,North America,0,0,0,0,Low_Salt,Diabetes,0
+25,Male,African / Caribbean,South America,0,0,0,0,Low_Salt,Diabetes,1
+53,Male,South Asian,East Asia,1,0,0,0,High_Salt,None,0
+65,Male,Latin American,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,1
+22,Female,Latin American,North America,1,1,0,0,Low_Salt,Chronic Gastritis,0
+57,Female,African / Caribbean,South Asia,1,0,1,0,High_Salt,Chronic Gastritis,1
+37,Male,African / Caribbean,Europe,0,1,1,0,High_Salt,Diabetes,0
+55,Male,Latin American,South America,0,1,0,0,High_Salt,Chronic Gastritis,0
+46,Female,East Asian,East Asia,0,0,0,1,Low_Salt,None,0
+32,Male,Latin American,East Asia,1,0,1,0,High_Salt,None,0
+39,Female,South Asian,South America,0,1,0,1,High_Salt,None,1
+45,Female,African / Caribbean,Africa,0,1,0,1,High_Salt,Diabetes,0
+57,Male,Middle Eastern,South America,0,0,0,0,Low_Salt,None,0
+84,Male,Middle Eastern,North America,0,1,1,0,Low_Salt,None,1
+65,Female,European,East Asia,1,0,1,0,High_Salt,Chronic Gastritis,1
+59,Female,European,East Asia,0,1,1,0,Low_Salt,None,1
+51,Male,Latin American,South Asia,1,0,1,0,High_Salt,None,0
+71,Male,South Asian,South Asia,1,0,1,1,Low_Salt,None,1
+49,Male,South Asian,North America,0,1,0,0,Low_Salt,None,0
+30,Male,African / Caribbean,South Asia,0,1,0,0,Low_Salt,None,0
+84,Female,Latin American,South America,0,0,1,0,High_Salt,Diabetes,0
+52,Male,European,South America,0,0,0,0,Low_Salt,None,0
+86,Female,African / Caribbean,Africa,0,0,0,0,High_Salt,None,0
+24,Female,Latin American,South Asia,0,1,0,0,Low_Salt,None,0
+65,Female,Middle Eastern,Africa,1,1,1,1,High_Salt,None,1
+57,Female,Latin American,South America,1,1,1,0,Low_Salt,Chronic Gastritis,1
+59,Female,East Asian,South Asia,0,0,1,1,Low_Salt,Chronic Gastritis,1
+59,Male,Middle Eastern,North America,1,0,1,1,High_Salt,None,1
+81,Female,South Asian,South Asia,0,1,0,0,High_Salt,None,1
+40,Female,Latin American,East Asia,0,0,0,1,Low_Salt,Chronic Gastritis,0
+53,Female,South Asian,East Asia,0,0,0,1,Low_Salt,None,0
+48,Female,South Asian,East Asia,0,0,1,0,High_Salt,None,0
+54,Male,Middle Eastern,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+63,Female,Middle Eastern,South America,1,1,0,1,Low_Salt,None,1
+48,Female,Middle Eastern,South America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+28,Female,East Asian,Europe,0,0,0,0,High_Salt,None,0
+59,Male,East Asian,North America,0,1,0,0,Low_Salt,Diabetes,0
+53,Female,European,South Asia,0,1,1,0,High_Salt,Chronic Gastritis,1
+61,Male,European,South Asia,1,0,1,0,Low_Salt,None,1
+44,Female,Middle Eastern,North America,1,1,1,0,Low_Salt,None,1
+26,Male,European,Africa,1,0,1,0,Low_Salt,Diabetes,0
+74,Female,European,South Asia,0,1,0,1,High_Salt,Chronic Gastritis,1
+80,Male,East Asian,Europe,1,1,1,1,Low_Salt,None,1
+28,Female,Latin American,South America,1,0,0,0,Low_Salt,None,0
+43,Female,Middle Eastern,South America,0,0,1,1,Low_Salt,Chronic Gastritis,1
+27,Male,South Asian,Africa,0,1,0,0,High_Salt,None,0
+84,Male,Latin American,Europe,1,1,0,0,High_Salt,None,1
+84,Female,South Asian,North America,0,0,1,0,Low_Salt,Chronic Gastritis,1
+89,Female,South Asian,North America,0,0,0,0,Low_Salt,None,0
+36,Male,South Asian,Africa,0,1,1,1,Low_Salt,Chronic Gastritis,0
+74,Female,African / Caribbean,South Asia,1,1,1,0,Low_Salt,Chronic Gastritis,1
+48,Male,East Asian,South Asia,0,1,1,1,High_Salt,Diabetes,1
+57,Female,Middle Eastern,North America,1,0,0,0,High_Salt,None,1
+24,Male,Latin American,South Asia,0,0,0,1,Low_Salt,Chronic Gastritis,1
+78,Male,East Asian,East Asia,0,0,0,1,Low_Salt,None,0
+77,Male,Middle Eastern,Africa,0,0,1,0,Low_Salt,Diabetes,0
+35,Female,African / Caribbean,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,0
+39,Male,Latin American,Europe,0,0,0,0,High_Salt,None,0
+60,Male,Middle Eastern,South America,0,0,1,0,Low_Salt,None,0
+75,Female,Middle Eastern,South America,0,0,1,0,High_Salt,Diabetes,1
+20,Female,Latin American,South America,0,0,0,0,High_Salt,Diabetes,0
+41,Female,East Asian,East Asia,0,1,0,1,Low_Salt,None,1
+35,Male,Middle Eastern,Africa,0,0,1,0,Low_Salt,None,0
+43,Female,Latin American,East Asia,1,1,1,1,Low_Salt,None,1
+81,Male,European,North America,0,1,1,0,Low_Salt,Chronic Gastritis,1
+35,Female,South Asian,North America,0,0,0,0,Low_Salt,Chronic Gastritis,0
+35,Female,East Asian,Africa,0,1,1,0,Low_Salt,Chronic Gastritis,0
+39,Female,European,Africa,0,0,1,1,High_Salt,None,1
+89,Male,South Asian,South America,0,0,0,1,Low_Salt,None,0
+41,Female,African / Caribbean,Europe,0,0,0,0,Low_Salt,None,0
+83,Female,Latin American,South Asia,1,1,0,1,Low_Salt,None,1
+46,Male,European,South America,0,0,0,1,High_Salt,Chronic Gastritis,0
+83,Male,European,South America,0,0,1,0,Low_Salt,Chronic Gastritis,1
+81,Male,African / Caribbean,Europe,1,0,0,1,High_Salt,Chronic Gastritis,1
+34,Female,South Asian,Europe,0,0,1,0,High_Salt,Chronic Gastritis,0
+52,Male,South Asian,Africa,0,1,0,0,High_Salt,None,0
+89,Male,South Asian,North America,0,0,0,0,Low_Salt,None,0
+33,Female,Middle Eastern,North America,0,0,1,0,High_Salt,Chronic Gastritis,0
+18,Female,South Asian,East Asia,0,0,0,1,Low_Salt,None,0
+87,Male,European,North America,1,1,0,0,High_Salt,None,1
+19,Female,South Asian,South America,0,0,1,0,High_Salt,None,0
+39,Male,Middle Eastern,Europe,0,0,1,0,Low_Salt,None,0
+50,Female,South Asian,East Asia,0,0,1,0,Low_Salt,None,0
+49,Female,European,Africa,0,0,0,1,High_Salt,None,0
+70,Male,African / Caribbean,South America,0,0,1,1,Low_Salt,None,0
+32,Male,European,East Asia,0,0,1,0,High_Salt,Chronic Gastritis,0
+19,Male,European,Africa,0,0,0,0,Low_Salt,Chronic Gastritis,0
+19,Female,South Asian,East Asia,1,1,1,0,High_Salt,Diabetes,0
+84,Male,South Asian,East Asia,1,0,0,0,High_Salt,Chronic Gastritis,1
+26,Male,Latin American,East Asia,1,0,1,0,High_Salt,Chronic Gastritis,0
+65,Female,African / Caribbean,North America,0,1,1,0,Low_Salt,None,0
+64,Male,Middle Eastern,North America,0,0,1,0,Low_Salt,None,0

@@ -1,0 +1,10 @@
+Age_Years
+Symptom_Duration_Months
+Gender_Male
+Smoking_Status_Former
+Smoking_Status_Never
+Family_History_Cancer_Yes
+Symptom_Abdominal_Pain_Yes
+Symptom_Weight_Loss_Yes
+Symptom_Dysphagia_Yes
+Symptom_Early_Satiety_Yes
