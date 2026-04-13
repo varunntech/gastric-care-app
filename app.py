@@ -307,10 +307,13 @@ def download_report():
     filename = f'Gastric_Risk_Report_{date_str}.pdf'
     
     if user_email:
-        threading.Thread(target=send_report_email, args=(response_bytes, filename, user_email)).start()
+        # Removing background threading because production servers (like Gunicorn on Render)
+        # often kill background threads before they can finish sending the email.
+        # Sending it synchronously ensures delivery.
+        send_report_email(response_bytes, filename, user_email)
 
     if send_email_only:
-        return jsonify({"message": "Background email queued"}), 200
+        return jsonify({"message": "Email sent successfully"}), 200
 
     return make_response(response_bytes, 200, {
         'Content-Type': 'application/pdf',
