@@ -8,6 +8,9 @@ from flask import Flask, request, jsonify, render_template, make_response, send_
 from flask_cors import CORS
 from fpdf import FPDF
 from io import BytesIO 
+import smtplib
+from email.message import EmailMessage
+import threading
 
 SECRET_KEY = "supersecretkey"  # Change this in production! 
 
@@ -43,6 +46,28 @@ NUMERIC_COLS = [
     "helicobacter_pylori_infection",
 ]
 
+def send_report_email(pdf_bytes, filename, recipient_email):
+    sender_email = "varunntech@gmail.com"
+    sender_password = "zlwr zdmk smci ujhz"
+    if not sender_email or not sender_password:
+        print("SMTP_EMAIL or SMTP_PASSWORD not configured. Skipping email send.")
+        return
+        
+    try:
+        msg = EmailMessage()
+        msg['Subject'] = 'Your Gastric Cancer Risk Assessment Report'
+        msg['From'] = sender_email
+        msg['To'] = recipient_email
+        msg.set_content("Hello,\n\nPlease find attached your Gastric Cancer Risk Assessment Report.\n\nNote: This is an AI-generated assessment and not a medical diagnosis.\n\nStay healthy,\nGastricCare Team")
+        
+        msg.add_attachment(pdf_bytes, maintype='application', subtype='pdf', filename=filename)
+        
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+            smtp.login(sender_email, sender_password)
+            smtp.send_message(msg)
+        print(f"Report successfully emailed to {recipient_email}")
+    except Exception as e:
+        print(f"Failed to send email to {recipient_email}: {e}")
 
 # --- Routes ---
 
@@ -101,6 +126,8 @@ def download_report():
         return jsonify({'message': 'No data provided'}), 400
 
     # Extract data
+    user_email = data.get('user_email')
+    send_email_only = data.get('send_email_only', False)
     risk_level = data.get('risk_level', 'Unknown').upper()
     probability = data.get('probability_of_cancer', 0)
     drivers = data.get('risk_drivers', [])
@@ -109,98 +136,165 @@ def download_report():
     prob_percent = f"{float(probability) * 100:.2f}%"
     patient_name = data.get('patient_name', 'Guest').encode('latin-1', 'replace').decode('latin-1')
 
+    import random
+    
+    
+    # Extract extra fields if available for the grid
+    gender = data.get("gender", "Unknown")
+    age_val = data.get("age", "Unknown")
+    age = str(age_val) + "Y" if age_val != "Unknown" else "Unknown"
+    
     # Create PDF
     pdf = FPDF()
     pdf.add_page()
     
-    # Title
-    pdf.set_font("Arial", 'B', 24)
-    pdf.cell(0, 15, "Clinical Assessment Report", ln=True, align='C')
-    pdf.set_font("Arial", '', 12)
-    pdf.cell(0, 8, "Gastric Cancer Risk Estimation System", ln=True, align='C')
-    pdf.cell(0, 8, f"Date: {date_str}", ln=True, align='C')
-    pdf.cell(0, 8, f"Patient Name: {patient_name}", ln=True, align='C')
-    pdf.ln(10)
-
-    # Risk Profile
-    pdf.set_fill_color(245, 245, 245)
-    pdf.rect(10, pdf.get_y(), 190, 40, 'F')
-    pdf.set_font("Arial", 'B', 16)
-    pdf.cell(0, 10, "Risk Profile", ln=True)
-    pdf.ln(5)
-
-    pdf.set_font("Arial", '', 12)
-    current_y = pdf.get_y()
+    # 1. Header (Gastric Care)
+    pdf.set_y(10)
+    pdf.set_font('Arial', 'B', 18)
+    pdf.set_text_color(0, 0, 0)
+    pdf.cell(0, 10, "Gastric Care", ln=True, align='C')
     
-    # Analysis Result
-    pdf.set_xy(30, current_y)
-    pdf.cell(60, 6, "Analysis Result", ln=True, align='C')
-    pdf.set_font("Arial", 'B', 20)
+    # 2. Patient Details Grid (mimicking Medanta)
+    pdf.set_draw_color(0, 0, 0)
+    pdf.rect(10, 25, 190, 45)
     
-    # Color logic isn't supported directly in cell text easily without multi-cell, 
-    # but we can set text color.
-    if risk_level == 'HIGH':
-        pdf.set_text_color(211, 47, 47) # Red
-    elif risk_level == 'MODERATE':
-        pdf.set_text_color(239, 108, 0) # Orange
-    else:
-        pdf.set_text_color(46, 125, 50) # Green
+    labels_left = ["Patient ID", "Gender", "Encounter ID", "Admission Date", "Speciality"]
+    pid = f"GC{random.randint(100000, 999999)}"
+    eid = str(random.randint(1000000, 9999999))
+    full_date = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
+    vals_left = [pid, gender, eid, full_date, "Oncology / Gastro"]
+    
+    labels_right = ["Patient Name", "Age", "Encounter Type", "Attending Practitioner"]
+    vals_right = [patient_name, age, "Assessment", "AI System Evaluator"]
+    
+    pdf.set_text_color(0, 0, 0)
+    y_start = 28
+    for i in range(5):
+        y_curr = y_start + (i * 8)
         
-    pdf.set_xy(30, current_y + 8)
-    pdf.cell(60, 10, f"{risk_level} RISK", ln=True, align='C')
-    pdf.set_text_color(0, 0, 0) # Reset
-
-    # Probability
-    pdf.set_xy(120, current_y)
-    pdf.set_font("Arial", '', 12)
-    pdf.cell(60, 6, "Estimated Probability", ln=True, align='C')
-    pdf.set_font("Arial", 'B', 20)
-    pdf.set_xy(120, current_y + 8)
-    pdf.cell(60, 10, prob_percent, ln=True, align='C')
+        # Left
+        pdf.set_xy(12, y_curr)
+        pdf.set_font('Arial', 'B', 10)
+        pdf.cell(30, 5, labels_left[i])
+        pdf.set_xy(43, y_curr)
+        pdf.set_font('Arial', '', 10)
+        pdf.cell(5, 5, ":")
+        pdf.set_xy(48, y_curr)
+        pdf.cell(50, 5, vals_left[i])
+        
+        # Right
+        if i < len(labels_right):
+            pdf.set_xy(105, y_curr)
+            pdf.set_font('Arial', 'B', 10)
+            pdf.cell(40, 5, labels_right[i])
+            pdf.set_xy(150, y_curr)
+            pdf.set_font('Arial', '', 10)
+            pdf.cell(5, 5, ":")
+            pdf.set_xy(155, y_curr)
+            pdf.cell(50, 5, vals_right[i])
+        
+    # Draw double line below
+    pdf.set_y(72)
+    pdf.set_draw_color(150, 150, 150)
+    pdf.set_line_width(0.5)
+    pdf.line(10, 75, 200, 75)
+    pdf.line(10, 76, 200, 76)
+    pdf.set_line_width(0.2) # reset
     
-    pdf.ln(20)
-
-    # Top Risk Drivers
-    pdf.set_font("Arial", 'B', 14)
-    pdf.cell(0, 10, "Top Risk Drivers", ln=True)
-    pdf.line(10, pdf.get_y(), 200, pdf.get_y())
-    pdf.ln(5)
-
-    pdf.set_font("Arial", '', 12)
+    # 3. Clinical Assessment Report
+    pdf.set_y(80)
+    pdf.set_fill_color(190, 190, 190) # Gray block like Medanta
+    pdf.rect(10, 80, 190, 6, 'F')
+    pdf.set_font('Arial', 'B', 10)
+    pdf.set_text_color(0, 0, 0)
+    pdf.set_xy(10, 80)
+    pdf.cell(190, 6, "  Clinical Assessment Summary", ln=True)
+    
+    pdf.set_y(88)
+    pdf.set_font('Arial', 'B', 9)
+    pdf.set_xy(12, 88)
+    pdf.cell(45, 5, "Overall Risk Level")
+    pdf.set_xy(55, 88)
+    pdf.set_font('Arial', '', 9)
+    pdf.cell(5, 5, ":")
+    
+    if risk_level == 'HIGH':
+        pdf.set_text_color(220, 20, 20)
+    elif risk_level == 'MODERATE':
+        pdf.set_text_color(220, 130, 0)
+    else:
+        pdf.set_text_color(10, 150, 50)
+        
+    pdf.set_xy(60, 88)
+    pdf.set_font('Arial', 'B', 11)
+    pdf.cell(50, 5, f"{risk_level} RISK")
+    pdf.set_text_color(0,0,0)
+    
+    pdf.set_xy(12, 94)
+    pdf.set_font('Arial', 'B', 9)
+    pdf.cell(45, 5, "Calculated Probability")
+    pdf.set_xy(55, 94)
+    pdf.set_font('Arial', '', 9)
+    pdf.cell(5, 5, ":")
+    pdf.set_font('Arial', 'B', 11)
+    pdf.set_xy(60, 94)
+    pdf.cell(50, 5, f"{prob_percent}")
+    
+    # 4. Risk Drivers Section
+    pdf.set_y(105)
+    pdf.set_fill_color(190, 190, 190)
+    pdf.rect(10, 105, 190, 6, 'F')
+    pdf.set_font('Arial', 'B', 10)
+    pdf.set_xy(10, 105)
+    pdf.cell(190, 6, "  Significant Risk Factors Identified", ln=True)
+    
+    y = 113
     if drivers:
         for driver in drivers:
             name = driver.get('name', '').encode('latin-1', 'replace').decode('latin-1')
             impact = driver.get('impact', '').encode('latin-1', 'replace').decode('latin-1')
-            pdf.set_font("Arial", 'B', 12)
-            pdf.write(5, f"- {name}")
-            pdf.set_font("Arial", '', 11)
-            pdf.write(5, f" ({impact} Impact)")
-            pdf.ln(8)
+            pdf.set_xy(12, y)
+            pdf.set_font('Arial', 'B', 9)
+            pdf.cell(45, 5, name)
+            pdf.set_xy(55, y)
+            pdf.set_font('Arial', '', 9)
+            pdf.cell(5, 5, ":")
+            pdf.set_xy(60, y)
+            pdf.cell(50, 5, f"{impact} Impact on overall risk profile.")
+            y += 6
     else:
-        pdf.cell(0, 10, "No specific major risk drivers identified.", ln=True)
+        pdf.set_xy(12, y)
+        pdf.set_font('Arial', '', 9)
+        pdf.cell(0, 5, "None identified")
+        y += 6
+        
+    # 5. Recommendations Section
+    y += 4
+    pdf.set_fill_color(190, 190, 190)
+    pdf.rect(10, y, 190, 6, 'F')
+    pdf.set_font('Arial', 'B', 10)
+    pdf.set_xy(10, y)
+    pdf.cell(190, 6, "  Advice on Assessment", ln=True)
     
-    pdf.ln(10)
-
-    # Recommendations
-    pdf.set_font("Arial", 'B', 14)
-    pdf.cell(0, 10, "Recommended Next Steps", ln=True)
-    pdf.line(10, pdf.get_y(), 200, pdf.get_y())
-    pdf.ln(5)
-
-    pdf.set_font("Arial", '', 12)
+    y += 8
+    pdf.set_font('Arial', '', 9)
     if recommendations:
         for step in recommendations:
             step_clean = step.encode('latin-1', 'replace').decode('latin-1')
-            pdf.write(5, f"- {step_clean}")
-            pdf.ln(8)
+            pdf.set_xy(12, y)
+            pdf.multi_cell(180, 5, f"{step_clean}")
+            y = pdf.get_y() + 2
     else:
-        pdf.cell(0, 10, "Consult a healthcare provider.", ln=True)
-
-    # Disclaimer
-    pdf.ln(20)
-    pdf.set_font("Arial", 'I', 10)
-    pdf.set_text_color(100, 100, 100)
-    pdf.multi_cell(0, 5, "DISCLAIMER: This report is generated by an AI Support Tool. It is NOT a definitive medical diagnosis. Please consult a qualified doctor for interpretation and clinical decisions.", align='C')
+        pdf.set_xy(12, y)
+        pdf.cell(0, 5, "Consult Healthcare Provider")
+        y += 6
+        
+    y += 10
+    pdf.set_font('Arial', '', 8)
+    pdf.set_text_color(50, 50, 50)
+    pdf.set_xy(10, y)
+    pdf.cell(0, 5, "Authorized by Gastric Care Systems on " + full_date, ln=True)
+    pdf.cell(0, 5, "This is a computer generated AI report. Signature is not required.", ln=True)
 
     # Output - FPDF classic way
     # dest='S' returns the document as a string.
@@ -210,9 +304,17 @@ def download_report():
     # Encode to bytes for Flask response
     response_bytes = response_string.encode('latin-1')
 
+    filename = f'Gastric_Risk_Report_{date_str}.pdf'
+    
+    if user_email:
+        threading.Thread(target=send_report_email, args=(response_bytes, filename, user_email)).start()
+
+    if send_email_only:
+        return jsonify({"message": "Background email queued"}), 200
+
     return make_response(response_bytes, 200, {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': f'attachment; filename=Gastric_Risk_Report_{date_str}.pdf'
+        'Content-Disposition': f'attachment; filename={filename}'
     })
 
 # --- Chatbot Logic ---
@@ -228,15 +330,24 @@ TFIDF_MATRIX = None
 def load_pdf_content():
     global PDF_CONTENT, VECTORIZER, TFIDF_MATRIX
     try:
-        reader = PdfReader("complete_gastric_cancer_handbook.pdf")
+        reader = PdfReader("Gastric Cancer Chatbot Handbook.pdf")
         text = ""
         for page in reader.pages:
             text += page.extract_text() + "\n"
         
-        # Split into chunks (sentences or small paragraphs)
-        # Simple splitting by period or newline for better granularity
-        raw_chunks = re.split(r'(?<=[.!?])\s+', text)
-        PDF_CONTENT = [chunk.strip() for chunk in raw_chunks if len(chunk.strip()) > 20]
+        # Split into overlapping chunks of lines to preserve context between headings and answers
+        lines = [line.strip() for line in text.split('\n') if len(line.strip()) > 10]
+        
+        chunk_size = 5
+        overlap = 2
+        chunks = []
+        for i in range(0, len(lines), chunk_size - overlap):
+            chunk_text = " ".join(lines[i:i + chunk_size])
+            if len(chunk_text) > 30 and not chunk_text.lower().startswith("all greeting variations"):
+                chunks.append(chunk_text)
+                
+        # Remove exact duplicates while preserving order
+        PDF_CONTENT = list(dict.fromkeys(chunks))
         
         if PDF_CONTENT:
             VECTORIZER = TfidfVectorizer(stop_words='english')
@@ -255,9 +366,62 @@ load_pdf_content()
 def chat_api():
     data = request.json
     user_query = data.get('message', '')
+    import re
     
-    if not user_query or not VECTORIZER or TFIDF_MATRIX is None:
-        return jsonify({'response': "I'm sorry, I cannot answer that right now. The knowledge base might be unavailable."})
+    if not user_query:
+        return jsonify({'response': "I didn't catch that. Could you please repeat?"})
+        
+    user_query_clean = user_query.strip().lower()
+    
+    # Explicitly catch greetings to prevent pulling meta-instructions from PDF
+    greetings = r"^(hi|hello|hey|heyy|hii|hiii|hlo|hola|greetings|good morning|good afternoon|good evening)[!?]*$"
+    if re.match(greetings, user_query_clean):
+        return jsonify({'response': "Hey there! I am your GastricCare AI Assistant. How can I help you regarding gastric cancer risks and dietary information today?"})
+        
+    # Explicit conversational responses
+    how_are_you = r"^(how are you|how are u|how r u|how r you|whats up|how do you do)[!?]*$"
+    if re.match(how_are_you, user_query_clean):
+        return jsonify({'response': "I'm doing great, thank you! I am here to answer your questions about gastric health or the risk assessment form."})
+        
+    emotions = r"^(i am scared|i'm scared|im scared|i am afraid|i'm afraid)[!?]*$"
+    if re.match(emotions, user_query_clean):
+        return jsonify({'response': "It's completely understandable to feel this way. You're not alone. I'm here to guide you, and a doctor can give you the best care."})
+        
+    do_i_have = r"^(do i have cancer|do you think i have cancer)[!?]*$"
+    if re.match(do_i_have, user_query_clean):
+        return jsonify({'response': "I cannot confirm that, but I can help assess your risk using the clinical form. A doctor is the best person to diagnose this."})
+
+    # Hardcoded medical FAQ derived from handbook
+    q_what_is = r".*(what is gastric cancer|what is stomach cancer|explain gastric cancer).*"
+    if re.match(q_what_is, user_query_clean):
+        return jsonify({'response': "Gastric cancer, also known as stomach cancer, is a disease where abnormal cells grow in the stomach lining and form tumors. The most common type is Adenocarcinoma."})
+
+    q_symptoms = r".*(what are the symptoms|symptoms of gastric cancer|signs of stomach cancer|what symptoms).*"
+    if re.match(q_symptoms, user_query_clean):
+        return jsonify({'response': "Early stage symptoms include indigestion, mild discomfort, and loss of appetite. Advanced symptoms may include severe abdominal pain, vomiting blood, black stool, rapid weight loss, and difficulty swallowing."})
+
+    q_causes = r".*(what are the causes|causes of gastric cancer|why does gastric cancer happen).*"
+    if re.match(q_causes, user_query_clean):
+        return jsonify({'response': "The main causes include Helicobacter pylori (H. pylori) infection, a diet high in salt or processed meat, smoking, genetic factors, and chronic inflammation."})
+
+    q_prevention = r".*(how to prevent|prevention of gastric cancer|how can i prevent|stop gastric cancer).*"
+    if re.match(q_prevention, user_query_clean):
+        return jsonify({'response': "You can help prevent gastric cancer by maintaining a healthy diet, avoiding smoking, reducing your salt intake, and ensuring you treat infections like H. pylori early."})
+
+    q_treatment = r".*(how is it treated|treatment of gastric cancer|how to cure|treatment options).*"
+    if re.match(q_treatment, user_query_clean):
+        return jsonify({'response': "Treatment options depend on the stage but may include surgery (partial or total gastrectomy), chemotherapy, radiation therapy, targeted therapy, or immunotherapy."})
+
+    q_emergency = r".*(vomiting blood|severe pain|black stool).*"
+    if re.match(q_emergency, user_query_clean):
+        return jsonify({'response': "This may be serious. Please go to the nearest hospital or emergency room immediately."})
+        
+    # Also ignore very short inputs to avoid random artifact pulling
+    if len(user_query_clean) <= 2 and user_query_clean not in ['hi', 'ok', 'no']:
+        return jsonify({'response': "I couldn't understand. Could you please provide more details?"})
+        
+    if not VECTORIZER or TFIDF_MATRIX is None:
+        return jsonify({'response': "I'm sorry, my knowledge base is still loading or unavailable."})
 
     try:
         # Transform query and find best match
