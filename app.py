@@ -62,8 +62,11 @@ def send_report_email(pdf_bytes, filename, recipient_email):
         
         msg.add_attachment(pdf_bytes, maintype='application', subtype='pdf', filename=filename)
         
-        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-            smtp.login(sender_email, sender_password)
+        with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
+            smtp.ehlo()
+            smtp.starttls()
+            # Remove spaces from app password just in case
+            smtp.login(sender_email, sender_password.replace(" ", ""))
             smtp.send_message(msg)
         print(f"Report successfully emailed to {recipient_email}")
     except Exception as e:
