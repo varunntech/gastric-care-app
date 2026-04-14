@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastric Cancer Risk Assessment | Donate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #0ea5e9;
+            --primary-dark: #0369a1;
+            --secondary: #22c55e;
+            --accent: #e11d48;
+            --light: #ffffff;
+            --dark: #020617;
+            --gray: #6b7280;
+            --gray-light: #e5e7eb;
+            --bg-light: #f9fafb;
+            --bg-dark: #020617;
+            --text-light: #1f2937;
+            --text-dark: #f9fafb;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        [data-theme="light"] {
+            --bg: var(--bg-light); --text: var(--text-light);
+            --card-bg: #ffffff; --nav-bg: rgba(255, 255, 255, 0.95);
+            --border: var(--gray-light);
+        }
+        [data-theme="dark"] {
+            --bg: var(--bg-dark); --text: var(--text-dark);
+            --card-bg: rgba(15, 23, 42, 0.9); --nav-bg: rgba(15, 23, 42, 0.95);
+            --border: rgba(148, 163, 184, 0.3);
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg); color: var(--text);
+            min-height: 100vh; overflow-x: hidden; transition: var(--transition);
+        }
+        [data-theme="dark"] body { background: linear-gradient(135deg, #020617 0%, #0f172a 100%); }
+        [data-theme="light"] body { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); }
+        
+        .donate-container {
+            margin-top: 120px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background: var(--card-bg);
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .donate-container h1 { color: var(--accent); margin-bottom: 1rem; }
+        .donate-container p { color: var(--gray); margin-bottom: 2rem; }
+        
+        .input-group { margin-bottom: 1.5rem; text-align: left; }
+        .input-group label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text); }
+        .input-group input {
+            width: 100%; padding: 1rem; border: 1px solid var(--border);
+            border-radius: 10px; background: var(--bg); color: var(--text);
+            font-size: 1rem;
+        }
+        
+        .donate-btn {
+            background: linear-gradient(135deg, #f59e0b, #ca8a04);
+            color: white; border: none; padding: 1rem 2rem;
+            border-radius: 50px; font-weight: 600; font-size: 1.1rem;
+            cursor: pointer; width: 100%; transition: var(--transition);
+            box-shadow: 0 8px 15px rgba(245, 158, 11, 0.2);
+        }
+        .donate-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(245, 158, 11, 0.4); }
+
+        #customAlert { display: none; margin-top: 1rem; padding: 1rem; border-radius: 10px; }
+        #customAlert.success { background: rgba(34, 197, 94, 0.1); color: var(--secondary); border: 1px solid var(--secondary); }
+        #customAlert.error { background: rgba(225, 29, 72, 0.1); color: var(--accent); border: 1px solid var(--accent); }
+    </style>
+</head>
+
+<body data-theme="dark">
+    <!-- Navigation -->
+    <nav class="navbar" style="position: fixed; top: 0; left: 0; right: 0; background: var(--nav-bg); backdrop-filter: blur(20px); padding: 1rem 2rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); z-index: 1000; transition: var(--transition); border-bottom: 1px solid var(--border);">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <a href="/home" style="display: flex; align-items: center; gap: 0.75rem; font-size: 1.5rem; font-weight: 700; color: var(--primary); text-decoration: none; transition: var(--transition);">
+                <i class="fas fa-heartbeat" style="font-size: 2rem;"></i>
+                <span>GastricCare</span>
+            </a>
+            <div style="display: flex; gap: 2rem; align-items: center;">
+                <a href="/home" style="color: var(--text); text-decoration: none; font-weight: 500; transition: var(--transition);">Home</a>
+                <a href="/about" style="color: var(--text); text-decoration: none; font-weight: 500; transition: var(--transition);">About Us</a>
+                <a href="/risk" style="color: var(--text); text-decoration: none; font-weight: 500;">Risk Assessment</a>
+                <a href="/donate" style="color: var(--accent); text-decoration: none; font-weight: 600;">Donate</a>
+                <a href="/logout" style="color: var(--text); text-decoration: none; font-weight: 500; transition: var(--transition);">Logout</a>
+
+                <button id="themeToggle" style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 50px; padding: 0.5rem 1rem; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; transition: var(--transition); color: var(--text);">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                    <span id="themeText">Dark</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div style="padding-top: 120px; padding-bottom: 50px;">
+        <div class="donate-container">
+            <i class="fas fa-hand-holding-heart" style="font-size: 4.5rem; color: #f59e0b; margin-bottom: 1.5rem; animation: pulse 2s infinite;"></i>
+            <h1 style="color: #f59e0b;">Make a Difference</h1>
+            <p>Your support provides essential healthcare for gastric cancer patients who cannot afford treatment. Every contribution saves lives.</p>
+            
+            <div style="background: rgba(245, 158, 11, 0.1); border: 1px dashed rgba(245, 158, 11, 0.5); padding: 1.5rem; border-radius: 15px; margin-bottom: 2rem;">
+                <h3 style="color: #f59e0b; font-size: 1.1rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Total Raised So Far</h3>
+                <div style="font-size: 2.5rem; font-weight: bold; color: var(--text);">₹{{ total_donated }}</div>
+                <div style="font-size: 0.85rem; color: var(--gray); margin-top: 5px;">Together, we are saving lives.</div>
+            </div>
+            
+            <div class="input-group">
+                <label for="donationAmount">Select Donation Amount (INR)</label>
+                <input type="number" id="donationAmount" value="1000" min="100" step="100">
+            </div>
+            
+            <button class="donate-btn" onclick="initiateDonation()">Donate Now <i class="fas fa-heart" style="margin-left: 5px;"></i></button>
+
+            <div id="customAlert"></div>
+        </div>
+    </div>
+
+    <script>
+        // Theme logic
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const themeText = document.getElementById('themeText');
+        const body = document.body;
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        body.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = body.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                body.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                updateThemeIcon(newTheme);
+            });
+        }
+        function updateThemeIcon(theme) {
+            if (themeIcon && themeText) {
+                if (theme === 'dark') {
+                    themeIcon.className = 'fas fa-moon'; themeText.textContent = 'Dark';
+                } else {
+                    themeIcon.className = 'fas fa-sun'; themeText.textContent = 'Light';
+                }
+            }
+        }
+
+        // Razorpay logic
+        const razorpayKeyId = "{{ key_id }}";
+
+        function showAlert(msg, isSuccess) {
+            const alertBox = document.getElementById('customAlert');
+            alertBox.style.display = 'block';
+            alertBox.className = isSuccess ? 'success' : 'error';
+            alertBox.innerHTML = msg;
+            if (isSuccess) {
+                setTimeout(() => { alertBox.style.display = 'none'; }, 5000);
+            }
+        }
+
+        async function initiateDonation() {
+            const amountInput = document.getElementById('donationAmount').value;
+            const amount = parseInt(amountInput);
+            
+            if (isNaN(amount) || amount < 100) {
+                showAlert("Please enter a valid amount of at least ₹100", false);
+                return;
+            }
+
+            try {
+                // Create Order on Backend
+                const orderResp = await fetch('/api/create-order', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ amount: amount })
+                });
+                
+                const orderData = await orderResp.json();
+                
+                if (orderData.error) {
+                    showAlert("Failed to create order: " + orderData.error, false);
+                    return;
+                }
+
+                var options = {
+                    "key": razorpayKeyId,
+                    "amount": orderData.amount,
+                    "currency": orderData.currency,
+                    "name": "GastricCare Foundation",
+                    "description": "Donation for Gastric Cancer Patients",
+                    "image": "https://cdn-icons-png.flaticon.com/512/3004/3004451.png",
+                    "order_id": orderData.id,
+                    "handler": async function (response) {
+                        try {
+                            const verifyResp = await fetch('/api/verify-payment', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({
+                                    razorpay_order_id: response.razorpay_order_id,
+                                    razorpay_payment_id: response.razorpay_payment_id,
+                                    razorpay_signature: response.razorpay_signature
+                                })
+                            });
+                            const verifyData = await verifyResp.json();
+                            if (verifyData.message) {
+                                showAlert("<strong>Thank you!</strong> Your payment was successful.", true);
+                                setTimeout(() => window.location.reload(), 3000);
+                            } else {
+                                showAlert("Payment verification failed.", false);
+                            }
+                        } catch (err) {
+                            showAlert("Payment verification failed.", false);
+                        }
+                    },
+                    "prefill": {
+                        "name": window.localStorage.getItem('username') || "Generous Donor"
+                    },
+                    "theme": {
+                        "color": "#f59e0b"
+                    }
+                };
+                
+                var rzp1 = new Razorpay(options);
+                rzp1.on('payment.failed', function (response){
+                    showAlert(`Payment Failed! Reason: ${response.error.description}`, false);
+                });
+                rzp1.open();
+            } catch (err) {
+                showAlert("An error occurred while connecting to the payment gateway.", false);
+            }
+        }
+    </script>
+</body>
+</html>

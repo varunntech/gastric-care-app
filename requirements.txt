@@ -7,3 +7,4 @@ PyJWT
 fpdf
 pypdf
 gunicorn
+razorpay

@@ -11,6 +11,33 @@ from io import BytesIO
 import smtplib
 from email.message import EmailMessage
 import threading
+import razorpay
+import json
+
+DONATIONS_FILE = 'donations_data.json'
+
+def get_total_donations():
+    if not os.path.exists(DONATIONS_FILE):
+        return 5000
+    try:
+        with open(DONATIONS_FILE, 'r') as f:
+            data = json.load(f)
+            return data.get('total_donated', 5000)
+    except:
+        return 5000
+
+def add_donation(amount):
+    total = get_total_donations()
+    total += amount
+    try:
+        with open(DONATIONS_FILE, 'w') as f:
+            json.dump({'total_donated': total}, f)
+    except Exception as e:
+        print("Failed to save donation data", e)
+
+RAZORPAY_KEY_ID = 'rzp_test_SdCEtdf6wJnIq1'
+RAZORPAY_KEY_SECRET = 'DZb8IxLub2LlFcdU6Rv62Ex6'
+razorpay_client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET))
 
 SECRET_KEY = "supersecretkey"  # Change this in production! 
 
@@ -63,10 +90,11 @@ def send_report_email(pdf_bytes, filename, recipient_email):
         msg.add_attachment(pdf_bytes, maintype='application', subtype='pdf', filename=filename)
         
         import socket
+        import ssl
         
         # Free cloud tiers (like Render) often blackhole IPv6 traffic, causing smtplib to hang.
         # We explicitly resolve and connect to the IPv4 address.
-        class ForceIPv4SMTP(smtplib.SMTP):
+        class ForceIPv4SMTP_SSL(smtplib.SMTP_SSL):
             def _get_socket(self, host, port, timeout):
                 err = None
                 for res in socket.getaddrinfo(host, port, socket.AF_INET, socket.SOCK_STREAM):
@@ -84,9 +112,8 @@ def send_report_email(pdf_bytes, filename, recipient_email):
                     raise err
                 raise OSError('getaddrinfo returns an empty list')
 
-        with ForceIPv4SMTP('smtp.gmail.com', 587, timeout=15) as smtp:
-            smtp.ehlo()
-            smtp.starttls()
+        # Using SSL on port 465 avoids some firewalls that block standard STARTTLS (587)
+        with ForceIPv4SMTP_SSL('smtp.gmail.com', 465, timeout=15) as smtp:
             # Remove spaces from app password just in case
             smtp.login(sender_email, sender_password.replace(" ", ""))
             smtp.send_message(msg)
@@ -143,6 +170,48 @@ def logout():
     resp = redirect('/login')
     resp.set_cookie('username', '', expires=0)
     return resp
+
+@app.route('/donate')
+def donate():
+    """Donation page using Razorpay."""
+    total = get_total_donations()
+    return render_template('donate.html', key_id=RAZORPAY_KEY_ID, total_donated=total)
+
+@app.route('/api/create-order', methods=['POST'])
+def create_order():
+    try:
+        data = request.json
+        amount = int(data.get('amount', 500)) * 100 # Razorpay accepts amount in paise
+        
+        order_params = {
+            'amount': amount,
+            'currency': 'INR',
+            'receipt': 'receipt_donation',
+            'payment_capture': 1
+        }
+        order = razorpay_client.order.create(data=order_params)
+        return jsonify(order)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/verify-payment', methods=['POST'])
+def verify_payment():
+    data = request.json
+    try:
+        razorpay_client.utility.verify_payment_signature({
+            'razorpay_order_id': data['razorpay_order_id'],
+            'razorpay_payment_id': data['razorpay_payment_id'],
+            'razorpay_signature': data['razorpay_signature']
+        })
+        
+        # Verify success, track amount
+        order_details = razorpay_client.order.fetch(data['razorpay_order_id'])
+        donated_amount_inr = int(order_details['amount']) // 100
+        add_donation(donated_amount_inr)
+        
+        return jsonify({'message': 'Payment successful'})
+    except Exception as e:
+        return jsonify({'error': 'Invalid Signature'}), 400
 
 @app.route('/api/download_report', methods=['POST'])
 def download_report():
