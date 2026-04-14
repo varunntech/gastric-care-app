@@ -62,7 +62,16 @@ def send_report_email(pdf_bytes, filename, recipient_email):
         
         msg.add_attachment(pdf_bytes, maintype='application', subtype='pdf', filename=filename)
         
-        with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
+        import socket
+        
+        # Free cloud tiers (like Render) often blackhole IPv6 traffic to Google servers, 
+        # causing smtplib to hang on sock.connect() and Gunicorn to kill the worker due to timeout.
+        # We explicitly force IPv4 by binding the source address to 0.0.0.0 to fix this.
+        class IPv4SMTP(smtplib.SMTP):
+            def _get_socket(self, host, port, timeout):
+                return socket.create_connection((host, port), timeout, source_address=('0.0.0.0', 0))
+
+        with IPv4SMTP('smtp.gmail.com', 587, timeout=15) as smtp:
             smtp.ehlo()
             smtp.starttls()
             # Remove spaces from app password just in case
