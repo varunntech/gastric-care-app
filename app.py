@@ -64,14 +64,27 @@ def send_report_email(pdf_bytes, filename, recipient_email):
         
         import socket
         
-        # Free cloud tiers (like Render) often blackhole IPv6 traffic to Google servers, 
-        # causing smtplib to hang on sock.connect() and Gunicorn to kill the worker due to timeout.
-        # We explicitly force IPv4 by binding the source address to 0.0.0.0 to fix this.
-        class IPv4SMTP(smtplib.SMTP):
+        # Free cloud tiers (like Render) often blackhole IPv6 traffic, causing smtplib to hang.
+        # We explicitly resolve and connect to the IPv4 address.
+        class ForceIPv4SMTP(smtplib.SMTP):
             def _get_socket(self, host, port, timeout):
-                return socket.create_connection((host, port), timeout, source_address=('0.0.0.0', 0))
+                err = None
+                for res in socket.getaddrinfo(host, port, socket.AF_INET, socket.SOCK_STREAM):
+                    af, socktype, proto, canonname, sa = res
+                    try:
+                        sock = socket.socket(af, socktype, proto)
+                        sock.settimeout(timeout)
+                        sock.connect(sa)
+                        return sock
+                    except OSError as e:
+                        err = e
+                        if sock is not None:
+                            sock.close()
+                if err is not None:
+                    raise err
+                raise OSError('getaddrinfo returns an empty list')
 
-        with IPv4SMTP('smtp.gmail.com', 587, timeout=15) as smtp:
+        with ForceIPv4SMTP('smtp.gmail.com', 587, timeout=15) as smtp:
             smtp.ehlo()
             smtp.starttls()
             # Remove spaces from app password just in case
