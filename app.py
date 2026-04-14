@@ -75,49 +75,30 @@ NUMERIC_COLS = [
 
 def send_report_email(pdf_bytes, filename, recipient_email):
     sender_email = "varunntech@gmail.com"
-    sender_password = "zlwr zdmk smci ujhz"
-    if not sender_email or not sender_password:
-        print("SMTP_EMAIL or SMTP_PASSWORD not configured. Skipping email send.")
+    smtp_login = "a808c9001@smtp-brevo.com"
+    smtp_password = "pUY3CxOMksARdBVG"
+    
+    if not smtp_login or not smtp_password:
+        print("SMTP Credentials not configured. Skipping email send.")
         return
         
     try:
         msg = EmailMessage()
         msg['Subject'] = 'Your Gastric Cancer Risk Assessment Report'
-        msg['From'] = sender_email
+        msg['From'] = f"GastricCare <{sender_email}>"
         msg['To'] = recipient_email
         msg.set_content("Hello,\n\nPlease find attached your Gastric Cancer Risk Assessment Report.\n\nNote: This is an AI-generated assessment and not a medical diagnosis.\n\nStay healthy,\nGastricCare Team")
         
         msg.add_attachment(pdf_bytes, maintype='application', subtype='pdf', filename=filename)
         
-        import socket
-        import ssl
-        
-        # Free cloud tiers (like Render) often blackhole IPv6 traffic, causing smtplib to hang.
-        # We explicitly resolve and connect to the IPv4 address.
-        class ForceIPv4SMTP_SSL(smtplib.SMTP_SSL):
-            def _get_socket(self, host, port, timeout):
-                err = None
-                for res in socket.getaddrinfo(host, port, socket.AF_INET, socket.SOCK_STREAM):
-                    af, socktype, proto, canonname, sa = res
-                    try:
-                        sock = socket.socket(af, socktype, proto)
-                        sock.settimeout(timeout)
-                        sock.connect(sa)
-                        return sock
-                    except OSError as e:
-                        err = e
-                        if sock is not None:
-                            sock.close()
-                if err is not None:
-                    raise err
-                raise OSError('getaddrinfo returns an empty list')
-
-        # Using SSL on port 465 avoids some firewalls that block standard STARTTLS (587)
-        with ForceIPv4SMTP_SSL('smtp.gmail.com', 465, timeout=15) as smtp:
-            # Remove spaces from app password just in case
-            smtp.login(sender_email, sender_password.replace(" ", ""))
+        # Connect using port 2525. Render blocks 25, 465, and 587, but usually leaves 2525 open for alternative SMTP routing!
+        with smtplib.SMTP('smtp-relay.brevo.com', 2525, timeout=15) as smtp:
+            smtp.ehlo()
+            smtp.starttls()
+            smtp.login(smtp_login, smtp_password)
             smtp.send_message(msg)
-        print(f"Report successfully emailed to {recipient_email}")
+            
+        print(f"Report successfully emailed to {recipient_email} via Brevo")
     except Exception as e:
         print(f"Failed to send email to {recipient_email}: {e}")
 
